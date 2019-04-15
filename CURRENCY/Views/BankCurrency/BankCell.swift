@@ -57,33 +57,33 @@ class BankCell: UITableViewCell {
     logoImageView.contentMode = .scaleAspectFit
   }
 }
-
-extension BankCell: MPNativeAdRendering {
-
-  override func layoutSubviews() {
-    super.layoutSubviews()
-  }
-
-  static func nibForAd() -> UINib! {
-    return R.nib.bankCell()
-  }
-
-  func nativeMainTextLabel() -> UILabel! {
-    return adView.mainTextLabel
-  }
-
-  func nativeTitleTextLabel() -> UILabel! {
-    adView.isHidden = false
-    adView.backgroundColor = backgroundColor
-    accessoryType = .none
-    return adView.titleLabel
-  }
-
-  func nativeCallToActionTextLabel() -> UILabel! {
-    return adView.callToActionLabel
-  }
-
-  func nativeIconImageView() -> UIImageView! {
-    return adView.logoImageView
-  }
-}
+//
+//extension BankCell: MPNativeAdRendering {
+//
+//  override func layoutSubviews() {
+//    super.layoutSubviews()
+//  }
+//
+//  static func nibForAd() -> UINib! {
+//    return R.nib.bankCell()
+//  }
+//
+//  func nativeMainTextLabel() -> UILabel! {
+//    return adView.mainTextLabel
+//  }
+//
+//  func nativeTitleTextLabel() -> UILabel! {
+//    adView.isHidden = false
+//    adView.backgroundColor = backgroundColor
+//    accessoryType = .none
+//    return adView.titleLabel
+//  }
+//
+//  func nativeCallToActionTextLabel() -> UILabel! {
+//    return adView.callToActionLabel
+//  }
+//
+//  func nativeIconImageView() -> UIImageView! {
+//    return adView.logoImageView
+//  }
+//}

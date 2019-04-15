@@ -6,6 +6,7 @@
 //  Copyright © 2018 Stan Liu. All rights reserved.
 //
 
+import UIKit
 import Foundation
 
 protocol UIControlControl {

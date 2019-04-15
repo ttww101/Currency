@@ -93,9 +93,9 @@ class ConvertCurrencyViewController: UIViewController,
   var isCRRefreshing: Bool = false
   @IBOutlet weak var numberPad: NumberPad!
   weak var currentCell: ConverterCell?
-  lazy var mpFullPageViewModel: MPFullPageViewModel = {
-    return MPFullPageViewModel.shared
-  }()
+//  lazy var mpFullPageViewModel: MPFullPageViewModel = {
+//    return MPFullPageViewModel.shared
+//  }()
   var isAppearFromEditFavorite: Bool = false
 
   override func viewDidLoad() {
@@ -107,9 +107,9 @@ class ConvertCurrencyViewController: UIViewController,
     configureCalculator()
 
     fetchData()
-    mpFullPageViewModel.showAds(onViewController: self) { [weak self] in
-      self?.isAppearFromEditFavorite = false
-    }
+//    mpFullPageViewModel.showAds(onViewController: self) { [weak self] in
+//      self?.isAppearFromEditFavorite = false
+//    }
   }
 
   override func viewDidAppear(_ animated: Bool) {
@@ -388,9 +388,9 @@ class ConvertCurrencyViewController: UIViewController,
     guard let indexPathForSelectedRow = tableView.indexPathForSelectedRow else { return }
     tableView.scrollToRow(at: indexPathForSelectedRow, at: .middle, animated: true)
     AdsManager.shared.calculatorDidDisplayValue()
-    mpFullPageViewModel.showAds(onViewController: self) { [weak self] in
-      self?.isAppearFromEditFavorite = false
-    }
+//    mpFullPageViewModel.showAds(onViewController: self) { [weak self] in
+//      self?.isAppearFromEditFavorite = false
+//    }
   }
 
   func displayCellPlaceHolder(viewModel: ConvertCurrency.Calculate.ViewModel) {

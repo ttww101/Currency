@@ -155,32 +155,32 @@ class CurrencyCell: UITableViewCell, LoadingControl {
   }
 }
 
-extension CurrencyCell: MPNativeAdRendering {
-
-  override func layoutSubviews() {
-    super.layoutSubviews()
-  }
-
-  static func nibForAd() -> UINib! {
-    return R.nib.currencyCell()
-  }
-
-  func nativeMainTextLabel() -> UILabel! {
-    return adView.mainTextLabel
-  }
-
-  func nativeTitleTextLabel() -> UILabel! {
-    adView.isHidden = false
-    adView.backgroundColor = backgroundColor
-    accessoryType = .none
-    return adView.titleLabel
-  }
-
-  func nativeCallToActionTextLabel() -> UILabel! {
-    return adView.callToActionLabel
-  }
-
-  func nativeIconImageView() -> UIImageView! {
-    return adView.logoImageView
-  }
-}
+//extension CurrencyCell: MPNativeAdRendering {
+//
+//  override func layoutSubviews() {
+//    super.layoutSubviews()
+//  }
+//
+//  static func nibForAd() -> UINib! {
+//    return R.nib.currencyCell()
+//  }
+//
+//  func nativeMainTextLabel() -> UILabel! {
+//    return adView.mainTextLabel
+//  }
+//
+//  func nativeTitleTextLabel() -> UILabel! {
+//    adView.isHidden = false
+//    adView.backgroundColor = backgroundColor
+//    accessoryType = .none
+//    return adView.titleLabel
+//  }
+//
+//  func nativeCallToActionTextLabel() -> UILabel! {
+//    return adView.callToActionLabel
+//  }
+//
+//  func nativeIconImageView() -> UIImageView! {
+//    return adView.logoImageView
+//  }
+//}

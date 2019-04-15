@@ -80,8 +80,6 @@
 		F65EE61B20157EDE0077B04C /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65EE61A20157EDE0077B04C /* OptionView.swift */; };
 		F65FA08C201B1FF400A56DD4 /* HurmeGeometricSans1 Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F65FA08B201B1FF400A56DD4 /* HurmeGeometricSans1 Regular.otf */; };
 		F660E952208B2B610087FA74 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = F660E951208B2B610087FA74 /* Debug.swift */; };
-		F660E957208B31180087FA74 /* FBAdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F660E955208B31180087FA74 /* FBAdCell.swift */; };
-		F660E959208B31180087FA74 /* FBAdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F660E956208B31180087FA74 /* FBAdCell.xib */; };
 		F666EC4A206DE23A00184A61 /* PeriodSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F666EC49206DE23A00184A61 /* PeriodSegmentedControl.swift */; };
 		F6680F8D1FFDC7400027FB21 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6680F8C1FFDC7400027FB21 /* UserSettings.swift */; };
 		F6680F8F1FFDCF2F0027FB21 /* Array+ComparePrevNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6680F8E1FFDCF2F0027FB21 /* Array+ComparePrevNext.swift */; };
@@ -299,8 +297,6 @@
 		F65EE61A20157EDE0077B04C /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
 		F65FA08B201B1FF400A56DD4 /* HurmeGeometricSans1 Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HurmeGeometricSans1 Regular.otf"; sourceTree = "<group>"; };
 		F660E951208B2B610087FA74 /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
-		F660E955208B31180087FA74 /* FBAdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBAdCell.swift; sourceTree = "<group>"; };
-		F660E956208B31180087FA74 /* FBAdCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FBAdCell.xib; sourceTree = "<group>"; };
 		F666EC49206DE23A00184A61 /* PeriodSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodSegmentedControl.swift; sourceTree = "<group>"; };
 		F6680F8C1FFDC7400027FB21 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 		F6680F8E1FFDCF2F0027FB21 /* Array+ComparePrevNext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+ComparePrevNext.swift"; sourceTree = "<group>"; };
@@ -666,8 +662,6 @@
 		F660E954208B30F00087FA74 /* Ad */ = {
 			isa = PBXGroup;
 			children = (
-				F660E955208B31180087FA74 /* FBAdCell.swift */,
-				F660E956208B31180087FA74 /* FBAdCell.xib */,
 				F65CFEE22091D4BF00643273 /* AdView.swift */,
 				F65CFEE52091D4CC00643273 /* AdView.xib */,
 			);
@@ -1033,7 +1027,6 @@
 				F65FA08C201B1FF400A56DD4 /* HurmeGeometricSans1 Regular.otf in Resources */,
 				F60B6A721FB4322000EEFA74 /* LaunchScreen.storyboard in Resources */,
 				F6F4DBDC201F1CA400C29FCE /* ConverterCell.xib in Resources */,
-				F660E959208B31180087FA74 /* FBAdCell.xib in Resources */,
 				F6C0C25720A2DFA000060150 /* AnnouncementView.xib in Resources */,
 				F60B6A6F1FB4322000EEFA74 /* Assets.xcassets in Resources */,
 				F66B483D203EAE2E00A8B7B3 /* More.storyboard in Resources */,
@@ -1353,7 +1346,6 @@
 				F6B1F951209066BF00882795 /* AdsManager.swift in Sources */,
 				F68A4F3D2063547D003CA991 /* ListBankModels.swift in Sources */,
 				F61F08D5204535D200443EEA /* MoreHeader.swift in Sources */,
-				F660E957208B31180087FA74 /* FBAdCell.swift in Sources */,
 				F61F08D32045106800443EEA /* APP.swift in Sources */,
 				F68A4F2F20634EE2003CA991 /* TWBankInteractor.swift in Sources */,
 				F699F163206B255300C65102 /* ChartViewController.swift in Sources */,

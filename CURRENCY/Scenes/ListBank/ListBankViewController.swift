@@ -29,12 +29,12 @@ class ListBankViewController: UIViewController,
   var minBuy: String = ""
   var maxSell: String = ""
   var scrollViewBridge: UIScrollViewBridge?
-  lazy var mpAdsViewModel: MPAdsViewModel = {
-    return MPAdsViewModel(adsPosition: .fix(0),
-                          tableView: tableView,
-                          cellClass: BankCell.self,
-                          viewController: self)
-  }()
+//  lazy var mpAdsViewModel: MPAdsViewModel = {
+//    return MPAdsViewModel(adsPosition: .fix(0),
+//                          tableView: tableView,
+//                          cellClass: BankCell.self,
+//                          viewController: self)
+//  }()
 
   override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
     super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -90,7 +90,7 @@ class ListBankViewController: UIViewController,
     configureHeader()
     configureTableView()
 
-    mpAdsViewModel.loadAds()
+//    mpAdsViewModel.loadAds()
   }
 
   func configureHeader() {
@@ -227,9 +227,9 @@ class ListBankViewController: UIViewController,
   //}
 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//    guard let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.bankCell.identifier) as? BankCell else {
-    guard let cell = tableView.mp_dequeueReusableCell(withIdentifier: R.reuseIdentifier.bankCell.identifier,
-                                                      for: indexPath) as? BankCell else {
+    guard let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.bankCell.identifier) as? BankCell else {
+//    guard let cell = tableView.mp_dequeueReusableCell(withIdentifier: R.reuseIdentifier.bankCell.identifier,
+//                                                      for: indexPath) as? BankCell else {
       return UITableViewCell()
     }
     let bank = banks[indexPath.row]

@@ -45,12 +45,12 @@ LanguageRelodable {
   var routerHandler: ((String, String?, Bool, IndexPath) -> Void)?
   var finishDisplayHandler: (() -> Void)? // for notify Parent VC to dismiss loading
 
-  lazy var mpAdsViewModel: MPAdsViewModel = {
-    return MPAdsViewModel(adsPosition: .fix(0),
-                          tableView: tableView,
-                          cellClass: CurrencyCell.self,
-                          viewController: self)
-  }()
+//  lazy var mpAdsViewModel: MPAdsViewModel = {
+//    return MPAdsViewModel(adsPosition: .fix(0),
+//                          tableView: tableView,
+//                          cellClass: CurrencyCell.self,
+//                          viewController: self)
+//  }()
 
   private func setup() {
     let viewController = self
@@ -131,7 +131,7 @@ LanguageRelodable {
     let request = ListBankCurrency.FetchCurrencyList.Request()
     interactor?.fetchCurrencyList(request: request)
 
-    mpAdsViewModel.loadAds() // reload Currency also re-fetch ads
+//    mpAdsViewModel.loadAds() // reload Currency also re-fetch ads
   }
 
   func displayFetchedList(viewModel: ListBankCurrency.FetchCurrencyList.ViewModel) {
@@ -164,7 +164,8 @@ LanguageRelodable {
                    displayRate.imageURL,
                    router?.dataStore?.exchange == .stock,
                    indexPath)
-    tableView.mp_deselectRow(at: indexPath, animated: true) //tableView.deselectRow(at: indexPath, animated: true)
+    tableView.deselectRow(at: indexPath, animated: true)
+//    tableView.mp_deselectRow(at: indexPath, animated: true) //tableView.deselectRow(at: indexPath, animated: true)
   }
 
   // MARK: UITableViewDataSource
@@ -216,8 +217,8 @@ LanguageRelodable {
 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
-    guard let cell = tableView.mp_dequeueReusableCell(withIdentifier: R.nib.currencyCell.name, for: indexPath) as? CurrencyCell
-      //guard let cell = tableView.dequeueReusableCell(withIdentifier: R.nib.currencyCell.name) as? CurrencyCell
+//    guard let cell = tableView.mp_dequeueReusableCell(withIdentifier: R.nib.currencyCell.name, for: indexPath) as? CurrencyCell
+      guard let cell = tableView.dequeueReusableCell(withIdentifier: R.nib.currencyCell.name) as? CurrencyCell
       else { return UITableViewCell() }
     cell.nameLabelWidthConstraint.constant = self.displayNameMaxWidth
     cell.chartImageView.heroModifiers = [.scale(1.5), .fade]
