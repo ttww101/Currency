@@ -1,0 +1,74 @@
+/* 
+  ListCurrency.strings
+  CURRENCY
+
+  Created by Stan Liu on 22/02/2018.
+  Copyright © 2018 Stan Liu. All rights reserved.
+*/
+
+"BKTWTWTP"    = "台灣銀行"; // bank of taiwan
+"LBOTTWTP"    = "土地銀行"; // land bank
+"FCBKTWTP"    = "第一銀行"; // firs bank
+"HNBKTWTP"    = "華南銀行"; // hua nan bank
+"CCBCTWTP"    = "彰化銀行"; // chang hwa
+"SCSBTWTP"    = "上海商銀"; // shanghai commercial saving bank
+"TPBKTWTP"    = "台北富邦"; // taipei fuban
+"UWCBTWTP"    = "國泰世華"; // cathay united
+"BKAOTWTK"    = "高雄銀行"; // bankofkaosiung
+"ICBCTWTP"    = "兆豐商銀"; // Mega International commercial bank
+"CITITWTP"    = "花旗台灣"; // citi
+"ANZBTWTP"    = "澳盛銀行"; // ANZ
+"MBBTTWTP"    = "台灣中小企業銀行"; // taiwan business bank
+"SCBLTWTP"    = "渣打銀行"; // standard chartered
+"TACBTWTP"    = "合作金庫"; // Taiwan Cooperative bank
+"TCBBTWTH"    = "台中銀行"; // tcbbank taichung commercial bank
+"TNBBTWTN"    = "京城商銀"; // ktb king's town bank
+"HSBCTWTP"    = "匯豐台灣"; // HSBC
+"MKTBTWTP"    = "新光銀行"; // skbank shin kong bank
+"SUNYTWTP"    = "陽信銀行"; // sunny bank
+"BBBKTWTP"    = "板信銀行"; // bank of panhsin
+"COBKTWTP"    = "三信商銀"; // cota commercial bank
+//""    = "中華郵政"; // Chunghwa Post
+"SINOTWTP"    = "永豐銀行"; // Sinopac Bank
+"UBOTTWTP"    = "聯邦商銀"; // union bank of taiwan
+"FEINTWTP"    = "遠東商銀"; // far eastern int'l bank
+"APBKTWTH"    = "元大商銀"; // yuanta bank
+"TSIBTWTP"    = "台新銀行"; // Tai shin international bank
+"CSMBTWTP"    = "凱基銀行"; // KGI
+"CTCBTWTP"    = "中國信託"; // China Trust
+"DBSSTWTP"    = "星展銀行"; // DBS
+"ENTITWTP"    = "安泰商銀"; // Entie
+"JSIBTWTP"    = "日盛銀行"; // JihSun
+"ESUNTWTP"    = "玉山銀行"; // E.Sun
+"BOTPTWTP"    = "瑞興銀行"; // TaipeiStar
+
+"google" = "Google";
+"yahoo"  = "Yahoo";
+"rter_api" = "RTER 全球即時匯率API";
+
+"twd"="新台幣";
+"usd"="美金";
+"hkd"="港幣";
+"gbp"="英鎊";
+"aud"="澳幣";
+"cad"="加拿大幣";
+"sgd"="新加坡幣";
+"chf"="瑞士法郎";
+"jpy"="日圓";
+"zar"="南非幣";
+"sek"="瑞典幣";
+"nzd"="紐西蘭幣";
+"thb"="泰銖";
+"php"="菲律賓比索";
+"idr"="印尼幣";
+"eur"="歐元";
+"krw"="韓元";
+"vnd"="越南盾";
+"myr"="馬來西亞幣";
+"cny"="人民幣";
+"cnh"="離岸人民幣";
+"dkk"="丹麥克朗";
+"mxn"="墨西哥披索";
+"inr"="印度盧比";
+"mop"="澳門幣";
+"try"="土耳其里拉";

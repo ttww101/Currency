@@ -1,0 +1,12 @@
+/* 
+  Error.strings
+  CURRENCY
+
+  Created by Stan Liu on 12/03/2018.
+  Copyright © 2018 Stan Liu. All rights reserved.
+*/
+
+"fetch_local_error"   = "There's no saved currency data";
+"fetch_remote_error"  = "Something wrong with server";
+"disconnect_error"    = "Something wrong with your internet, please check your internet service";
+"unknown_error"       = "An error occurred! Please try again or give us a feedback 😭";

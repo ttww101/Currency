@@ -1,0 +1,47 @@
+/* 
+  UI.strings
+  CURRENCY
+
+  Created by Stan Liu on 23/02/2018.
+  Copyright © 2018 Stan Liu. All rights reserved.
+*/
+
+"edit"  = "編輯";
+"done"  = "完成";
+
+"cash"  = "現金";
+"stock" = "即期";
+
+"buy"   = "買入";
+"sell"  = "賣出";
+
+"bank_currency_title" = "牌告匯率";
+"currency_title"    = "匯率";
+"calculator_title"  = "計算機";
+"more_title"        = "更多";
+"settings_title"    = "設定";
+"others_title"      = "其它";
+
+"source_from"       = "資料來源: ";
+"last_update_colon" = "上次更新: ";
+
+"aboutme_detail"    = "提供銀行匯率資訊，可同時進行多種匯率比較。";
+"agreement_detail"  = "Currency 提供之資料僅供參考，使用者依本資料交易發生交易損失需自行負責，本站對資料內容錯誤、更新延誤或傳輸中斷不負任何責任。不代表實際交易價格。實際交易價格以各銀行實際交易時之價格為準";
+
+"switchExchangeError" = "沒有相關資料 - ";
+
+"warning"           = "注意 !";
+"i_know"            = "我知道了";
+"confirm"           = "確認";
+"cancel"            = "取消";
+"calculator_instruction" = "買入賣出是以銀行的身份為主。\n\n例如，您要用台幣換成美金，代表銀行\"賣\"美金給您，所以應該選擇 \"賣出\"。\n\n反之，您要把美金換回台幣，代表銀行用台幣跟您\"買\"美金，所以應該選擇 \"買入\"。";
+
+"missing_selected_source"   = "請選擇一個來源";
+"missing_selected_currency" = "請選擇一種匯率";
+
+"bank"              = "銀行";
+"update_time"  = "更新時間";
+"chart"        = "近期走勢";
+
+"no_data"     = "無資料";
+"reload"      = "重新整理";

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NumberPad" customModule="CURRENCY" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="QEO-bl-rx3"/>
+                <outlet property="deleteBtn" destination="uP5-Ob-YuG" id="rFe-Jy-6dd"/>
+                <outlet property="pointBtn" destination="Bb8-vy-uhK" id="vc7-5G-kBU"/>
+                <outletCollection property="numericBtns" destination="jjx-Yr-c54" collectionClass="NSMutableArray" id="NRj-4e-kHt"/>
+                <outletCollection property="numericBtns" destination="Flh-7Z-XeE" collectionClass="NSMutableArray" id="0xX-7u-BBL"/>
+                <outletCollection property="numericBtns" destination="u1C-7z-efL" collectionClass="NSMutableArray" id="7Qc-cb-xSl"/>
+                <outletCollection property="numericBtns" destination="vCu-GD-wXI" collectionClass="NSMutableArray" id="woA-kV-V7P"/>
+                <outletCollection property="numericBtns" destination="Yxm-Ze-wJk" collectionClass="NSMutableArray" id="gXQ-gp-FK5"/>
+                <outletCollection property="numericBtns" destination="5nF-nq-Ld7" collectionClass="NSMutableArray" id="9hQ-bp-hlm"/>
+                <outletCollection property="symbolicBtns" destination="aZq-fP-qxe" collectionClass="NSMutableArray" id="tus-4r-ral"/>
+                <outletCollection property="symbolicBtns" destination="WGN-WZ-Bd9" collectionClass="NSMutableArray" id="soB-AU-qE2"/>
+                <outletCollection property="numericBtns" destination="jS1-Xv-0kX" collectionClass="NSMutableArray" id="fwE-gg-0Cu"/>
+                <outletCollection property="numericBtns" destination="Xx7-t2-15I" collectionClass="NSMutableArray" id="Ucs-KO-AwR"/>
+                <outletCollection property="numericBtns" destination="S37-qU-dDN" collectionClass="NSMutableArray" id="mcm-QN-OBV"/>
+                <outletCollection property="symbolicBtns" destination="FtM-Yu-3Zz" collectionClass="NSMutableArray" id="hNp-2K-5nT"/>
+                <outletCollection property="numericBtns" destination="Msp-BN-kUF" collectionClass="NSMutableArray" id="ZLC-SP-2qK"/>
+                <outletCollection property="symbolicBtns" destination="TIu-Jw-Cqm" collectionClass="NSMutableArray" id="uMd-zh-VW7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="ContentView">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jjx-Yr-c54" userLabel="7" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="96" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="7"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="7"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Flh-7Z-XeE" userLabel="8" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="96" y="0.0" width="96" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="8"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="8"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u1C-7z-efL" userLabel="9" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="192" y="0.0" width="96" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="9"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="9"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aZq-fP-qxe" userLabel="+" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="288" y="0.0" width="96" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" id="uo1-wu-pAk"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="+"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="+"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vCu-GD-wXI" userLabel="4" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="50" width="96" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="4"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="4"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yxm-Ze-wJk" userLabel="5" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="96" y="50" width="95.5" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="5"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="5"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5nF-nq-Ld7" userLabel="6" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="191.5" y="50" width="96" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="6"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="6"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WGN-WZ-Bd9" userLabel="-" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="287.5" y="50" width="95.5" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="-"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="-"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jS1-Xv-0kX" userLabel="1" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="100" width="95.5" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="1"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="1"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xx7-t2-15I" userLabel="2" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="95.5" y="100" width="96" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="2"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="2"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S37-qU-dDN" userLabel="3" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="191.5" y="100" width="95.5" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="3"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="3"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FtM-Yu-3Zz" userLabel="*" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="287" y="100" width="96" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="×"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="*"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bb8-vy-uhK" userLabel="." customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="150" width="96" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="∙"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="."/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Msp-BN-kUF" userLabel="0" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="96" y="150" width="95.5" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="0"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="0"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TIu-Jw-Cqm" userLabel="/" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="287" y="150" width="96" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="÷"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="/"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uP5-Ob-YuG" userLabel="delete" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="191.5" y="150" width="95.5" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="B"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Msp-BN-kUF" firstAttribute="width" secondItem="jjx-Yr-c54" secondAttribute="width" id="1UO-3h-gUt"/>
+                <constraint firstItem="5nF-nq-Ld7" firstAttribute="height" secondItem="jjx-Yr-c54" secondAttribute="height" id="2T7-3O-Nej"/>
+                <constraint firstItem="Yxm-Ze-wJk" firstAttribute="width" secondItem="jjx-Yr-c54" secondAttribute="width" id="5OQ-7g-mPz"/>
+                <constraint firstItem="u1C-7z-efL" firstAttribute="leading" secondItem="Flh-7Z-XeE" secondAttribute="trailing" id="77q-JP-xJ6"/>
+                <constraint firstItem="jjx-Yr-c54" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="8rU-KR-Esf"/>
+                <constraint firstItem="vCu-GD-wXI" firstAttribute="width" secondItem="jjx-Yr-c54" secondAttribute="width" id="91U-PQ-HIP"/>
+                <constraint firstItem="FtM-Yu-3Zz" firstAttribute="height" secondItem="aZq-fP-qxe" secondAttribute="height" id="96T-fH-QEe"/>
+                <constraint firstItem="Xx7-t2-15I" firstAttribute="top" secondItem="Yxm-Ze-wJk" secondAttribute="bottom" id="BBX-O3-Xh0"/>
+                <constraint firstItem="vCu-GD-wXI" firstAttribute="height" secondItem="jjx-Yr-c54" secondAttribute="height" id="DUQ-7N-fc8"/>
+                <constraint firstItem="Flh-7Z-XeE" firstAttribute="height" secondItem="jjx-Yr-c54" secondAttribute="height" id="FPs-Mg-KUg"/>
+                <constraint firstItem="Xx7-t2-15I" firstAttribute="height" secondItem="jjx-Yr-c54" secondAttribute="height" id="Go0-hr-33U"/>
+                <constraint firstItem="Bb8-vy-uhK" firstAttribute="top" secondItem="jS1-Xv-0kX" secondAttribute="bottom" id="Hfc-T3-6Uw"/>
+                <constraint firstItem="FtM-Yu-3Zz" firstAttribute="width" secondItem="aZq-fP-qxe" secondAttribute="width" id="Jmy-Vq-puI"/>
+                <constraint firstItem="WGN-WZ-Bd9" firstAttribute="leading" secondItem="5nF-nq-Ld7" secondAttribute="trailing" id="KGU-Xe-eyr"/>
+                <constraint firstItem="FtM-Yu-3Zz" firstAttribute="top" secondItem="WGN-WZ-Bd9" secondAttribute="bottom" id="M3S-Yf-oGj"/>
+                <constraint firstItem="5nF-nq-Ld7" firstAttribute="width" secondItem="jjx-Yr-c54" secondAttribute="width" id="M9W-R4-qj0"/>
+                <constraint firstItem="uP5-Ob-YuG" firstAttribute="leading" secondItem="Msp-BN-kUF" secondAttribute="trailing" id="OwB-Wx-Vrh"/>
+                <constraint firstItem="TIu-Jw-Cqm" firstAttribute="width" secondItem="aZq-fP-qxe" secondAttribute="width" id="P12-40-d7U"/>
+                <constraint firstItem="Msp-BN-kUF" firstAttribute="height" secondItem="jjx-Yr-c54" secondAttribute="height" id="QsT-5j-B7Y"/>
+                <constraint firstItem="u1C-7z-efL" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="RIG-0f-PJW"/>
+                <constraint firstItem="TIu-Jw-Cqm" firstAttribute="leading" secondItem="uP5-Ob-YuG" secondAttribute="trailing" id="RwV-ys-XkM"/>
+                <constraint firstItem="jS1-Xv-0kX" firstAttribute="width" secondItem="jjx-Yr-c54" secondAttribute="width" id="Tfr-KA-veV"/>
+                <constraint firstItem="FtM-Yu-3Zz" firstAttribute="leading" secondItem="S37-qU-dDN" secondAttribute="trailing" id="UUA-zR-hHi"/>
+                <constraint firstAttribute="bottom" secondItem="TIu-Jw-Cqm" secondAttribute="bottom" id="UsB-Bn-fEn"/>
+                <constraint firstItem="Bb8-vy-uhK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="WFj-Yk-qJG"/>
+                <constraint firstItem="TIu-Jw-Cqm" firstAttribute="top" secondItem="FtM-Yu-3Zz" secondAttribute="bottom" id="YbL-Xn-ZVJ"/>
+                <constraint firstItem="5nF-nq-Ld7" firstAttribute="top" secondItem="u1C-7z-efL" secondAttribute="bottom" id="Ywl-xc-Wky"/>
+                <constraint firstItem="WGN-WZ-Bd9" firstAttribute="top" secondItem="aZq-fP-qxe" secondAttribute="bottom" id="ZZ8-EL-mJQ"/>
+                <constraint firstItem="WGN-WZ-Bd9" firstAttribute="height" secondItem="aZq-fP-qxe" secondAttribute="height" id="aiU-mI-Es4"/>
+                <constraint firstItem="Flh-7Z-XeE" firstAttribute="leading" secondItem="jjx-Yr-c54" secondAttribute="trailing" id="bKe-P2-SNE"/>
+                <constraint firstItem="FtM-Yu-3Zz" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="bRD-D2-B7W"/>
+                <constraint firstItem="aZq-fP-qxe" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="bkh-UR-m9b"/>
+                <constraint firstItem="u1C-7z-efL" firstAttribute="height" secondItem="jjx-Yr-c54" secondAttribute="height" id="bxz-EL-Nx3"/>
+                <constraint firstItem="Xx7-t2-15I" firstAttribute="width" secondItem="jjx-Yr-c54" secondAttribute="width" id="ctA-E3-gsm"/>
+                <constraint firstItem="uP5-Ob-YuG" firstAttribute="height" secondItem="jjx-Yr-c54" secondAttribute="height" id="d2v-P2-ic9"/>
+                <constraint firstItem="u1C-7z-efL" firstAttribute="width" secondItem="jjx-Yr-c54" secondAttribute="width" id="d6l-qS-nww"/>
+                <constraint firstItem="Bb8-vy-uhK" firstAttribute="height" secondItem="jjx-Yr-c54" secondAttribute="height" id="ddr-he-SIo"/>
+                <constraint firstItem="vCu-GD-wXI" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="f5h-bp-6vN"/>
+                <constraint firstItem="jjx-Yr-c54" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="fVF-sm-Lb6"/>
+                <constraint firstItem="Yxm-Ze-wJk" firstAttribute="height" secondItem="jjx-Yr-c54" secondAttribute="height" id="fy8-Jc-3r3"/>
+                <constraint firstItem="S37-qU-dDN" firstAttribute="leading" secondItem="Xx7-t2-15I" secondAttribute="trailing" id="gIS-IA-nrJ"/>
+                <constraint firstItem="vCu-GD-wXI" firstAttribute="top" secondItem="jjx-Yr-c54" secondAttribute="bottom" id="gkY-Bg-J6t"/>
+                <constraint firstItem="S37-qU-dDN" firstAttribute="width" secondItem="jjx-Yr-c54" secondAttribute="width" id="hFO-py-yeQ"/>
+                <constraint firstItem="uP5-Ob-YuG" firstAttribute="top" secondItem="S37-qU-dDN" secondAttribute="bottom" id="j7W-g6-9SY"/>
+                <constraint firstItem="WGN-WZ-Bd9" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="kcN-5e-31L"/>
+                <constraint firstItem="5nF-nq-Ld7" firstAttribute="leading" secondItem="Yxm-Ze-wJk" secondAttribute="trailing" id="kpu-jE-Mda"/>
+                <constraint firstItem="jS1-Xv-0kX" firstAttribute="height" secondItem="jjx-Yr-c54" secondAttribute="height" id="l3K-1i-Bv3"/>
+                <constraint firstAttribute="bottom" secondItem="uP5-Ob-YuG" secondAttribute="bottom" id="l6e-pz-XMS"/>
+                <constraint firstItem="aZq-fP-qxe" firstAttribute="leading" secondItem="u1C-7z-efL" secondAttribute="trailing" id="nZN-Kn-wsN"/>
+                <constraint firstItem="TIu-Jw-Cqm" firstAttribute="height" secondItem="aZq-fP-qxe" secondAttribute="height" id="o6z-U1-6mF"/>
+                <constraint firstItem="S37-qU-dDN" firstAttribute="height" secondItem="jjx-Yr-c54" secondAttribute="height" id="o74-4U-dm2"/>
+                <constraint firstItem="Msp-BN-kUF" firstAttribute="top" secondItem="Xx7-t2-15I" secondAttribute="bottom" id="qNT-Ii-vmc"/>
+                <constraint firstItem="Flh-7Z-XeE" firstAttribute="width" secondItem="jjx-Yr-c54" secondAttribute="width" id="rQq-1r-Yfn"/>
+                <constraint firstItem="uP5-Ob-YuG" firstAttribute="width" secondItem="jjx-Yr-c54" secondAttribute="width" id="rWp-10-uQy"/>
+                <constraint firstItem="Msp-BN-kUF" firstAttribute="leading" secondItem="Bb8-vy-uhK" secondAttribute="trailing" id="rbL-fD-nz9"/>
+                <constraint firstItem="Yxm-Ze-wJk" firstAttribute="leading" secondItem="vCu-GD-wXI" secondAttribute="trailing" id="s8q-U6-yfS"/>
+                <constraint firstItem="Flh-7Z-XeE" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="sJv-rL-TwD"/>
+                <constraint firstItem="Xx7-t2-15I" firstAttribute="leading" secondItem="jS1-Xv-0kX" secondAttribute="trailing" id="sdI-jr-0Yx"/>
+                <constraint firstItem="WGN-WZ-Bd9" firstAttribute="width" secondItem="aZq-fP-qxe" secondAttribute="width" id="uUK-FM-mFg"/>
+                <constraint firstItem="jS1-Xv-0kX" firstAttribute="top" secondItem="vCu-GD-wXI" secondAttribute="bottom" id="v2v-6t-DS8"/>
+                <constraint firstItem="TIu-Jw-Cqm" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="wXn-Wr-gLR"/>
+                <constraint firstItem="Bb8-vy-uhK" firstAttribute="width" secondItem="jjx-Yr-c54" secondAttribute="width" id="waI-mM-7S2"/>
+                <constraint firstItem="Yxm-Ze-wJk" firstAttribute="top" secondItem="Flh-7Z-XeE" secondAttribute="bottom" id="wgQ-fK-MV1"/>
+                <constraint firstAttribute="bottom" secondItem="Bb8-vy-uhK" secondAttribute="bottom" id="yLf-9R-R8Z"/>
+                <constraint firstItem="S37-qU-dDN" firstAttribute="top" secondItem="5nF-nq-Ld7" secondAttribute="bottom" id="yUU-0g-HZy"/>
+                <constraint firstItem="Msp-BN-kUF" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="yvk-uo-XHo"/>
+                <constraint firstItem="jS1-Xv-0kX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="zAl-qu-IRI"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="34.5" y="233.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="jhQ-Gg-OjG" customClass="ConverterHeader" customModule="CURRENCY" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zrN-Ig-nuc" customClass="ExchangeSwitcher" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="15" y="10" width="165" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="UAa-oY-9z5"/>
+                    </constraints>
+                    <connections>
+                        <action selector="exchangeSwitchDidChange:" destination="jhQ-Gg-OjG" eventType="valueChanged" id="44d-8n-Tmu"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qY3-Ap-ucN" customClass="TradeSwitcher" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="195" y="10" width="165" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <action selector="tradeSwitchDidChange:" destination="jhQ-Gg-OjG" eventType="valueChanged" id="3Sd-rK-APn"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="HAl-84-MMX" firstAttribute="trailing" secondItem="qY3-Ap-ucN" secondAttribute="trailing" constant="15" id="ASI-81-h2N"/>
+                <constraint firstItem="qY3-Ap-ucN" firstAttribute="width" secondItem="zrN-Ig-nuc" secondAttribute="width" id="EtZ-eD-1tL"/>
+                <constraint firstItem="zrN-Ig-nuc" firstAttribute="height" secondItem="qY3-Ap-ucN" secondAttribute="height" id="SoY-QA-Ns4"/>
+                <constraint firstItem="qY3-Ap-ucN" firstAttribute="leading" secondItem="zrN-Ig-nuc" secondAttribute="trailing" constant="15" id="UOJ-Bj-8kY"/>
+                <constraint firstItem="zrN-Ig-nuc" firstAttribute="top" secondItem="HAl-84-MMX" secondAttribute="top" constant="10" id="alX-dR-hkg"/>
+                <constraint firstItem="zrN-Ig-nuc" firstAttribute="leading" secondItem="HAl-84-MMX" secondAttribute="leading" constant="15" id="cmk-q0-JA1"/>
+                <constraint firstItem="HAl-84-MMX" firstAttribute="bottom" secondItem="zrN-Ig-nuc" secondAttribute="bottom" constant="10" id="eU1-Mr-pGi"/>
+                <constraint firstItem="zrN-Ig-nuc" firstAttribute="centerY" secondItem="jhQ-Gg-OjG" secondAttribute="centerY" id="uxs-WN-GmJ"/>
+                <constraint firstItem="qY3-Ap-ucN" firstAttribute="centerY" secondItem="zrN-Ig-nuc" secondAttribute="centerY" id="wFn-t3-Jg7"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="HAl-84-MMX"/>
+            <connections>
+                <outlet property="exchangeSwitcher" destination="zrN-Ig-nuc" id="THX-hi-cVB"/>
+                <outlet property="tradeSwitcher" destination="qY3-Ap-ucN" id="nsr-bQ-Pkb"/>
+            </connections>
+            <point key="canvasLocation" x="-168.5" y="-193"/>
+        </view>
+    </objects>
+</document>

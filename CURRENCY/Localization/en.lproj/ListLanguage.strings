@@ -1,0 +1,11 @@
+/* 
+  ListLanguage.strings
+  CURRENCY
+
+  Created by Stan Liu on 22/02/2018.
+  Copyright © 2018 Stan Liu. All rights reserved.
+*/
+
+"en"="English";
+"zh-Hant"="繁體中文";
+"zh-Hans"="簡体中文";

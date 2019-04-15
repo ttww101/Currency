@@ -1,0 +1,74 @@
+/* 
+  ListCurrency.strings
+  CURRENCY
+
+  Created by Stan Liu on 22/02/2018.
+  Copyright © 2018 Stan Liu. All rights reserved.
+*/
+
+"BKTWTWTP"    = "Bank of Taiwan"; // bank of taiwan
+"LBOTTWTP"    = "Land Bank"; // land bank
+"FCBKTWTP"    = "First Bank"; // firs bank
+"HNBKTWTP"    = "Hua Nan Bank"; // hua nan bank
+"CCBCTWTP"    = "Chang Hwa Bank"; // chang hwa
+"SCSBTWTP"    = "SCSB"; // shanghai commercial saving bank
+"TPBKTWTP"    = "Fuban Bank"; // taipei fuban
+"UWCBTWTP"    = "Cathay United Bank"; // cathay united
+"BKAOTWTK"    = "Bank of Kaosiung"; // bankofkaosiung
+"ICBCTWTP"    = "Mega International Bank"; // Mega International commercial bank
+"CITITWTP"    = "Citi Taiwan"; // citi
+"ANZBTWTP"    = "ANZ Taiwan"; // ANZ
+"MBBTTWTP"    = "Taiwan Business Bank"; // taiwan business bank
+"SCBLTWTP"    = "Standard Chartered"; // standard chartered
+"TACBTWTP"    = "Taiwan Cooperative Bank"; // Taiwan Cooperative bank
+"TCBBTWTH"    = "Taichung Commercial Bank"; // tcbbank taichung commercial bank
+"TNBBTWTN"    = "King's Town Bank"; // ktb king's town bank
+"HSBCTWTP"    = "HSBC Taiwan"; // HSBC
+"MKTBTWTP"    = "Shin Kong Bank"; // skbank shin kong bank
+"SUNYTWTP"    = "Sunny Bank"; // sunny bank
+"BBBKTWTP"    = "Bank of Panhsin"; // bank of panhsin
+"COBKTWTP"    = "Cota Commercial Bank"; // cota commercial bank
+//""    = "Chung Hwa Post"; // Chunghwa Post
+"SINOTWTP"    = "Sinopac Bannk"; // Sinopac Bank
+"UBOTTWTP"    = "Union Bank of Taiwan"; // union bank of taiwan
+"FEINTWTP"    = "Far Eastern Int'l Bank"; // far eastern int'l bank
+"APBKTWTH"    = "YuanTa Bank"; // yuanta bank
+"TSIBTWTP"    = "Tai Shin Int'l Bank"; // Tai shin international bank
+"CSMBTWTP"    = "KGI"; // KGI
+"CTCBTWTP"    = "China Trust"; // China Trust
+"DBSSTWTP"    = "DBS"; // DBS
+"ENTITWTP"    = "Entie Bank"; // Entie
+"JSIBTWTP"    = "JihSun Bank"; // JihSun
+"ESUNTWTP"    = "E.Sun Bank"; // E.Sun
+"BOTPTWTP"    = "TaipeiStar Bank"; // TaipeiStar
+
+"google" = "Google";
+"yahoo"  = "Yahoo";
+"rter_api" = "RTER API";
+
+"twd"="TWD";
+"usd"="USD";
+"hkd"="HKD";
+"gbp"="GBP";
+"aud"="AUD";
+"cad"="CAD";
+"sgd"="SGD";
+"chf"="CHF";
+"jpy"="JPY";
+"zar"="ZAR";
+"sek"="SEK";
+"nzd"="NZD";
+"thb"="THB";
+"php"="PHP";
+"idr"="IDR";
+"eur"="EUR";
+"krw"="KRW";
+"vnd"="VND";
+"myr"="MYR";
+"cny"="CNY";
+"cnh"="CNH";
+"dkk"="DKK";
+"mxn"="MXN";
+"inr"="INR";
+"mop"="MOP";
+"try"="TRY";

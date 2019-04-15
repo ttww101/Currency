@@ -1,0 +1,47 @@
+/* 
+  UI.strings
+  CURRENCY
+
+  Created by Stan Liu on 23/02/2018.
+  Copyright © 2018 Stan Liu. All rights reserved.
+*/
+
+"edit"  = "Edit";
+"done"  = "Done";
+
+"cash"  = "Cash";
+"stock" = "Stock";
+
+"buy"   = "Buy";
+"sell"  = "Sell";
+
+"bank_currency_title" = "Bank";
+"currency_title"    = "Currency";
+"calculator_title"  = "Calculator";
+"more_title"        = "More";
+"settings_title"    = "Settings";
+"others_title"      = "Others";
+
+"source_from"       = "From ";
+"last_update_colon" = "Last update: ";
+
+"aboutme_detail"    = "Provide rates' information, could compare multiple rates at the same time.";
+"agreement_detail"  = "Currency does not guarantee the accuracy, authenticity, timeliness, reliability, appropriateness, correct sequencing, or completeness of any of the Information And Content. You agree that all risk associated with the use of, or reliance on, any of the information And Content accessed through the Services rests with you. You further agree that Currency shall not be responsible or liable, directly or indirectly, in any way for any loss or damage of any kind incurred as a result of, or in connection with you use of, or reliance on, any of the Information And Content.";
+
+"switchExchangeError" = "No such data of ";
+
+"warning"           = "Pay Attention !";
+"i_know"            = "I know";
+"confirm"           = "OK";
+"cancel"            = "Cancel";
+"calculator_instruction" = "For example You want to change your TWD to USD means bank sell it's USD to you, should choose \"Sell\". \n\nOtherwise, change USD back to TWD means bank buy your USD in TWD, Should choose \"Buy\".";
+
+"missing_selected_source"   = "Please select a source";
+"missing_selected_currency" = "Please select a currency";
+
+"bank"              = "Bank";
+"update_time"  = "Last Update";
+"chart"        = "Chart";
+
+"no_data"     = "No Data";
+"reload"      = "Reload";

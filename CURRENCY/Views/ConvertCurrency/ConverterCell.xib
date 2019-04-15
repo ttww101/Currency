@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ConverterCell" rowHeight="60" id="16h-J0-YLQ" customClass="ConverterCell" customModule="CURRENCY" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="16h-J0-YLQ" id="XQX-hk-vAY">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="752" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wox-a7-5n9">
+                        <rect key="frame" x="91" y="10" width="269" height="39.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="uqX-zm-0En"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="USD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCS-32-qaf">
+                        <rect key="frame" x="26" y="19.5" width="35" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wxr-gA-8Ih" customClass="SelectedView" customModule="CURRENCY" customModuleProvider="target">
+                        <rect key="frame" x="10" y="19.5" width="6" height="21"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="6" id="PDM-ms-deA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="SCS-32-qaf" firstAttribute="centerY" secondItem="XQX-hk-vAY" secondAttribute="centerY" id="5Mt-8B-Dvg"/>
+                    <constraint firstItem="SCS-32-qaf" firstAttribute="leading" secondItem="Wxr-gA-8Ih" secondAttribute="trailing" constant="10" id="JqX-bb-yFs"/>
+                    <constraint firstItem="Wxr-gA-8Ih" firstAttribute="leading" secondItem="XQX-hk-vAY" secondAttribute="leading" constant="10" id="Nta-Ym-QIn"/>
+                    <constraint firstAttribute="trailing" secondItem="wox-a7-5n9" secondAttribute="trailing" constant="15" id="aXT-Ia-JVM"/>
+                    <constraint firstItem="Wxr-gA-8Ih" firstAttribute="bottom" secondItem="SCS-32-qaf" secondAttribute="bottom" id="bQn-ie-RDQ"/>
+                    <constraint firstItem="wox-a7-5n9" firstAttribute="leading" secondItem="SCS-32-qaf" secondAttribute="trailing" constant="30" id="hY3-Pb-qgw"/>
+                    <constraint firstAttribute="bottom" secondItem="wox-a7-5n9" secondAttribute="bottom" constant="10" id="q1V-7M-axC"/>
+                    <constraint firstItem="Wxr-gA-8Ih" firstAttribute="top" secondItem="SCS-32-qaf" secondAttribute="top" id="qGa-tO-DPA"/>
+                    <constraint firstItem="wox-a7-5n9" firstAttribute="top" secondItem="XQX-hk-vAY" secondAttribute="top" constant="10" id="rba-6X-cDA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="selectedView" destination="Wxr-gA-8Ih" id="rtG-Ut-V9c"/>
+                <outlet property="subjectLabel" destination="SCS-32-qaf" id="vPN-ri-Icx"/>
+                <outlet property="textField" destination="wox-a7-5n9" id="qo9-m4-6ou"/>
+            </connections>
+            <point key="canvasLocation" x="36.5" y="167"/>
+        </tableViewCell>
+    </objects>
+</document>

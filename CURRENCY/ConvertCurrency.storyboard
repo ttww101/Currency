@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KHB-LA-Osj">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Convert Currency View Controller-->
+        <scene sceneID="KIO-ag-J2c">
+            <objects>
+                <viewController storyboardIdentifier="ConvertCurrencyViewController" id="2ok-40-ncd" customClass="ConvertCurrencyViewController" customModule="CURRENCY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uGr-gQ-KpA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Z6K-SZ-0ci">
+                                <rect key="frame" x="0.0" y="120" width="375" height="328"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y3G-2I-HrW" customClass="NumberPad" customModule="CURRENCY" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="448" width="375" height="219"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OIV-fj-N4P">
+                                <rect key="frame" x="0.0" y="60" width="375" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="imx-bf-0KO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OIV-fj-N4P" firstAttribute="leading" secondItem="fpW-MI-LWY" secondAttribute="leading" id="6OO-4g-pZT"/>
+                            <constraint firstItem="fpW-MI-LWY" firstAttribute="top" secondItem="OIV-fj-N4P" secondAttribute="top" constant="4" id="842-DO-Ltq"/>
+                            <constraint firstItem="y3G-2I-HrW" firstAttribute="height" secondItem="Z6K-SZ-0ci" secondAttribute="height" multiplier="1:1.5" id="8v0-Fv-cUk"/>
+                            <constraint firstItem="Z6K-SZ-0ci" firstAttribute="leading" secondItem="fpW-MI-LWY" secondAttribute="leading" id="FKm-ng-mAB"/>
+                            <constraint firstItem="Z6K-SZ-0ci" firstAttribute="trailing" secondItem="fpW-MI-LWY" secondAttribute="trailing" id="Kh4-Pz-VMZ"/>
+                            <constraint firstItem="fpW-MI-LWY" firstAttribute="bottom" secondItem="y3G-2I-HrW" secondAttribute="bottom" id="LVM-S4-IG1"/>
+                            <constraint firstItem="fpW-MI-LWY" firstAttribute="trailing" secondItem="y3G-2I-HrW" secondAttribute="trailing" id="PI4-sy-4oF"/>
+                            <constraint firstItem="y3G-2I-HrW" firstAttribute="top" secondItem="Z6K-SZ-0ci" secondAttribute="bottom" id="gaW-LF-zQ4"/>
+                            <constraint firstItem="OIV-fj-N4P" firstAttribute="trailing" secondItem="fpW-MI-LWY" secondAttribute="trailing" id="no8-1y-leJ"/>
+                            <constraint firstItem="Z6K-SZ-0ci" firstAttribute="top" secondItem="OIV-fj-N4P" secondAttribute="bottom" id="t2C-Nm-8NN"/>
+                            <constraint firstItem="y3G-2I-HrW" firstAttribute="leading" secondItem="fpW-MI-LWY" secondAttribute="leading" id="xf2-Sy-sGB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fpW-MI-LWY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kC8-BP-HrD"/>
+                    <connections>
+                        <outlet property="numberPad" destination="y3G-2I-HrW" id="cgA-k5-DE7"/>
+                        <outlet property="switchersContainer" destination="OIV-fj-N4P" id="5QO-Lx-n8B"/>
+                        <outlet property="tableView" destination="Z6K-SZ-0ci" id="HXM-0g-Vwk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ioZ-np-iFn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="480.80000000000001" y="168.6656671664168"/>
+        </scene>
+        <!--Edit Convert Currency View Controller-->
+        <scene sceneID="4sq-4r-VrQ">
+            <objects>
+                <viewController storyboardIdentifier="EditConvertCurrencyViewController" id="2tW-pa-uaj" customClass="EditConvertCurrencyViewController" customModule="CURRENCY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f8P-CG-24J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Dqd-0d-bVK">
+                                <rect key="frame" x="0.0" y="80" width="375" height="587"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EOj-33-DcG" customClass="OptionView" customModule="CURRENCY" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="go7-kf-oPf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EOj-33-DcG" firstAttribute="trailing" secondItem="kAh-td-Ii9" secondAttribute="trailing" id="L6Z-mQ-H8g"/>
+                            <constraint firstItem="EOj-33-DcG" firstAttribute="leading" secondItem="kAh-td-Ii9" secondAttribute="leading" id="OKu-yi-Bui"/>
+                            <constraint firstItem="Dqd-0d-bVK" firstAttribute="leading" secondItem="kAh-td-Ii9" secondAttribute="leading" id="Q05-iz-Pi2"/>
+                            <constraint firstItem="Dqd-0d-bVK" firstAttribute="trailing" secondItem="kAh-td-Ii9" secondAttribute="trailing" id="SkR-xb-xy3"/>
+                            <constraint firstItem="Dqd-0d-bVK" firstAttribute="top" secondItem="EOj-33-DcG" secondAttribute="bottom" id="WNT-MG-Kqu"/>
+                            <constraint firstItem="Dqd-0d-bVK" firstAttribute="bottom" secondItem="kAh-td-Ii9" secondAttribute="bottom" id="uCh-tR-gre"/>
+                            <constraint firstItem="EOj-33-DcG" firstAttribute="top" secondItem="f8P-CG-24J" secondAttribute="top" id="wtN-6x-JJg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kAh-td-Ii9"/>
+                    </view>
+                    <connections>
+                        <outlet property="optionView" destination="EOj-33-DcG" id="7BT-rF-cjJ"/>
+                        <outlet property="tableView" destination="Dqd-0d-bVK" id="Zw0-ur-Yg5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qRu-Tp-yrk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1197.5999999999999" y="168.6656671664168"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Kfr-Bm-mLu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KHB-LA-Osj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lhT-Ld-Mxa">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2ok-40-ncd" kind="relationship" relationship="rootViewController" id="UK9-np-9rW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fmp-GT-I5g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-216" y="169.11544227886057"/>
+        </scene>
+    </scenes>
+</document>

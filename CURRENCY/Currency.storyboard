@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9ig-Ko-jqm">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Currency View Controller-->
+        <scene sceneID="iF9-zE-Dll">
+            <objects>
+                <viewController storyboardIdentifier="CurrencyViewController" id="ml6-Ve-SQA" customClass="CurrencyViewController" customModule="CURRENCY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8s5-DY-vmm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jwU-lZ-RKg">
+                                <rect key="frame" x="0.0" y="319.5" width="375" height="283.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uTM-pr-cYe" customClass="Switcher" customModule="CURRENCY" customModuleProvider="target">
+                                <rect key="frame" x="30" y="35" width="315" height="45"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="YA1-83-lfp"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="switchDidChange:" destination="ml6-Ve-SQA" eventType="valueChanged" id="NLx-Tw-RGN"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d1R-ut-Fu4" customClass="SimpleChart" customModule="CURRENCY" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="145" width="375" height="174.5"/>
+                                <color key="backgroundColor" red="1" green="0.59809561109999998" blue="0.70207998179999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5mA-eB-TdV">
+                                <rect key="frame" x="0.0" y="80" width="375" height="130"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="7bL-A7-J2x"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.047474902270000001" green="0.95328286920000005" blue="0.75507269970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jwU-lZ-RKg" firstAttribute="top" secondItem="d1R-ut-Fu4" secondAttribute="bottom" id="0cB-f2-a5s"/>
+                            <constraint firstItem="uTM-pr-cYe" firstAttribute="centerX" secondItem="8s5-DY-vmm" secondAttribute="centerX" id="8Ys-Vc-yyV"/>
+                            <constraint firstItem="HmA-KI-R56" firstAttribute="trailing" secondItem="5mA-eB-TdV" secondAttribute="trailing" id="I7b-yq-gci"/>
+                            <constraint firstItem="5mA-eB-TdV" firstAttribute="centerY" secondItem="d1R-ut-Fu4" secondAttribute="top" id="IKq-A5-rLX"/>
+                            <constraint firstItem="jwU-lZ-RKg" firstAttribute="bottom" secondItem="HmA-KI-R56" secondAttribute="bottom" id="LcN-4F-QXe"/>
+                            <constraint firstItem="5mA-eB-TdV" firstAttribute="leading" secondItem="HmA-KI-R56" secondAttribute="leading" id="Mvf-Av-vS3"/>
+                            <constraint firstItem="jwU-lZ-RKg" firstAttribute="leading" secondItem="HmA-KI-R56" secondAttribute="leading" id="RcD-QX-3R4"/>
+                            <constraint firstItem="5mA-eB-TdV" firstAttribute="top" secondItem="uTM-pr-cYe" secondAttribute="bottom" id="WnV-au-v4q"/>
+                            <constraint firstItem="jwU-lZ-RKg" firstAttribute="trailing" secondItem="HmA-KI-R56" secondAttribute="trailing" id="WzQ-PW-eIt"/>
+                            <constraint firstItem="d1R-ut-Fu4" firstAttribute="trailing" secondItem="HmA-KI-R56" secondAttribute="trailing" id="ZFw-TJ-idm"/>
+                            <constraint firstItem="jwU-lZ-RKg" firstAttribute="height" secondItem="8s5-DY-vmm" secondAttribute="height" multiplier="0.47:1" id="ed3-nj-LvX"/>
+                            <constraint firstItem="HmA-KI-R56" firstAttribute="trailing" secondItem="uTM-pr-cYe" secondAttribute="trailing" constant="30" id="eiH-gq-UVj"/>
+                            <constraint firstItem="d1R-ut-Fu4" firstAttribute="leading" secondItem="HmA-KI-R56" secondAttribute="leading" id="iWW-MU-8UM"/>
+                            <constraint firstItem="uTM-pr-cYe" firstAttribute="top" secondItem="8s5-DY-vmm" secondAttribute="top" constant="35" id="jaq-j3-VCZ"/>
+                            <constraint firstItem="uTM-pr-cYe" firstAttribute="leading" secondItem="HmA-KI-R56" secondAttribute="leading" constant="30" id="pRR-9O-XXF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HmA-KI-R56"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3nt-Q3-7ws"/>
+                    <connections>
+                        <outlet property="dashboardParentView" destination="5mA-eB-TdV" id="ttx-XB-db6"/>
+                        <outlet property="lineChart" destination="d1R-ut-Fu4" id="Nq3-Bf-98v"/>
+                        <outlet property="switcher" destination="uTM-pr-cYe" id="eye-4w-UaJ"/>
+                        <outlet property="tableView" destination="jwU-lZ-RKg" id="KHQ-n3-WAS"/>
+                        <segue destination="usg-SO-3Qi" kind="show" identifier="TWBank" id="vAc-bn-CG7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Awk-Db-mvu" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1362" y="1608"/>
+        </scene>
+        <!--Bank View Controller-->
+        <scene sceneID="YoA-7d-117">
+            <objects>
+                <viewController storyboardIdentifier="TWBankViewController" id="usg-SO-3Qi" customClass="TWBankViewController" customModule="CURRENCY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x5f-H4-HbD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="jgk-EP-PW8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qTM-SM-8qc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-655" y="2341"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bkM-Sj-qeM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9ig-Ko-jqm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="9BQ-DO-LGQ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ml6-Ve-SQA" kind="relationship" relationship="rootViewController" id="Lcx-RC-krT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qTQ-fv-iaJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2073.5999999999999" y="1608.3958020989508"/>
+        </scene>
+    </scenes>
+</document>

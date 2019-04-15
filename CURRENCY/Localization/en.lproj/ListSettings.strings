@@ -1,0 +1,22 @@
+/* 
+  ListSettings.strings
+  CURRENCY
+
+  Created by Stan Liu on 23/02/2018.
+  Copyright © 2018 Stan Liu. All rights reserved.
+*/
+
+"language"="Language";
+"default_source"  = "Favorite Source";
+"default_currency"="Favorite Currency";
+"decimal_point"="Decimal Point";
+"default_period"="History Trend";
+"default_unit_currency"="Currency Unit";
+
+"feedback"  = "Feed back";
+"rating"    = "Rate Us";
+"agreement" = "Agreement";
+"aboutme"   = "About";
+
+"mail_sent" = "Thanks for your feed back 😚";
+"mail_failed" = "Oh no! Something wrong with mail delivery 😰";
