@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		63F16BBD22AD297A6F11F297 /* Pods_CURRENCY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6B7C41C9D2D7D4FDBE9748 /* Pods_CURRENCY.framework */; };
 		DC1AC162226487740030354C /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1AC161226487730030354C /* R.generated.swift */; };
-		DC1AC16422649A900030354C /* MPAdsExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1AC16322649A8F0030354C /* MPAdsExampleVC.swift */; };
 		F6006B0320A2C5450050F351 /* AnnouncementPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6006B0220A2C5450050F351 /* AnnouncementPresentable.swift */; };
 		F60B6A681FB4322000EEFA74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60B6A671FB4322000EEFA74 /* AppDelegate.swift */; };
 		F60B6A6D1FB4322000EEFA74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60B6A6B1FB4322000EEFA74 /* Main.storyboard */; };
@@ -220,7 +219,6 @@
 		8F80D8B84262DF956543E314 /* Pods-CURRENCY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CURRENCY.release.xcconfig"; path = "Pods/Target Support Files/Pods-CURRENCY/Pods-CURRENCY.release.xcconfig"; sourceTree = "<group>"; };
 		9BA6B6C766E2C00BB7DC3776 /* Pods-CURRENCY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CURRENCY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CURRENCY/Pods-CURRENCY.debug.xcconfig"; sourceTree = "<group>"; };
 		DC1AC161226487730030354C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
-		DC1AC16322649A8F0030354C /* MPAdsExampleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPAdsExampleVC.swift; sourceTree = "<group>"; };
 		DE6B7C41C9D2D7D4FDBE9748 /* Pods_CURRENCY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CURRENCY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6006B0220A2C5450050F351 /* AnnouncementPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementPresentable.swift; sourceTree = "<group>"; };
 		F60B6A641FB4322000EEFA74 /* CURRENCY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CURRENCY.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -403,8 +401,6 @@
 		F6B45286202ACAC60043387B /* ReachabilityWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityWorker.swift; sourceTree = "<group>"; };
 		F6B45288202AD3310043387B /* NetworkReachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachable.swift; sourceTree = "<group>"; };
 		F6B468ED208F0B5E00D80F81 /* UIView+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Setup.swift"; sourceTree = "<group>"; };
-		F6B468F0208F170F00D80F81 /* CURRENCY-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CURRENCY-Bridging-Header.h"; sourceTree = "<group>"; };
-		F6B468F1208F170F00D80F81 /* Snapshot-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snapshot-Bridging-Header.h"; sourceTree = "<group>"; };
 		F6BCB31F1FC66D5800937D5E /* Date+MillionSeconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+MillionSeconds.swift"; sourceTree = "<group>"; };
 		F6C0C25620A2DFA000060150 /* AnnouncementView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnouncementView.xib; sourceTree = "<group>"; };
 		F6C14F85207FAA08004A5DE5 /* UIView+Glowing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Glowing.swift"; sourceTree = "<group>"; };
@@ -501,8 +497,6 @@
 				F66B4827203EAAA600A8B7B3 /* Localization */,
 				F65FA080201B1B1600A56DD4 /* Font */,
 				F60B6A671FB4322000EEFA74 /* AppDelegate.swift */,
-				F6B468F0208F170F00D80F81 /* CURRENCY-Bridging-Header.h */,
-				F6B468F1208F170F00D80F81 /* Snapshot-Bridging-Header.h */,
 				F60B6A7C1FB434A200EEFA74 /* Configuration */,
 				F6C191672049B41400918D7A /* API */,
 				F65FA07F201AD5D500A56DD4 /* Worker */,
@@ -511,7 +505,6 @@
 				F6EF4FF21FB6FF2A0040E786 /* Models */,
 				F6EF4FF31FB6FF540040E786 /* Views */,
 				F60B6A7B1FB4341B00EEFA74 /* Scenes */,
-				DC1AC16322649A8F0030354C /* MPAdsExampleVC.swift */,
 				F60B6A791FB4323900EEFA74 /* ViewController.swift */,
 				F61B85B5206B96B000B208CB /* ScreenshotChartVC.swift */,
 				F60B6A6B1FB4322000EEFA74 /* Main.storyboard */,
@@ -1254,7 +1247,6 @@
 				F61F08DA204547AE00443EEA /* AgreementVC.swift in Sources */,
 				F6367DE0206B5BB80039CC5B /* ChartHeader.swift in Sources */,
 				F6114ED020525C2500D0C04B /* MMPopup.swift in Sources */,
-				DC1AC16422649A900030354C /* MPAdsExampleVC.swift in Sources */,
 				F6A847F3208F2FBA00A69E21 /* MPAdsViewModel.swift in Sources */,
 				F699F182206B3B0100C65102 /* HistoryCurrencyViewController.swift in Sources */,
 				F6114ED220527A4D00D0C04B /* Shakeable.swift in Sources */,
@@ -1575,14 +1567,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6BX657PAD6;
 				INFOPLIST_FILE = CURRENCY/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sss.cc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.0416.currency;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "CURRENCY/CURRENCY-Bridging-Header.h";
+				PROVISIONING_PROFILE_SPECIFIER = "Dev - com.0416.currency";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1595,16 +1587,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6BX657PAD6;
 				INFOPLIST_FILE = CURRENCY/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sss.cc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.0416.currency;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "CURRENCY/CURRENCY-Bridging-Header.h";
+				PROVISIONING_PROFILE_SPECIFIER = "Prod - com.0416.currency";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

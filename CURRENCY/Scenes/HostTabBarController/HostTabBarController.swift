@@ -34,14 +34,6 @@ class HostTabBarController: RAMAnimatedTabBarController, HostTabBarDisplayLogic,
     return navigationController
   }()
 
-//  lazy var currencyNavi: UINavigationController = {
-//    guard let navigationController = R.storyboard.currency.instantiateInitialViewController() else {
-//      let navigationController = UINavigationController(rootViewController: CurrencyViewController())
-//      return navigationController
-//    }
-//    return navigationController
-//  }()
-
   lazy var calculatorNavi: UINavigationController = {
     guard let navigationController = R.storyboard.convertCurrency.instantiateInitialViewController() else {
       let navigationController = UINavigationController(rootViewController: ConvertCurrencyViewController())
@@ -62,11 +54,6 @@ class HostTabBarController: RAMAnimatedTabBarController, HostTabBarDisplayLogic,
     return LanguageWorker.shared.localizedString(key: R.string.uI.bank_currency_title.key,
                                                  table: .ui)
   }
-
-//  var currencyTitle: String {
-//    return LanguageWorker.shared.localizedString(key: R.string.uI.currency_title.key,
-//                                                 table: .ui)
-//  }
     
   var calculatorTitle: String {
     return LanguageWorker.shared.localizedString(key: R.string.uI.calculator_title.key,
@@ -123,8 +110,6 @@ class HostTabBarController: RAMAnimatedTabBarController, HostTabBarDisplayLogic,
   // MARK: View lifecycle
 
   override func viewDidLoad() {
-    // Warning: setupBarButtonItem() should be called before super.viewDidLoad()
-    // otherwise when parent viewcontroller trigger viewDidLoad will crash cause BarButtonItems Not Set yet.
     setupBarButtonItem()
     super.viewDidLoad()
 
@@ -137,9 +122,6 @@ class HostTabBarController: RAMAnimatedTabBarController, HostTabBarDisplayLogic,
     topLiner.frame = CGRect(x: 0, y: 0, width: tabBar.frame.width, height: 0.3)
     topLiner.backgroundColor = Configuration.Theme.lightGray.alpha(80).cgColor
     tabBar.layer.addSublayer(topLiner)
-    //let topLiner = UIView(frame: CGRect(x: 0, y: 0, width: tabBar.frame.width, height: 0.3))
-    //topLiner.backgroundColor = Configuration.Theme.lightGray.alpha(50)
-    //tabBar.addSubview(topLiner)
   }
 
   func createTabBarItem(title: String,
@@ -151,9 +133,7 @@ class HostTabBarController: RAMAnimatedTabBarController, HostTabBarDisplayLogic,
     _item.img = image
     _item.selectedImg = selectedImage
     _item.textColor = Configuration.Theme.blue
-    /// FIXME:  stephen
     _item.textFontSize = 10
-//    _item.textFontSize = Configuration.Font.letterFont.size(of: 11).
     _item.animation = HostBounceAnimation(tabBarItem: _item)
     return _item
   }
@@ -166,25 +146,19 @@ class HostTabBarController: RAMAnimatedTabBarController, HostTabBarDisplayLogic,
       tabBar.unselectedItemTintColor = .clear
     } else {
       // Fallback on earlier versions
-
     }
+    
     // assign vc tabBarItem
     bankCurrencyNavi.tabBarItem = createTabBarItem(title: bankCurrencyTitle,
                                                    image: R.image.currency_unselected(),
                                                    selectedImage: R.image.currency())
-//    currencyNavi.tabBarItem = createTabBarItem(title: currencyTitle,
-//                                               image: R.image.currency_unselected(),
-//                                               selectedImage: R.image.currency())
     calculatorNavi.tabBarItem = createTabBarItem(title: calculatorTitle,
                                                  image: R.image.calculator_unselected(),
                                                  selectedImage: R.image.calculator())
     listSettingNavi.tabBarItem = createTabBarItem(title: moreTitle,
                                                   image: R.image.more_unselected(),
                                                   selectedImage: R.image.more())
-//    exampleNavi.tabBarItem = createTabBarItem(title: exampleTitle,
-//                                              image: R.image.more_unselected(),
-//                                              selectedImage: R.image.more())
-    viewControllers = [bankCurrencyNavi, calculatorNavi, listSettingNavi] //, exampleNavi]
+    viewControllers = [bankCurrencyNavi, calculatorNavi, listSettingNavi]
   }
 
   // Select first item when tabBarController did load (app launch)
@@ -199,7 +173,6 @@ class HostTabBarController: RAMAnimatedTabBarController, HostTabBarDisplayLogic,
 
   func reloadLanguage() {
     (bankCurrencyNavi.tabBarItem as? HostAnimatedTabBarItem)?.iconView?.textLabel.text = bankCurrencyTitle
-    //(currencyNavi.tabBarItem as? HostAnimatedTabBarItem)?.iconView?.textLabel.text = currencyTitle
     (calculatorNavi.tabBarItem as? HostAnimatedTabBarItem)?.iconView?.textLabel.text = calculatorTitle
     (listSettingNavi.tabBarItem as? HostAnimatedTabBarItem)?.iconView?.textLabel.text = moreTitle
   }

@@ -59,19 +59,27 @@ class ConvertCurrencyViewController: UIViewController,
 
   private func setup() {
     let viewController = self
-    let interactor = ConvertCurrencyInteractor()
-    let presenter = ConvertCurrencyPresenter()
-    let router = ConvertCurrencyRouter()
-    viewController.interactor = interactor
-    viewController.router = router
-    interactor.presenter = presenter
-    presenter.viewController = viewController
-    router.viewController = viewController
-    router.dataStore = interactor
+//    let interactor = ConvertCurrencyInteractor()
+//    let presenter = ConvertCurrencyPresenter()
+//    let router = ConvertCurrencyRouter()
+//    viewController.interactor = interactor
+//    viewController.router = router
+//    interactor.presenter = presenter
+//    presenter.viewController = viewController
+//    router.viewController = viewController
+//    router.dataStore = interactor
   }
 
   // MARK: Routing
 
+    
+    func switchAction(sender: UISwitch){
+        // sender.isOn
+        
+        
+        
+    }
+    
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if let scene = segue.identifier {
       let selector = NSSelectorFromString("routeTo\(scene)WithSegue:")

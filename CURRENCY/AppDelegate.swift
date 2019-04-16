@@ -30,11 +30,12 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
     // App Rate
     configureAppirater()
+    
+
     // appLaunched(Bool:) should put the last line of didFinishLaunchingWithOptions:
     Appirater.appLaunched(true)
 
     return true
-
   }
 
   func applicationDidEnterBackground(_ application: UIApplication) {
