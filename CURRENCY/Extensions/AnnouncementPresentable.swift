@@ -56,11 +56,11 @@ class AnnouncementView: UIView, XibLiveControl {
     let localizedReload = LanguageWorker.shared.localizedString(key: R.string.uI.reload.key,
                                                                 table: .ui)
     button.setAttributedTitle(NSAttributedString(string: localizedReload,
-                                                 attributes: [NSAttributedString.Key.foregroundColor: Configuration.Theme.darkGray,
+                                                 attributes: [NSAttributedString.Key.foregroundColor: Configuration.Theme.textColor,
                                                               NSAttributedString.Key.font: Configuration.Font.letterFont]),
                               for: .normal)
     button.layer.cornerRadius = 5
-    button.layer.borderColor = Configuration.Theme.darkGray.cgColor
+    button.layer.borderColor = Configuration.Theme.textColor.cgColor
     button.layer.borderWidth = 1.0
     button.addTarget(self,
                      action: #selector(buttonDidTap(sender:)),

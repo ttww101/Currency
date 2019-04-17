@@ -28,8 +28,8 @@ class RecordCell: UITableViewCell {
     divergenceOfSellLabel.label.adjustsFontSizeToFitWidth = true
 
     dateLabel.textColor = Configuration.Theme.mediumGray
-    buyRateLabel.textColor = Configuration.Theme.darkGray
-    sellRateLabel.textColor = Configuration.Theme.darkGray
+    buyRateLabel.textColor = Configuration.Theme.textColor
+    sellRateLabel.textColor = Configuration.Theme.textColor
   }
 
   override func setSelected(_ selected: Bool, animated: Bool) {

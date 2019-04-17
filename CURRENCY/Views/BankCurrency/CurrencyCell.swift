@@ -15,30 +15,14 @@ class CurrencyCell: UITableViewCell, LoadingControl {
   @IBOutlet weak var sellLabel: UILabel!
   @IBOutlet weak var logoFilter: UIView!
   @IBOutlet weak var logoImageView: UIImageView!
-  @IBOutlet weak var chartImageView: UIImageView!
-  @IBOutlet weak var nameLabelWidthConstraint: NSLayoutConstraint!
-  @IBOutlet weak var adView: AdView!
 
-  // MARK: ReloadAnimationable
-  var onView: LoadingContainer {
-    return chartImageView
-  }
   var indicatorView: UIView {
     return UIActivityIndicatorView(style: .gray)
-  }
-
-  var chartImage: UIImage? {
-    didSet {
-      guard let chartImageView = self.chartImageView else { return }
-      chartImageView.image = chartImage
-      dismissLoading()
-    }
   }
 
   override func awakeFromNib() {
     super.awakeFromNib()
     configure()
-    adView.isHidden = true
   }
 
   func configure() {
@@ -50,8 +34,8 @@ class CurrencyCell: UITableViewCell, LoadingControl {
     buyLabel.textColor = Configuration.Theme.darkGray
     sellLabel.textColor = Configuration.Theme.darkGray
 
-    buyLabel.textAlignment = NSTextAlignment.left
-    sellLabel.textAlignment = NSTextAlignment.left
+//    buyLabel.textAlignment = NSTextAlignment.left
+//    sellLabel.textAlignment = NSTextAlignment.left
 
     logoFilter.backgroundColor = .clear
     logoFilter.layer.cornerRadius = 5
@@ -70,13 +54,11 @@ class CurrencyCell: UITableViewCell, LoadingControl {
     buyLabel.text = ""
     sellLabel.text = ""
     logoImageView.image = R.image.picture()
-    chartImageView.image = nil
   }
 
   func bind(displayCurrency: BankCurrency.Fetch.DisplayCurrency) {
     let name = displayCurrency.name
     logoImageView.heroID = "logoImageView:\(name)"
-    chartImageView.heroID = "chartImageView:\(name)"
     nameLabel.heroID = "nameLabel:\(name)"
     nameLabel.text = LanguageWorker.shared.localizedString(key: name, table: .listCurrency)
     buyLabel.text = displayCurrency.buy.userSettingDecimal.dollarMark
@@ -142,45 +124,8 @@ class CurrencyCell: UITableViewCell, LoadingControl {
       let decimals = histories.map { return $0.close.decimalNumber }
       let screenshooter = ScreenShooter()
       screenshooter.subjects = decimals
-      screenshooter.takePhoto { (image) in
-        guard let image = image else {
-          self?.fetchFinish()
-          completion(histories, nil, nil)
-          return
-        }
-        self?.chartImage = image
-        completion(histories, image, nil)
-      }
+      
     }
   }
 }
 
-//extension CurrencyCell: MPNativeAdRendering {
-//
-//  override func layoutSubviews() {
-//    super.layoutSubviews()
-//  }
-//
-//  static func nibForAd() -> UINib! {
-//    return R.nib.currencyCell()
-//  }
-//
-//  func nativeMainTextLabel() -> UILabel! {
-//    return adView.mainTextLabel
-//  }
-//
-//  func nativeTitleTextLabel() -> UILabel! {
-//    adView.isHidden = false
-//    adView.backgroundColor = backgroundColor
-//    accessoryType = .none
-//    return adView.titleLabel
-//  }
-//
-//  func nativeCallToActionTextLabel() -> UILabel! {
-//    return adView.callToActionLabel
-//  }
-//
-//  func nativeIconImageView() -> UIImageView! {
-//    return adView.logoImageView
-//  }
-//}

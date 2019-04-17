@@ -203,7 +203,7 @@ class ListMoreViewController: UIViewController,
   //                                         y: header.bounds.origin.y,
   //                                         width: header.bounds.size.width,
   //                                         height: header.bounds.size.height))
-  //  titleLabel.textColor = Configuration.Theme.darkGray
+  //  titleLabel.textColor = Configuration.Theme.textColor
   //  titleLabel.font = Configuration.Font.largeTitleFont.size(of: 20)
   //  //header.textLabel?.autoresizingMask = [.flexibleHeight]
   //  titleLabel.textAlignment = .left
@@ -264,7 +264,7 @@ class ListMoreViewController: UIViewController,
     headerView.contentView.backgroundColor = Configuration.Theme.headerDefaultColor
     headerView.titleLabel.textAlignment = .left
     headerView.titleLabel.font = Configuration.Font.largeTitleFont.size(of: 20)
-    headerView.titleLabel.textColor = Configuration.Theme.darkGray
+    headerView.titleLabel.textColor = Configuration.Theme.textColor
     return headerView
   }
 

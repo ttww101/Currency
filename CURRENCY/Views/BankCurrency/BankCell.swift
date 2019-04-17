@@ -45,10 +45,10 @@ class BankCell: UITableViewCell {
     buyCrownView.font = Configuration.Font.numericFont
     sellCrownView.font = Configuration.Font.numericFont
 
-    nameLabel.textColor = Configuration.Theme.darkGray
-    timeLabel.textColor = Configuration.Theme.darkGray
-    buyCrownView.textColor = Configuration.Theme.darkGray
-    sellCrownView.textColor = Configuration.Theme.darkGray
+    nameLabel.textColor = Configuration.Theme.textColor
+    timeLabel.textColor = Configuration.Theme.textColor
+    buyCrownView.textColor = Configuration.Theme.textColor
+    sellCrownView.textColor = Configuration.Theme.textColor
 
     logoFilter.backgroundColor = .clear
     logoFilter.layer.cornerRadius = 5

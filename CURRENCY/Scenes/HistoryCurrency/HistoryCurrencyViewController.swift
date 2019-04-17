@@ -151,7 +151,7 @@ class HistoryCurrencyViewController: UIViewController,
     nameLabel.font = Configuration.Font.letterFont.size(of: 24)
     baseLabel.font = Configuration.Font.letterFont.size(of: 12)
     rateLabel.font = Configuration.Font.numericFont.size(of: 20)
-    nameLabel.textColor = Configuration.Theme.darkGray
+    nameLabel.textColor = Configuration.Theme.textColor
     baseLabel.textColor = Configuration.Theme.lightBlue
     rateLabel.textColor = Configuration.Theme.darkBlue
   }

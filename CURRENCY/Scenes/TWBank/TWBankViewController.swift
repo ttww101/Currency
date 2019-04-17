@@ -74,7 +74,7 @@ class TWBankViewController: UIViewController,
     var displayMode: MenuItemDisplayMode {
       return .text(title: MenuItemText(text: LanguageWorker.shared.localizedString(key: R.string.uI.stock.key, table: .ui),
                                        color: Configuration.Theme.mediumGray,
-                                       selectedColor: Configuration.Theme.darkGray,
+                                       selectedColor: Configuration.Theme.textColor,
                                        font: Configuration.Font.letterFont,
                                        selectedFont: Configuration.Font.letterFont))
     }
@@ -83,7 +83,7 @@ class TWBankViewController: UIViewController,
     var displayMode: MenuItemDisplayMode {
       return .text(title: MenuItemText(text: LanguageWorker.shared.localizedString(key: R.string.uI.cash.key, table: .ui),
                                        color: Configuration.Theme.mediumGray,
-                                       selectedColor: Configuration.Theme.darkGray,
+                                       selectedColor: Configuration.Theme.textColor,
                                        font: Configuration.Font.letterFont,
                                        selectedFont: Configuration.Font.letterFont))
     }
@@ -106,7 +106,7 @@ class TWBankViewController: UIViewController,
     }
     var focusMode: MenuFocusMode {
       return .underline(height: 2,
-                        color: Configuration.Theme.darkGray,
+                        color: Configuration.Theme.textColor,
                         horizontalPadding: 0,
                         verticalPadding: 0)
     }

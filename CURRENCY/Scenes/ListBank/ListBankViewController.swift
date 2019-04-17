@@ -101,7 +101,6 @@ class ListBankViewController: UIViewController,
     header.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
     header.heightAnchor.constraint(equalToConstant: 40).isActive = true
     header.nameKey = R.string.uI.bank.key
-    header.subNameKey = R.string.uI.update_time.key
     header.buyKey = R.string.uI.buy.key
     header.sellKey = R.string.uI.sell.key
     header.reload()
@@ -125,18 +124,10 @@ class ListBankViewController: UIViewController,
 
     tableView.register(R.nib.bankCell(),
                        forCellReuseIdentifier: R.reuseIdentifier.bankCell.identifier)
-    //let headerView = R.nib.bankHeader.firstView(owner: self)
-    //headerView?.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: 40)
-    //tableView.tableHeaderView = headerView
-    //tableView.register(R.nib.bankHeader(),
-    //                   forHeaderFooterViewReuseIdentifier: String(describing: BankHeader.self))
   }
 
   func reloadLanguage() {
     tableView.reloadData()
-    //guard let header = tableView.headerView(forSection: 0) as? BankHeader else {
-    //  return
-    //}
     header.reload()
   }
 
@@ -161,11 +152,6 @@ class ListBankViewController: UIViewController,
     dismissAnnouncement()
   }
 
-  // MARK: UITableViewDelegate
-  //func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-  //}
-
-  // MARK: UITableViewDataSource
 
   func numberOfSections(in tableView: UITableView) -> Int {
     return 1
@@ -179,26 +165,6 @@ class ListBankViewController: UIViewController,
     return allowTableViewEditing
   }
 
-  //func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
-  //  guard let header = view as? BankHeader else { return }
-  //  header.nameLabel.text = "Name"
-  //  header.timeLabel.text = "Last Update"
-  //  header.buyLabel.text = "Buy"
-  //  header.sellLabel.text = "Sell"
-  //}
-
-  //func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-  //  guard let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: String(describing: BankHeader.self))
-  //    as? BankHeader else {
-  //    return R.nib.bankHeader.firstView(owner: self)
-  //  }
-  //  header.nameKey = R.string.uI.bank.key
-  //  header.subNameKey = R.string.uI.update_time.key
-  //  header.buyKey = R.string.uI.buy.key
-  //  header.sellKey = R.string.uI.sell.key
-  //  header.reload()
-  //  return header
-  //}
 
   func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
     let sourceTitle = LanguageWorker.shared.localizedString(key: R.string.listCurrency.rter_api.key,
@@ -215,21 +181,9 @@ class ListBankViewController: UIViewController,
     footer.textLabel?.font = Configuration.Font.letterFont
   }
 
-  //func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-  //  guard let cell = cell as? BankCell else { return }
-  //  let bank = banks[indexPath.row]
-  //  if bank.rate.buy == maxBuy {
-  //    cell.isGlowing = true
-  //  }
-  //  if bank.rate.sell == maxSell {
-  //    cell.isGlowing = true
-  //  }
-  //}
 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     guard let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.bankCell.identifier) as? BankCell else {
-//    guard let cell = tableView.mp_dequeueReusableCell(withIdentifier: R.reuseIdentifier.bankCell.identifier,
-//                                                      for: indexPath) as? BankCell else {
       return UITableViewCell()
     }
     let bank = banks[indexPath.row]

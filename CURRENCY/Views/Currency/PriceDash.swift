@@ -52,7 +52,7 @@ class PriceDash: UIView {
     nameLabel.font = Configuration.Font.letterFont
     ratesLabel.font = Configuration.Font.numericFont.size(of: 28)
     nameLabel.textColor = Configuration.Theme.mediumLightBlue
-    ratesLabel.textColor = Configuration.Theme.darkGray
+    ratesLabel.textColor = Configuration.Theme.textColor
     ratesLabel.adjustsFontSizeToFitWidth = true
     ratesLabel.textAlignment = NSTextAlignment.right
     divergenceLabel.font = Configuration.Font.numericFont.size(of: 12)

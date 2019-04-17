@@ -132,7 +132,7 @@ class HostTabBarController: RAMAnimatedTabBarController, HostTabBarDisplayLogic,
                                        selectedImage: selectedImage)
     _item.img = image
     _item.selectedImg = selectedImage
-    _item.textColor = Configuration.Theme.blue
+    _item.textColor = Configuration.Theme.textColor
     _item.textFontSize = 10
     _item.animation = HostBounceAnimation(tabBarItem: _item)
     return _item
@@ -183,16 +183,14 @@ class HostTabBarController: RAMAnimatedTabBarController, HostTabBarDisplayLogic,
     let request = HostTabBar.Something.Request()
     interactor?.doSomething(request: request)
   }
-
-  func displaySomething(viewModel: HostTabBar.Something.ViewModel) {
-  }
+    
+    func displaySomething(viewModel: HostTabBar.Something.ViewModel) {
+        
+    }
+  
 }
 
-// RAMANimatedTabBarController Setup instruction:
-//   1. set UITabbarController class in storyboard.
-//   2. set BarButtonItem class(either native or override one), image.
-//   3. drag a object on VC or storyboard reference, set animation class.
-//   4. connect RamAnimatedBarButtonItem animted to animation object.
+
 
 class HostAnimatedTabBarItem: RAMAnimatedTabBarItem {
   var img: UIImage?
@@ -212,7 +210,7 @@ class HostBounceAnimation: RAMItemAnimation {
 
   override func playAnimation(_ icon: UIImageView, textLabel: UILabel) {
     playBounceAnimation(icon)
-    textLabel.textColor = Configuration.Theme.darkBlue
+    textLabel.textColor = Configuration.Theme.textColor
     guard let item = tabBarItem as? HostAnimatedTabBarItem else {
       fatalError("item selected image is nil")
     }
@@ -228,7 +226,7 @@ class HostBounceAnimation: RAMItemAnimation {
   }
 
   override func selectedState(_ icon: UIImageView, textLabel: UILabel) {
-    textLabel.textColor = Configuration.Theme.darkBlue
+    textLabel.textColor = Configuration.Theme.textColor
   }
 
   func playBounceAnimation(_ icon: UIImageView) {

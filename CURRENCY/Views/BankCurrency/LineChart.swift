@@ -206,7 +206,7 @@ class LineChart: BarLineChartViewBase, ChartViewDelegate, LineChartDataProvider 
     let marker = HistoryMarker(color: .clear,
                                font: Configuration.Font.numericFont,
                                xTextColor: Configuration.Theme.mediumGray,
-                               yTextColor: Configuration.Theme.darkGray,
+                               yTextColor: Configuration.Theme.textColor,
                                insets: UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5))
     // assign image depends chat value point
     marker.chartView = self // 指定marker用在哪裡

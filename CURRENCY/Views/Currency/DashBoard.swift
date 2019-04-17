@@ -42,7 +42,7 @@ class DashBoard: UIView {
   func setup() {
     subjectLabel.font = Configuration.Font.letterFont.size(of: 23)
     dateLabel.font = Configuration.Font.numericFont
-    subjectLabel.textColor = Configuration.Theme.darkGray
+    subjectLabel.textColor = Configuration.Theme.textColor
     dateLabel.textColor = Configuration.Theme.mediumLightBlue
     switchBtn.setImage(R.image.change(), for: .normal)
   }

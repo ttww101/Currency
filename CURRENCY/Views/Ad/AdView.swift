@@ -63,7 +63,7 @@ class AdView: UIView, XibLiveControl {
     titleLabel.font = Configuration.Font.letterFont
     mainTextLabel.font = Configuration.Font.letterFont.size(of: 13)
     callToActionLabel.font = Configuration.Font.letterFont
-    titleLabel.textColor = Configuration.Theme.darkGray
+    titleLabel.textColor = Configuration.Theme.textColor
     mainTextLabel.textColor = Configuration.Theme.mediumGray
     callToActionLabel.textColor = .white
     callToActionLabel.backgroundColor = Configuration.Theme.darkBlue

@@ -184,27 +184,11 @@ LanguageRelodable {
         return R.nib.bankHeader.firstView(owner: self)
     }
     header.nameKey = R.string.uI.currency_title.key
-    header.subNameKey = R.string.uI.chart.key
     header.buyKey = R.string.uI.buy.key
     header.sellKey = R.string.uI.sell.key
     header.hasAccesscoryView = true
     header.reload()
     return header
-  }
-
-  func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-    let sourceTitle = LanguageWorker.shared.localizedString(key: R.string.listCurrency.rter_api.key,
-                                                            table: .listCurrency)
-    let sourcePrefix = LanguageWorker.shared.localizedString(key: R.string.uI.source_from.key,
-                                                             table: .ui)
-    let sourceDescription =  sourcePrefix + " " + sourceTitle
-    return sourceDescription
-  }
-
-  func tableView(_ tableView: UITableView, willDisplayFooterView view: UIView, forSection section: Int) {
-    guard let footer = view as? UITableViewHeaderFooterView else { return }
-    footer.textLabel?.textAlignment = .right
-    footer.textLabel?.font = Configuration.Font.letterFont
   }
 
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -217,11 +201,9 @@ LanguageRelodable {
 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
-//    guard let cell = tableView.mp_dequeueReusableCell(withIdentifier: R.nib.currencyCell.name, for: indexPath) as? CurrencyCell
       guard let cell = tableView.dequeueReusableCell(withIdentifier: R.nib.currencyCell.name) as? CurrencyCell
       else { return UITableViewCell() }
-    cell.nameLabelWidthConstraint.constant = self.displayNameMaxWidth
-    cell.chartImageView.heroModifiers = [.scale(1.5), .fade]
+
     let bgColor = indexPath.row % 2 == 0
       ? Configuration.Theme.lightGray
       : Configuration.Theme.white
@@ -231,27 +213,6 @@ LanguageRelodable {
     let displayCurrency = displayBank.currencies[indexPath.row]
     cell.bind(displayCurrency: displayCurrency)
 
-    if let image = displayCurrency.chartImage, displayCurrency.histories != nil {
-      cell.chartImage = image
-    } else {
-      cell.fetch(name: displayCurrency.name) { [weak self] (histories, image, error) in
-        if let error = error {
-          let request = Base.HandleError.Request(error: error)
-          self?.interactor?.showError(request: request)
-          return
-        }
-        self?.displayBank?.currencies[indexPath.row].histories = histories
-        self?.displayBank?.currencies[indexPath.row].chartImage = image
-        let request = ListBankCurrency.Update.Request(index: indexPath.row,
-                                                      histories: histories,
-                                                      chartImage: image)
-        // Update ListBankCurrency DataStore so can switch from pages show data without download it again.
-        // Update TO ListBankCurrency DataStore first, Then update BankCurrency
-        self?.interactor?.updateBank(request: request)
-        // Update BankCurrency DataStore so can pass to HistoryCurrency without download it again!
-        self?.router?.routeToUpdateBankCurrency()
-      }
-    }
     return cell
   }
 }

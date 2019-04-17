@@ -52,7 +52,7 @@ class ChartHeader: UIView {
     let _label = UILabel(frame: CGRect.zero)
     _label.translatesAutoresizingMaskIntoConstraints = false
     _label.font = Configuration.Font.letterFont
-    _label.textColor = Configuration.Theme.darkGray
+    _label.textColor = Configuration.Theme.textColor
     return _label
   }()
 
@@ -60,7 +60,7 @@ class ChartHeader: UIView {
     let _label = UILabel(frame: CGRect.zero)
     _label.translatesAutoresizingMaskIntoConstraints = false
     _label.font = Configuration.Font.numericFont
-    _label.textColor = Configuration.Theme.darkGray
+    _label.textColor = Configuration.Theme.textColor
     return _label
   }()
 

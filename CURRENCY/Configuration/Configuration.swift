@@ -28,7 +28,7 @@ enum Configuration {
     static let green = UIColor(hex: "10EDC5")
     static let darkGray = UIColor(hex: "4A4A4A")
     static let mediumGray = UIColor(hex: "A4A4A4")
-    static let lightGray = UIColor(hex: "EEEEEE")
+    static let lightGray = UIColor(hex: "ffcf8e")
     static let white = UIColor(hex: "FFFFFF")
     static let yellow = UIColor(hex: "FFE463")
     static let lightYellow = UIColor(hex: "FFF7AF")
@@ -36,6 +36,9 @@ enum Configuration {
     static let headerDefaultColor = UIColor(hex: "F7F7F7")
     static let pink = UIColor(hex: "E86996")
     static let lightPink = UIColor(hex: "F5C3D5")
+    
+    
+    static let textColor = UIColor(hex: "f08300")
   }
 
   // MARK: Font
@@ -123,38 +126,3 @@ enum Configuration {
   }
 }
 
-//enum CurrencySourceAPI {
-//  case google
-//  case yahoo
-//  case bot
-
-//  static let allValues = [CurrencySourceAPI.google,
-//                          CurrencySourceAPI.yahoo,
-//                          CurrencySourceAPI.bot]
-//}
-
-//enum APIDomain {
-//  static let aws = "http://ec2-13-229-96-246.ap-southeast-1.compute.amazonaws.com/"
-//  static let google = "https://finance.google.com/finance/getprices"
-//}
-
-//extension CurrencySourceAPI {
-//  var url: String {
-//    switch self {
-//    case .google:
-//      return APIDomain.google
-//    case .yahoo:
-//      return ""
-//    case .bot:
-//      return "\(APIDomain.aws)sources/bot/currencies"
-//    }
-//  }
-
-//  var name: String {
-//    switch self {
-//    case .google: return "google"
-//    case .yahoo:  return "yahoo"
-//    case .bot:    return "bot"
-//    }
-//  }
-//}

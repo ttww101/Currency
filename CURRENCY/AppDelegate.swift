@@ -53,12 +53,12 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 extension AppDelegate {
 
   func configureNavigationBarAppearance() {
-    UINavigationBar.appearance().tintColor = Configuration.Theme.darkBlue
-    UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: Configuration.Theme.darkBlue,
+    UINavigationBar.appearance().tintColor = Configuration.Theme.textColor
+    UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: Configuration.Theme.textColor,
                                                         NSAttributedString.Key.font: Configuration.Font.normalTitleFont]
     if #available(iOS 11.0, *) {
       UINavigationBar.appearance().prefersLargeTitles = true
-        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: Configuration.Theme.darkBlue,
+        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: Configuration.Theme.textColor,
                                                                  NSAttributedString.Key.font: Configuration.Font.largeTitleFont]
     } else {
       // Fallback on earlier versions
@@ -66,7 +66,7 @@ extension AppDelegate {
   }
 
   func configureBarButtonItemAppearance() {
-    UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: Configuration.Theme.darkBlue,
+    UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: Configuration.Theme.textColor,
                                                          NSAttributedString.Key.font: Configuration.Font.navigationItemFont],
                                                         for: .normal)
   }
@@ -82,11 +82,7 @@ extension AppDelegate {
     Appirater.setUsesUntilPrompt(5)
     Appirater.setSignificantEventsUntilPrompt(-1)
     Appirater.setTimeBeforeReminding(2)
-    //#if DEBUG
-    //  Appirater.setDebug(true)
-    //#else
-    //  Appirater.setDebug(false)
-    //#endif
+   
     Appirater.setCustomAlertTitle(LanguageWorker.shared.localizedString(key: R.string.appiraterLocalizable.rate_title.key,
                                                                         table: .appirater))
     Appirater.setCustomAlertMessage(LanguageWorker.shared.localizedString(key: R.string.appiraterLocalizable.rate_message.key,

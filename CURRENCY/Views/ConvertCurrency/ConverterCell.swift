@@ -38,7 +38,7 @@ class ConverterCell: UITableViewCell, UITextFieldDelegate {
     textField.delegate = self
     textField.textAlignment = .right
     textField.borderStyle = .none
-    textField.textColor = Configuration.Theme.darkGray
+    textField.textColor = Configuration.Theme.textColor
     textField.font = Configuration.Font.numericFont.size(of: 17)
     textField.keyboardType = .decimalPad
     textField.inputView = UIView(frame: CGRect(x: 0, y: 0, width: 1, height: 1))

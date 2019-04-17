@@ -31,22 +31,6 @@ class BankCurrencyRouter: NSObject, BankCurrencyRoutingLogic, BankCurrencyDataPa
   weak var viewController: BankCurrencyViewController?
   var dataStore: BankCurrencyDataStore?
 
-  // MARK: Routing
-
-  //func routeToSomewhere(segue: UIStoryboardSegue?)
-  //{
-  //  if let segue = segue {
-  //    let destinationVC = segue.destination as! SomewhereViewController
-  //    var destinationDS = destinationVC.router!.dataStore!
-  //    passDataToSomewhere(source: dataStore!, destination: &destinationDS)
-  //  } else {
-  //    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-  //    let destinationVC = storyboard.instantiateViewController(withIdentifier: "SomewhereViewController") as! SomewhereViewController
-  //    var destinationDS = destinationVC.router!.dataStore!
-  //    passDataToSomewhere(source: dataStore!, destination: &destinationDS)
-  //    navigateToSomewhere(source: viewController!, destination: destinationVC)
-  //  }
-  //}
   func routeToStock(destination: ListBankCurrencyViewController) {
     guard
       let sourceDS = dataStore,
@@ -115,17 +99,9 @@ class BankCurrencyRouter: NSObject, BankCurrencyRoutingLogic, BankCurrencyDataPa
     }
   }
 
-
   // MARK: Navigation
 
-  //func navigateToSomewhere(source: BankCurrencyViewController, destination: SomewhereViewController)
-  //{
-  //  source.show(destination, sender: nil)
-  //}
-
   func navigateToHistoryCurrency(source: BankCurrencyViewController, destination: HistoryCurrencyViewController) {
-    //source.present(destination, animated: true, completion: nil)
-    //source.navigationController?.present(destination, animated: true, completion: nil)
     source.show(destination, sender: nil)
   }
 
@@ -136,10 +112,6 @@ class BankCurrencyRouter: NSObject, BankCurrencyRoutingLogic, BankCurrencyDataPa
 
   // MARK: Passing data
 
-  //func passDataToSomewhere(source: BankCurrencyDataStore, destination: inout SomewhereDataStore)
-  //{
-  //  destination.name = source.name
-  //}
   func passDataToListBankCurrency(exchange: ExchangeType,
                                   source: BankCurrencyDataStore,
                                   destination: inout ListBankCurrencyDataStore) {
