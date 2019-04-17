@@ -6,8 +6,8 @@
   Copyright © 2018 Stan Liu. All rights reserved.
 */
 
-"rate_title"      = "Rate Currency";
-"rate_message"    = "If you enjoy using Currency, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support 😘";
+"rate_title"      = "Rate ExchangeHelper";
+"rate_message"    = "If you enjoy using ExchangeHelper, would you mind taking a moment to rate it? Thanks for your support";
 "rate_rate_btn"   = "Rate Me";
 "rate_cancel_btn" = "I don't like to";
 "rate_later_btn"  = "I would like to rate later";

@@ -103,7 +103,6 @@ class ListMoreViewController: UIViewController,
     tableView.separatorColor = Configuration.Theme.lightBlue
     tableView.separatorInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     tableView.register(R.nib.moreCell(), forCellReuseIdentifier: R.reuseIdentifier.moreCell.identifier)
-    //tableView.register(R.nib.moreHeader(), forHeaderFooterViewReuseIdentifier: String(describing: MoreHeader.self))
   }
 
   func reloadLanguage() {
@@ -195,23 +194,6 @@ class ListMoreViewController: UIViewController,
   func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
     return section == 2 ? 80 : 0.0
   }
-
-  //func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
-  //  if let header = view as? UITableViewHeaderFooterView {
-  //    if header.subviews.contains(<#T##element: UIView##UIView#>)
-  //  let titleLabel = UILabel(frame: CGRect(x: 10,
-  //                                         y: header.bounds.origin.y,
-  //                                         width: header.bounds.size.width,
-  //                                         height: header.bounds.size.height))
-  //  titleLabel.textColor = Configuration.Theme.textColor
-  //  titleLabel.font = Configuration.Font.largeTitleFont.size(of: 20)
-  //  //header.textLabel?.autoresizingMask = [.flexibleHeight]
-  //  titleLabel.textAlignment = .left
-  //  titleLabel.text = header.textLabel?.text
-  //  header.textLabel?.textColor = .blue
-  //  header.contentView.addSubview(titleLabel)
-  //  }
-  //}
 
   func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
     if let header = view as? MoreHeader {

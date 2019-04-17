@@ -100,18 +100,6 @@ class ConvertCurrencyInteractor: ConvertCurrencyBusinessLogic, ConvertCurrencyDa
     presenter?.presentEdited(response: response)
   }
 
-//  func fetchLocal(request: ConvertCurrency.FetchCurrency.Request) {
-//    let listCurrencyWorker = ConvertCurrencyWorker()
-//    do {
-//      let currencySource = try listCurrencyWorker.loadLocalSource(source: request.source)
-//      present(currencySource: currencySource)
-//    } catch let error as FetchDataError {
-//      print("load local source in ConvertCurrency error: \(error.localizedDescription)")
-//      presentError(error)
-//    } catch {
-//      // do nothing
-//    }
-//  }
   // Mapping favoriteCurrencies from bank.stock or cash
   private func insertNTD(exchangeType: ExchangeType,
                          currencies: [ConvertCurrency.Currency]) -> [ConvertCurrency.Currency] {

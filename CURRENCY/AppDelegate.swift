@@ -83,15 +83,20 @@ extension AppDelegate {
     Appirater.setSignificantEventsUntilPrompt(-1)
     Appirater.setTimeBeforeReminding(2)
    
-    Appirater.setCustomAlertTitle(LanguageWorker.shared.localizedString(key: R.string.appiraterLocalizable.rate_title.key,
+    Appirater.setCustomAlertTitle(
+        LanguageWorker.shared.localizedString(key: R.string.appiraterLocalizable.rate_title.key,
                                                                         table: .appirater))
-    Appirater.setCustomAlertMessage(LanguageWorker.shared.localizedString(key: R.string.appiraterLocalizable.rate_message.key,
+    Appirater.setCustomAlertMessage(
+        LanguageWorker.shared.localizedString(key: R.string.appiraterLocalizable.rate_message.key,
                                                                           table: .appirater))
-    Appirater.setCustomAlertRateButtonTitle(LanguageWorker.shared.localizedString(key: R.string.appiraterLocalizable.rate_rate_btn.key,
+    Appirater.setCustomAlertRateButtonTitle(
+        LanguageWorker.shared.localizedString(key: R.string.appiraterLocalizable.rate_rate_btn.key,
                                                                                   table: .appirater))
-    Appirater.setCustomAlertCancelButtonTitle(LanguageWorker.shared.localizedString(key: R.string.appiraterLocalizable.rate_cancel_btn.key,
+    Appirater.setCustomAlertCancelButtonTitle(
+        LanguageWorker.shared.localizedString(key: R.string.appiraterLocalizable.rate_cancel_btn.key,
                                                                                     table: .appirater))
-    Appirater.setCustomAlertRateLaterButtonTitle(LanguageWorker.shared.localizedString(key: R.string.appiraterLocalizable.rate_later_btn.key,
+    Appirater.setCustomAlertRateLaterButtonTitle(
+        LanguageWorker.shared.localizedString(key: R.string.appiraterLocalizable.rate_later_btn.key,
                                                                                        table: .appirater))
   }
 }

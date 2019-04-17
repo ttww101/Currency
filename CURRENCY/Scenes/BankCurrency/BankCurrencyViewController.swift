@@ -229,11 +229,6 @@ class BankCurrencyViewController: UIViewController,
 
   func reloadLanguage() {
     configure()
-    // Reload PageMenu Title
-    /// FIXME:  stephen
-    
-//    pagingMenuController.reload(pageMenuOptions)
-    // Reload PageMenu child viewcontroller
     pagingMenuController.pagingViewController?.controllers.forEach {
       if let vc = $0 as? LanguageRelodable {
         vc.reloadLanguage()

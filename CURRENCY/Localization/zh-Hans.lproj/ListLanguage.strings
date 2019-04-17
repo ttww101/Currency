@@ -6,6 +6,7 @@
   Copyright © 2018 Stan Liu. All rights reserved.
 */
 
-"en"="English";
-"zh-Hant"="繁體中文";
-"zh-Hans"="簡体中文";
+"en"="英文版";
+"zh-Hant"="繁体中文";
+"zh-Hans"="简体中文";
+

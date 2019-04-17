@@ -6,7 +6,7 @@
   Copyright © 2018 Stan Liu. All rights reserved.
 */
 
-"fetch_local_error"   = "本地端無資料";
-"fetch_remote_error"  = "伺服器錯誤";
-"disconnect_error"    = "目前無網路服務，請檢查您的網路服務";
-"unknown_error"       = "發生未知錯誤，請再試一次或者寫信給我 😭";
+"fetch_local_error" = "无资料";
+"fetch_remote_error" = "伺服器错误";
+"disconnect_error" = "目前无网路服务，请检查您的网路服务";
+"unknown_error" = "发生未知错误";

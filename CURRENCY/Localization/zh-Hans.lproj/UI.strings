@@ -6,42 +6,43 @@
   Copyright © 2018 Stan Liu. All rights reserved.
 */
 
-"edit"  = "編輯";
-"done"  = "完成";
+"edit" = "编辑";
+"done" = "完成";
 
-"cash"  = "現金";
-"stock" = "即期";
+"cash" = "现金汇率";
+"stock" = "即期汇率";
 
-"buy"   = "買入";
-"sell"  = "賣出";
+"buy" = "买入";
+"sell" = "卖出";
 
-"bank_currency_title" = "牌告匯率";
-"currency_title"    = "匯率";
-"calculator_title"  = "計算機";
-"more_title"        = "更多";
-"settings_title"    = "設定";
-"others_title"      = "其它";
+"bank_currency_title" = "牌告汇率";
+"currency_title" = "汇率";
+"calculator_title" = "计算机";
+"more_title" = "更多";
+"settings_title" = "设定";
+"others_title" = "其它";
 
-"source_from"       = "資料來源: ";
+"source_from" = "资料来源: ";
 "last_update_colon" = "上次更新: ";
 
-"aboutme_detail"    = "提供銀行匯率資訊，可同時進行多種匯率比較。";
-"agreement_detail"  = "Currency 提供之資料僅供參考，使用者依本資料交易發生交易損失需自行負責，本站對資料內容錯誤、更新延誤或傳輸中斷不負任何責任。不代表實際交易價格。實際交易價格以各銀行實際交易時之價格為準";
+"aboutme_detail" = "专门提供台湾在地各大银行的汇率资讯，并可且可同时进行多种汇率比较。";
+"agreement_detail" = "汇率小帮手提供之资料仅供参考，使用者依本资料交易发生交易损失需自行负责，本站对资料内容错误、更新延误或传输中断不负任何责任。不代表实际交易价格。实际交易价格以各银行实际交易时之价格为准";
 
-"switchExchangeError" = "沒有相關資料 - ";
+"switchExchangeError" = "目前没有相关资料。";
 
-"warning"           = "注意 !";
-"i_know"            = "我知道了";
-"confirm"           = "確認";
-"cancel"            = "取消";
-"calculator_instruction" = "買入賣出是以銀行的身份為主。\n\n例如，您要用台幣換成美金，代表銀行\"賣\"美金給您，所以應該選擇 \"賣出\"。\n\n反之，您要把美金換回台幣，代表銀行用台幣跟您\"買\"美金，所以應該選擇 \"買入\"。";
+"warning" = "注意";
+"i_know" = "我知道了";
+"confirm" = "确认";
+"cancel" = "取消";
+"calculator_instruction" = "汇率计算器";
 
-"missing_selected_source"   = "請選擇一個來源";
-"missing_selected_currency" = "請選擇一種匯率";
+"missing_selected_source" = "请选择来源";
+"missing_selected_currency" = "请选择汇率";
 
-"bank"              = "銀行";
-"update_time"  = "更新時間";
-"chart"        = "近期走勢";
+"bank" = "银行";
+"update_time" = "更新时间";
+"chart" = "近期走势";
 
-"no_data"     = "無資料";
-"reload"      = "重新整理";
+"no_data" = "无资料";
+"reload" = "重新整理";
+

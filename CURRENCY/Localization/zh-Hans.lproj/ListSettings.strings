@@ -6,17 +6,17 @@
   Copyright © 2018 Stan Liu. All rights reserved.
 */
 
-"language"="語言";
-"default_source"  = "喜好來源";
-"default_currency"="預設匯率";
-"decimal_point"="小數點";
-"default_period"="歷史走勢";
-"default_unit_currency"="匯率單位";
+"language"="语言";
+"default_source" = "喜好来源";
+"default_currency"="预设汇率";
+"decimal_point"="小数点";
+"default_period"="历史走势";
+"default_unit_currency"="汇率单位";
 
-"feedback"  = "意見反應";
-"rating"    = "給我評分";
-"agreement" = "免責聲明";
-"aboutme"   = "關於我";
+"feedback" = "意见反馈";
+"rating" = "给我评分";
+"agreement" = "免责声明";
+"aboutme" = "关于我";
 
-"mail_sent" = "謝謝您的意見反應，您的支持是我們進步的動力 😚";
-"mail_failed" = "歐歐，寄送郵件發生錯誤 😰";
+"mail_sent" = "感谢您的意见反应，您的支持是我们进步的动力";
+"mail_failed" = "寄送邮件发生错误，请再试一次";

@@ -524,17 +524,17 @@
 			isa = PBXGroup;
 			children = (
 				F688E23020197D2C005067DE /* HostTabBarController */,
-				F60B6AA01FB4366600EEFA74 /* Currency */,
-				F66ABB3C201471E700560FB3 /* SelectCurrency */,
 				F68D99F9206A1A8000D0530A /* BankCurrency */,
 				F68D99DD206A17BF00D0530A /* ListBankCurrency */,
+				F60B6AA01FB4366600EEFA74 /* Currency */,
+				F66ABB3C201471E700560FB3 /* SelectCurrency */,
 				F699F186206B3B0E00C65102 /* HistoryCurrency */,
 				F699F167206B255E00C65102 /* Chart */,
 				F68A4F1E20634E9B003CA991 /* TWBank */,
 				F68A4F4320635488003CA991 /* ListBank */,
 				F658BF35201ED16C0033CCB9 /* ConvertCurrency */,
-				F6B1DA49202D725D002F834B /* EditConvertCurrency */,
 				F66B482F203EADD800A8B7B3 /* More */,
+				F6B1DA49202D725D002F834B /* EditConvertCurrency */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";

@@ -59,29 +59,20 @@ class ConvertCurrencyViewController: UIViewController,
 
   private func setup() {
     let viewController = self
-//    let interactor = ConvertCurrencyInteractor()
-//    let presenter = ConvertCurrencyPresenter()
-//    let router = ConvertCurrencyRouter()
-//    viewController.interactor = interactor
-//    viewController.router = router
-//    interactor.presenter = presenter
-//    presenter.viewController = viewController
-//    router.viewController = viewController
-//    router.dataStore = interactor
+    let interactor = ConvertCurrencyInteractor()
+    let presenter = ConvertCurrencyPresenter()
+    let router = ConvertCurrencyRouter()
+    viewController.interactor = interactor
+    viewController.router = router
+    interactor.presenter = presenter
+    presenter.viewController = viewController
+    router.viewController = viewController
+    router.dataStore = interactor
   }
 
   // MARK: Routing
-
-    
-    func switchAction(sender: UISwitch){
-        // sender.isOn
-        
-        
-        
-    }
     
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    
     if let scene = segue.identifier {
       let selector = NSSelectorFromString("routeTo\(scene)WithSegue:")
       if let router = router, router.responds(to: selector) {
@@ -102,23 +93,19 @@ class ConvertCurrencyViewController: UIViewController,
   var isCRRefreshing: Bool = false
   @IBOutlet weak var numberPad: NumberPad!
   weak var currentCell: ConverterCell?
-//  lazy var mpFullPageViewModel: MPFullPageViewModel = {
-//    return MPFullPageViewModel.shared
-//  }()
+
   var isAppearFromEditFavorite: Bool = false
 
   override func viewDidLoad() {
     super.viewDidLoad()
     configure()
     configureReachability()
-    configureSwitchers()
+//    configureSwitchers()
     configureTableView()
     configureCalculator()
 
     fetchData()
-//    mpFullPageViewModel.showAds(onViewController: self) { [weak self] in
-//      self?.isAppearFromEditFavorite = false
-//    }
+
   }
 
   override func viewDidAppear(_ animated: Bool) {
@@ -182,15 +169,13 @@ class ConvertCurrencyViewController: UIViewController,
   func configureTableView() {
     tableView.delegate = self
     tableView.dataSource = self
-    // rowHeight = UITableViewAutomaticDimension fix cell jumping when input number pad in the last few cells
+
     tableView.rowHeight = UITableView.automaticDimension
     tableView.estimatedRowHeight = 60
     tableView.separatorColor = Configuration.Theme.lightBlue
     tableView.separatorInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     tableView.register(R.nib.converterCell(),
                        forCellReuseIdentifier: R.reuseIdentifier.converterCell.identifier)
-    //tableView.register(R.nib.converterHeader(),
-    //                   forHeaderFooterViewReuseIdentifier: String(describing: ConverterHeader.self))
 
     // Fix iPhoneX tableview scroll to bottom jumping
     if #available(iOS 11.0, *) {
@@ -199,11 +184,8 @@ class ConvertCurrencyViewController: UIViewController,
       // Fallback on earlier versions
       automaticallyAdjustsScrollViewInsets = false
     }
-    // manual set tableview inset by statusBarFrame plus 40 cuase disable automaticallyAdjustScrollViewInsets
-    //let statusBarHeight = UIApplication.shared.statusBarFrame.height
-    //tableView.contentInset = UIEdgeInsets(top: statusBarHeight + 40, left: 0, bottom: 0, right: 0) // 40 is header height
-    tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0) // move from header to viewcontroller
-
+  
+    tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     // Register CRRefresh
     tableView.cr.addHeadRefresh(animator: FastAnimator()) { [unowned self] in
       self.isCRRefreshing = true
@@ -308,12 +290,6 @@ class ConvertCurrencyViewController: UIViewController,
     fetchStock()
     fetchCash()
   }
-
-  //func fetchLocal() {
-    //    showRefresh()
-    //    let request = ConvertCurrency.FetchCurrency.Request(source: Source.bot(nil, nil))
-    //    interactor?.fetchLocal(request: request)
-  //}
 
   // MARK: Interactor actions
 

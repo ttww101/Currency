@@ -45,7 +45,7 @@ extension APP.Preference {
   var options: [String] {
     switch self {
     case .language:
-      return ["en", "zh-Hant"]
+      return ["en", "zh-Hant", "zh-Hans"]
     case .source:
       return Bank.apiAvaliable.map { return $0.swiftCode }
     case .currency:
