@@ -22,7 +22,6 @@ protocol HistoryCurrencyDisplayLogic: class {
 
 class HistoryCurrencyViewController: UIViewController,
   HistoryCurrencyDisplayLogic,
-  PeriodSegmentedControlDelegate,
   LanguageRelodable,
   LoadingControl {
   var interactor: HistoryCurrencyBusinessLogic?
@@ -68,21 +67,12 @@ class HistoryCurrencyViewController: UIViewController,
     }
   }
 
-  // MARK: View lifecycle
-  var onView: LoadingContainer {
-    return chart
-  }
+
   var indicatorView: UIView {
     return UIActivityIndicatorView(style: .gray)
   }
-  @IBOutlet weak var nameLabel: UILabel!
   @IBOutlet weak var divergenceLabel: DivergenceLabel!
-  @IBOutlet weak var rateLabel: UILabel!
-  @IBOutlet weak var baseLabel: UILabel!
-  @IBOutlet weak var chart: LineChart!
-  @IBOutlet weak var periodSegmentedControl: PeriodSegmentedControl!
   @IBOutlet weak var containerView: UIView!
-  @IBOutlet weak var chartContainerHeightConstraint: NSLayoutConstraint!
   var lastScrollOffset: CGPoint?
   let maxHeaderHeight: CGFloat = 220
   let minHeaderHeight: CGFloat = 0
@@ -91,10 +81,7 @@ class HistoryCurrencyViewController: UIViewController,
     super.viewDidLoad()
     configure()
     configureReachability()
-    configureChart()
     configureEmbededViewController()
-    configureSegmentedControl()
-    configureLabels()
 
     loadSeguePassedCurrency()
     fetchCurrencyHistory()
@@ -134,27 +121,7 @@ class HistoryCurrencyViewController: UIViewController,
     twBankVC.cashVC?.scrollViewBridge = self
   }
 
-  func configureChart() {
-    chart.highlightLastEnabled = true // To highlight last value in the first place.
-    chart.fillEnabled = true
-    let sourcePrefix = LanguageWorker.shared.localizedString(key: R.string.uI.source_from.key,
-                                                             table: .ui)
-    chart.sourceDescription = sourcePrefix + " " + "Google Finance"
-  }
 
-  func configureSegmentedControl() {
-    periodSegmentedControl.delegate = self
-    periodSegmentedControl.setCurrentSegmentIndex(period.index, animated: false)
-  }
-
-  func configureLabels() {
-    nameLabel.font = Configuration.Font.letterFont.size(of: 24)
-    baseLabel.font = Configuration.Font.letterFont.size(of: 12)
-    rateLabel.font = Configuration.Font.numericFont.size(of: 20)
-    nameLabel.textColor = Configuration.Theme.textColor
-    baseLabel.textColor = Configuration.Theme.lightBlue
-    rateLabel.textColor = Configuration.Theme.darkBlue
-  }
 
   func reloadLanguage() {
     loadSeguePassedCurrency()
@@ -187,15 +154,8 @@ class HistoryCurrencyViewController: UIViewController,
   // MARK: Display Title, Fetched Currency History
 
   func displaySeguePassedCurrency(viewModel: HistoryCurrency.Load.ViewModel) {
-    chart.heroID = "chartImageView:\(viewModel.name)" // Hero id should be unique
-    nameLabel.heroID = "nameLabel:\(viewModel.name)"
-    nameLabel.text = LanguageWorker.shared.localizedString(key: viewModel.name,
-                                                           table: .listCurrency)
-    let sourcePrefix = LanguageWorker.shared.localizedString(key: R.string.uI.source_from.key,
-                                                             table: .ui)
-    chart.sourceDescription = sourcePrefix + " " + "Google Finance"
-    baseLabel.text = LanguageWorker.shared.localizedString(key: UserSettings.currencyUnit,
-                                                           table: .listCurrency)
+    
+
   }
 
   func displayFetchedCurrencyHistory(viewModel: HistoryCurrency.Fetch.ViewModel) {
@@ -207,10 +167,7 @@ class HistoryCurrencyViewController: UIViewController,
     var diff = (rate - lastSecondRate)
     let decimalDiff = diff.decimal(after: 4)
     divergenceLabel.bind(tendency: Tendency(amount: decimalDiff), amountString: decimalDiff.stringValue)
-    rateLabel.text = rate.decimal(after: 4).stringValue.dollarMark
-    chart.subjects = viewModel.rates
-    chart.dates = viewModel.dates
-    chart.reloadData()
+//    rateLabel.text = rate.decimal(after: 4).stringValue.dollarMark
     displayRates = viewModel.rates
   }
 
@@ -221,14 +178,10 @@ class HistoryCurrencyViewController: UIViewController,
 
   // MARK: PeriodSegmentedControlDelegate
 
-  func segmentedControl(_ segmentedControl: PeriodSegmentedControl, willChangeFromSegment fromSegment: Int) {
-    //chart.clean()
-  }
 
   func segmentedControl(_ segmentedControl: PeriodSegmentedControl,
                         didChangeFromSegmentAtIndex fromIndex: Int,
                         toSegmentAtIndex toIndex: Int) {
-    //chart.clean()
     for (index, period) in Period.all.enumerated()
       where index == toIndex {
         self.period = period
@@ -242,18 +195,7 @@ class HistoryCurrencyViewController: UIViewController,
 // implement flexible chart
 extension HistoryCurrencyViewController: UIScrollViewBridge {
 
-  func setChartHeightConstraint(height: CGFloat) {
-    chartContainerHeightConstraint.constant = height
-    UIView.animate(withDuration: 0.3,
-                   delay: 0.0,
-                   usingSpringWithDamping: 0.6,
-                   initialSpringVelocity: 0.4,
-                   options: .curveEaseIn,
-                   animations: {
-                    self.view.layoutIfNeeded()
-    }, completion: nil)
-  }
-
+ 
   func scrollViewDidScroll(_ scrollView: UIScrollView) {
     if scrollView.contentSize.height > maxHeaderHeight {
       defer { // This line will always be executed in the end.
@@ -266,37 +208,9 @@ extension HistoryCurrencyViewController: UIScrollViewBridge {
       let isScrollingUP = scrollDiff > 0 && scrollView.contentOffset.y > absoluteTop
       let isScrollingDOWN = scrollDiff < 0 && scrollView.contentOffset.y < absoluteBottom
 
-      var newHeight = chartContainerHeightConstraint.constant
-      if isScrollingUP { // is scrolling up
-        newHeight = max(minHeaderHeight, chartContainerHeightConstraint.constant - abs(scrollDiff))
-      } else if isScrollingDOWN && scrollView.contentOffset.y < maxHeaderHeight
-        && chartContainerHeightConstraint.constant < maxHeaderHeight + 1 { // is scrolling down
-        newHeight = min(maxHeaderHeight + 1, chartContainerHeightConstraint.constant + abs(scrollDiff))
-      }
-      // This line is for max of minHeaderHeight or min of maxHeaderHeight
-      if newHeight != chartContainerHeightConstraint.constant {
-        chartContainerHeightConstraint.constant = newHeight
-      }
     }
   }
 
-  // 如果停止手指滑動跟鬆開快速滑動，如果大於就等於 default height
-  func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
-//    if chartContainerHeightConstraint.constant >= maxHeaderHeight {
-//      setChartHeightConstraint(height: maxHeaderHeight)
-//      return
-//    }
-  }
 
-  func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
-//    if chartContainerHeightConstraint.constant >= maxHeaderHeight {
-//      setChartHeightConstraint(height: maxHeaderHeight)
-//      return
-//    }
-  }
-
-  // Trigger by press status bar
-  func scrollViewDidScrollToTop(_ scrollView: UIScrollView) {
-    setChartHeightConstraint(height: maxHeaderHeight)
-  }
+ 
 }
