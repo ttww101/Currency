@@ -17,6 +17,7 @@
 "rating"    = "Rate Us";
 "agreement" = "Agreement";
 "aboutme"   = "About";
+"version" = "Version";
 
 "mail_sent" = "Thanks for your feed back 😚";
 "mail_failed" = "Oh no! Something wrong with mail delivery 😰";

@@ -15,8 +15,9 @@
 
 "feedback" = "意见反馈";
 "rating" = "给我评分";
-"agreement" = "免责声明";
-"aboutme" = "关于我";
+"agreement" = "隐私权政策";
+"aboutme" = "关于汇率小帮手";
+"version" = "当前版号";
 
 "mail_sent" = "感谢您的意见反应，您的支持是我们进步的动力";
 "mail_failed" = "寄送邮件发生错误，请再试一次";

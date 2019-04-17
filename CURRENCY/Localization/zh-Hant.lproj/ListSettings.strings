@@ -13,10 +13,11 @@
 "default_period"="歷史走勢";
 "default_unit_currency"="匯率單位";
 
-"feedback" = "意见反馈";
-"rating" = "给我评分";
-"agreement" = "隐私权政策";
-"aboutme" = "关于 汇率小帮手";
+"feedback" = "意見反饋";
+"rating" = "給我評分";
+"agreement" = "隱私權政策";
+"aboutme" = "關於匯率小幫手";
+"version" = "當前版號";
 
 "mail_sent" = "感謝您的意見反應，您的支持是我們進步的動力";
 "mail_failed" = "寄送郵件發生錯誤，請再試一次";

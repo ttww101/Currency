@@ -20,8 +20,9 @@ enum APP {
   // ListMore - Other List
   static let others = [More(.feedback),
                        More(.rating),
-                       //More(.agreement),
-    More(.aboutme) ]
+                       More(.aboutme),
+                       More(.agreement),
+                       More(.version)]
 
   // ListMore - Setting List options
   enum Preference: String {
@@ -38,6 +39,7 @@ enum APP {
     case feedback
     case aboutme
     case agreement
+    case version
   }
 }
 
@@ -155,10 +157,13 @@ extension APP.Other {
       return ""
     case .feedback:
       return ""
-    case .aboutme:
+    case .version:
       return AppKit.longVersion
+    case .aboutme:
+        return ""
     case .agreement:
       return ""
+        
     }
   }
 }
