@@ -1,9 +1,9 @@
 //
 //  SimpleChart.swift
-//  CURRENCY
+//  ExchangeHelper
 //
-//  Created by Stan Liu on 14/11/2017.
-//  Copyright © 2017 Stan Liu. All rights reserved.
+//  Created by Meiliang Wen on 14/11/2017.
+//  Copyright © 2017 Meiliang Wen. All rights reserved.
 //
 
 import Charts

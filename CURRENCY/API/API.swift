@@ -1,9 +1,9 @@
 //
 //  CurrencyAPI.swift
-//  CURRENCY
+//  ExchangeHelper
 //
-//  Created by Stan Liu on 30/11/2017.
-//  Copyright © 2017 Stan Liu. All rights reserved.
+//  Created by Meiliang Wen on 30/11/2017.
+//  Copyright © 2017 Meiliang Wen. All rights reserved.
 //
 
 import Foundation

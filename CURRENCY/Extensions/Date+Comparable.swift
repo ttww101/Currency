@@ -1,9 +1,9 @@
 //
 //  File.swift
-//  CURRENCY
+//  ExchangeHelper
 //
-//  Created by Stan Liu on 24/01/2018.
-//  Copyright © 2018 Stan Liu. All rights reserved.
+//  Created by Meiliang Wen on 24/01/2018.
+//  Copyright © 2018 Meiliang Wen. All rights reserved.
 //
 
 import Foundation

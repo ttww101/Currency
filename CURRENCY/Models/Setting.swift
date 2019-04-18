@@ -1,9 +1,9 @@
 //
 //  Setting.swift
-//  CURRENCY
+//  ExchangeHelper
 //
-//  Created by Stan Liu on 22/02/2018.
-//  Copyright © 2018 Stan Liu. All rights reserved.
+//  Created by Meiliang Wen on 22/02/2018.
+//  Copyright © 2018 Meiliang Wen. All rights reserved.
 //
 
 import UIKit

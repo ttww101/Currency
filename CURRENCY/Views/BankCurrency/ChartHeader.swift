@@ -1,9 +1,9 @@
 //
 //  ChartHeader.swift
-//  CURRENCY
+//  ExchangeHelper
 //
-//  Created by Stan Liu on 28/03/2018.
-//  Copyright © 2018 Stan Liu. All rights reserved.
+//  Created by Meiliang Wen on 28/03/2018.
+//  Copyright © 2018 Meiliang Wen. All rights reserved.
 //
 
 import UIKit
