@@ -34,7 +34,7 @@
 "i_know" = "我知道了";
 "confirm" = "确认";
 "cancel" = "取消";
-"calculator_instruction" = "汇率计算器";
+"calculator_instruction" = "汇率计算器\n提供一个方便的介面\n让您同时间一次浏览\n所有的币别。";
 
 "missing_selected_source" = "请选择来源";
 "missing_selected_currency" = "请选择汇率";
@@ -47,3 +47,5 @@
 "reload" = "重新整理";
 "change" = "兑换";
 
+
+"announcement" = "本资料仅供参考\n使用者依本资料交易发生交易损失需自行负责\n本站对资料内容错误\n更新延误或传输中断不负任何责任。";

@@ -34,7 +34,7 @@
 "i_know"            = "我知道了";
 "confirm"           = "確認";
 "cancel"            = "取消";
-"calculator_instruction" = "匯率計算器";
+"calculator_instruction" = "匯率計算器\n提供一個方便的介面\n讓您同時間一次瀏覽\n所有的幣別。";
 
 "missing_selected_source"   = "請選擇來源";
 "missing_selected_currency" = "請選擇匯率";
@@ -46,3 +46,7 @@
 "no_data"     = "無資料";
 "reload"      = "重新整理";
 "change" = "兌換";
+
+
+"announcement" = "本資料僅供參考\n使用者依本資料交易發生交易損失需自行負責\n本站對資料內容錯誤\n更新延誤或傳輸中斷不負任何責任。";
+

@@ -53,7 +53,7 @@ class PadButton: UIView, UIGestureRecognizerDelegate {
   }
 
   func setup() {
-    backgroundColor = Configuration.Theme.blue
+    backgroundColor = Configuration.Theme.darkGray
 
     addSubview(label)
     label.translatesAutoresizingMaskIntoConstraints = false

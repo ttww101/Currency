@@ -36,6 +36,8 @@
 "cancel"            = "Cancel";
 "calculator_instruction" = "For example You want to change your TWD to USD means bank sell it's USD to you, should choose \"Sell\". \n\nOtherwise, change USD back to TWD means bank buy your USD in TWD, Should choose \"Buy\".";
 
+"calculator_instruction" = "currency calculator provides a convenience way see all the currency at once。";
+
 "missing_selected_source"   = "Please select a source";
 "missing_selected_currency" = "Please select a currency";
 
@@ -46,3 +48,5 @@
 "no_data"     = "No Data";
 "reload"      = "Reload";
 "change" = "Change To";
+
+"announcement" = "Currency does not guarantee the accuracy, authenticity, timeliness, reliability, appropriateness, correct sequencing, or completeness of any of the Information And Content. You agree that all risk associated with the use of, or reliance on, any of the information And Content accessed through the Services rests with you. You further agree that Currency shall not be responsible or liable, directly or indirectly, in any way for any loss or damage of any kind incurred as a result of, or in connection with you use of, or reliance on, any of the Information And Content.";

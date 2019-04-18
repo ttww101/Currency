@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		63F16BBD22AD297A6F11F297 /* Pods_CURRENCY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6B7C41C9D2D7D4FDBE9748 /* Pods_CURRENCY.framework */; };
 		DC1AC162226487740030354C /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1AC161226487730030354C /* R.generated.swift */; };
-		DC3CFC0E226845CD00BD8FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3CFC0D226845CD00BD8FEC /* LaunchScreen.storyboard */; };
+		DC3CFC12226864C500BD8FEC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3CFC11226864C500BD8FEC /* Launch Screen.storyboard */; };
 		F6006B0320A2C5450050F351 /* AnnouncementPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6006B0220A2C5450050F351 /* AnnouncementPresentable.swift */; };
 		F60B6A681FB4322000EEFA74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60B6A671FB4322000EEFA74 /* AppDelegate.swift */; };
 		F60B6A6D1FB4322000EEFA74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60B6A6B1FB4322000EEFA74 /* Main.storyboard */; };
@@ -217,7 +217,7 @@
 		9BA6B6C766E2C00BB7DC3776 /* Pods-CURRENCY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CURRENCY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CURRENCY/Pods-CURRENCY.debug.xcconfig"; sourceTree = "<group>"; };
 		DC1AC161226487730030354C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		DC3CFC0B2268278500BD8FEC /* ProjectConfuse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProjectConfuse.h; path = ../ProjectConfuse.h; sourceTree = "<group>"; };
-		DC3CFC0D226845CD00BD8FEC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CURRENCY/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC3CFC11226864C500BD8FEC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		DE6B7C41C9D2D7D4FDBE9748 /* Pods_CURRENCY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CURRENCY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6006B0220A2C5450050F351 /* AnnouncementPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementPresentable.swift; sourceTree = "<group>"; };
 		F60B6A641FB4322000EEFA74 /* CURRENCY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CURRENCY.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -469,7 +469,6 @@
 		F60B6A5B1FB4322000EEFA74 = {
 			isa = PBXGroup;
 			children = (
-				DC3CFC0D226845CD00BD8FEC /* LaunchScreen.storyboard */,
 				DC1AC161226487730030354C /* R.generated.swift */,
 				F60B6A661FB4322000EEFA74 /* CURRENCY */,
 				F60B6A651FB4322000EEFA74 /* Products */,
@@ -510,6 +509,7 @@
 				F688E22220197BA1005067DE /* Currency.storyboard */,
 				F66B483C203EAE2E00A8B7B3 /* More.storyboard */,
 				F60B6A6E1FB4322000EEFA74 /* Assets.xcassets */,
+				DC3CFC11226864C500BD8FEC /* Launch Screen.storyboard */,
 				F60B6A731FB4322000EEFA74 /* Info.plist */,
 			);
 			path = CURRENCY;
@@ -974,7 +974,7 @@
 					F60B6A631FB4322000EEFA74 = {
 						CreatedOnToolsVersion = 9.1;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1011,7 +1011,6 @@
 				F61F08CF2044FECA00443EEA /* truenorg.otf in Resources */,
 				F65FA08C201B1FF400A56DD4 /* HurmeGeometricSans1 Regular.otf in Resources */,
 				F6F4DBDC201F1CA400C29FCE /* ConverterCell.xib in Resources */,
-				DC3CFC0E226845CD00BD8FEC /* LaunchScreen.storyboard in Resources */,
 				F6C0C25720A2DFA000060150 /* AnnouncementView.xib in Resources */,
 				F60B6A6F1FB4322000EEFA74 /* Assets.xcassets in Resources */,
 				F66B483D203EAE2E00A8B7B3 /* More.storyboard in Resources */,
@@ -1027,6 +1026,7 @@
 				F60B6AA81FB4372100EEFA74 /* RecordCell.xib in Resources */,
 				F688E22320197BA1005067DE /* Currency.storyboard in Resources */,
 				F66B4872203FAD1900A8B7B3 /* ListSettings.strings in Resources */,
+				DC3CFC12226864C500BD8FEC /* Launch Screen.storyboard in Resources */,
 				F64961A42063AB9700B12B8E /* BankHeader.xib in Resources */,
 				F622BED120523276004D082A /* ConverterHeader.xib in Resources */,
 				F60B6A6D1FB4322000EEFA74 /* Main.storyboard in Resources */,
@@ -1553,7 +1553,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BX657PAD6;
 				GCC_PREFIX_HEADER = $PROJECT_DIR/ConfuseHeader.pch;
 				INFOPLIST_FILE = CURRENCY/Info.plist;
@@ -1561,11 +1561,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.0416.currency;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Dev - com.0416.currency";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1576,8 +1576,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BX657PAD6;
 				GCC_PREFIX_HEADER = $PROJECT_DIR/ConfuseHeader.pch;
 				INFOPLIST_FILE = CURRENCY/Info.plist;
@@ -1585,10 +1585,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.0416.currency;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Prod - com.0416.currency";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

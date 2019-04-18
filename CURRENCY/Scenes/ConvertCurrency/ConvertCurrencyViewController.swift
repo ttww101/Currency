@@ -278,7 +278,7 @@ class ConvertCurrencyViewController: UIViewController,
     // Show info
     let popup = PopupInfo()
     popup.items = [PopupItem(title: R.string.uI.i_know.key, type: .normal, handler: nil)]
-    popup.show()
+    popup.show(with: R.string.uI.calculator_instruction.key)
   }
 
   // MARK: Fetch Data
@@ -407,7 +407,7 @@ class ConvertCurrencyViewController: UIViewController,
 //  }
 
   func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-    return 30
+    return 0.0
   }
 
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -491,7 +491,7 @@ class ConvertCurrencyViewController: UIViewController,
     if displayResults.count == displayCurrencies.count, cell != currentCell {
       cell.storedString = displayResults[indexPath.row]
     }
-    cell.backgroundColor = indexPath.row % 2 == 0 ? Configuration.Theme.lightGray : Configuration.Theme.white
+//    cell.backgroundColor = indexPath.row % 2 == 0 ? Configuration.Theme.lightGray : Configuration.Theme.white
     return cell
   }
 

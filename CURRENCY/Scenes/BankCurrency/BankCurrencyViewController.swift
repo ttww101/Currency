@@ -54,6 +54,13 @@ class BankCurrencyViewController: UIViewController,
     presenter.viewController = viewController
     router.viewController = viewController
     router.dataStore = interactor
+    
+   
+    // Show info
+    let popup = PopupInfo()
+    popup.items = [PopupItem(title: R.string.uI.i_know.key, type: .normal, handler: nil)]
+    popup.show(with: R.string.uI.announcement.key)
+
   }
 
   // MARK: Routing

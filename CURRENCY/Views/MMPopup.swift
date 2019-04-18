@@ -24,18 +24,19 @@ class PopupInfo {
   var items: [PopupItem] = []
   var alertView: MMAlertView?
 
-  func show() {
-    let title = LanguageWorker.shared.localizedString(key: R.string.uI.warning.key,
-                                                      table: .ui)
-    let detail = LanguageWorker.shared.localizedString(key: R.string.uI.calculator_instruction.key,
-                                                       table: .ui)
+    func show(with key: String) {
+//    let title = LanguageWorker.shared.localizedString(key: R.string.uI.title.key,
+//                                                      table: .ui)
+        let detail = LanguageWorker.shared.localizedString(key: key,
+                                                           table: .ui)
+        
     let items: [MMPopupItem] = self.items.map {
       let title = LanguageWorker.shared.localizedString(key: $0.titleKey,
                                                         table: .ui)
       return MMItemMake(title, $0.type, $0.handler)
     }
 
-    alertView = MMAlertView(title: title, detail: detail, items: items)
+    alertView = MMAlertView(title: "", detail: detail, items: items)
 
     alertView?.show()
   }

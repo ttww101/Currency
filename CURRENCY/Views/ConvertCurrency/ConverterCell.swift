@@ -13,7 +13,7 @@ class SelectedView: UIView {
   var selected: Bool = false {
     didSet {
       self.backgroundColor = selected
-        ? Configuration.Theme.green
+        ? Configuration.Theme.textColor
         : .clear
     }
   }
@@ -112,6 +112,11 @@ class ConverterCell: UITableViewCell, UITextFieldDelegate {
     super.setSelected(selected, animated: animated)
 
     selectedView.selected = selected
+    
+    if selected {
+        self.backgroundColor = Configuration.Theme.textColor
+    }
+    
     guard shouldDisplayPlaceHolder, storedString != "" else {
       textField.placeholder = ""
       textField.text = storedString
