@@ -31,8 +31,8 @@ class ScreenShooter: UIWindow {
   private func configure() {
     //self.windowLevel = UIWindowLevelAlert + 1000
     self.windowLevel = UIWindow.Level.normal - 1000
-    guard let vc = R.storyboard.screenshotSB.screenshotChartVC() else { return }
-    rootViewController = vc
+//    guard let vc = R.storyboard.screenshotSB.screenshotChartVC() else { return }
+//    rootViewController = vc
   }
 
   private func show(completion: (() -> Void)? = nil) {

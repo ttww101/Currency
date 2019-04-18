@@ -9,16 +9,7 @@
 import Charts
 import Hue
 
-// left    line           right
-//  ⎡---------------------⎤
-//  |   |    |    |    |   |
-//  |   |    |    |    |   |
-//  |   |    |    |    |   |
-//  |   |grid|    |    |xxx|  chartDescription.text
-//  ⎣---------------------⎦  <-- xAxis
-//   label
-//
-//  □ description // legend
+
 
 class MiniChart: BarLineChartViewBase, ChartViewDelegate, LineChartDataProvider {
 

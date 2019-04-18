@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ConfuseHeader.pch">
+   </FileRef>
+   <FileRef
       location = "group:CURRENCY.xcodeproj">
    </FileRef>
    <FileRef
