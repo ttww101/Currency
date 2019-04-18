@@ -155,7 +155,16 @@ class HistoryCurrencyViewController: UIViewController,
 
   func displaySeguePassedCurrency(viewModel: HistoryCurrency.Load.ViewModel) {
     
-
+    let sourceCurrency = LanguageWorker.shared.localizedString(key: viewModel.name,
+                                                           table: .listCurrency)
+    
+    let ntd = LanguageWorker.shared.localizedString(key: UserSettings.currencyUnit,
+                                                           table: .listCurrency)
+    
+    let change = LanguageWorker.shared.localizedString(key: R.string.uI.change.key,
+                                                    table: .ui)
+    
+    self.title = sourceCurrency + " " + change + " " + ntd
   }
 
   func displayFetchedCurrencyHistory(viewModel: HistoryCurrency.Fetch.ViewModel) {
