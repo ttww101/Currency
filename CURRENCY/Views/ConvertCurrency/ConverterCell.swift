@@ -9,20 +9,10 @@
 import UIKit
 import JVFloatLabeledTextField
 
-class SelectedView: UIView {
-  var selected: Bool = false {
-    didSet {
-      self.backgroundColor = selected
-        ? KKConfiguration.Theme.textColor
-        : .clear
-    }
-  }
-}
 
 class ConverterCell: UITableViewCell, UITextFieldDelegate {
 
   weak var delegate: UITextFieldDelegate?
-  @IBOutlet weak var selectedView: SelectedView!
   @IBOutlet weak var subjectLabel: UILabel!
   @IBOutlet weak var textField: UITextField!
   var storedString: String = ""
@@ -110,11 +100,11 @@ class ConverterCell: UITableViewCell, UITextFieldDelegate {
 
   override func setSelected(_ selected: Bool, animated: Bool) {
     super.setSelected(selected, animated: animated)
-
-    selectedView.selected = selected
     
     if selected {
         self.backgroundColor = KKConfiguration.Theme.textColor
+    } else {
+        self.backgroundColor = KKConfiguration.Theme.white
     }
     
     guard shouldDisplayPlaceHolder, storedString != "" else {
