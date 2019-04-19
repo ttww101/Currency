@@ -338,7 +338,6 @@
 		8F80D8B84262DF956543E314 /* Pods-CURRENCY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CURRENCY.release.xcconfig"; path = "Pods/Target Support Files/Pods-CURRENCY/Pods-CURRENCY.release.xcconfig"; sourceTree = "<group>"; };
 		9BA6B6C766E2C00BB7DC3776 /* Pods-CURRENCY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CURRENCY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CURRENCY/Pods-CURRENCY.debug.xcconfig"; sourceTree = "<group>"; };
 		DC1AC161226487730030354C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
-		DC3CFC0B2268278500BD8FEC /* ProjectConfuse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProjectConfuse.h; path = ../ProjectConfuse.h; sourceTree = "<group>"; };
 		DC3CFC11226864C500BD8FEC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		DCA675E92269DEF30060C89E /* AAACallHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAACallHeader.h; sourceTree = "<group>"; };
 		DCA675EA2269DEF30060C89E /* AboutMeVCAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeVCAaaExt.swift; sourceTree = "<group>"; };
@@ -875,7 +874,6 @@
 			isa = PBXGroup;
 			children = (
 				DCA675E82269DEF30060C89E /* Extension */,
-				DC3CFC0B2268278500BD8FEC /* ProjectConfuse.h */,
 				F66B4827203EAAA600A8B7B3 /* Localization */,
 				F65FA080201B1B1600A56DD4 /* Font */,
 				F60B6A671FB4322000EEFA74 /* AppDelegate.swift */,
@@ -1336,7 +1334,6 @@
 				F60B6A611FB4322000EEFA74 /* Frameworks */,
 				F60B6A621FB4322000EEFA74 /* Resources */,
 				4DACEC2FE912F18F6A611DBE /* [CP] Embed Pods Frameworks */,
-				DC3CFC0C2268281F00BD8FEC /* Confuse */,
 			);
 			buildRules = (
 			);
@@ -1529,24 +1526,6 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
-		};
-		DC3CFC0C2268281F00BD8FEC /* Confuse */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = Confuse;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n$PROJECT_DIR/confuse.sh\n";
 		};
 		DCDEC86822647CF900DFD063 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
