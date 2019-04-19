@@ -10,6 +10,128 @@
 		63F16BBD22AD297A6F11F297 /* Pods_CURRENCY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6B7C41C9D2D7D4FDBE9748 /* Pods_CURRENCY.framework */; };
 		DC1AC162226487740030354C /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1AC161226487730030354C /* R.generated.swift */; };
 		DC3CFC12226864C500BD8FEC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3CFC11226864C500BD8FEC /* Launch Screen.storyboard */; };
+		DCA676662269DEF30060C89E /* AboutMeVCAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675EA2269DEF30060C89E /* AboutMeVCAaaExt.swift */; };
+		DCA676672269DEF30060C89E /* AdsManagerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675EB2269DEF30060C89E /* AdsManagerAaaExt.swift */; };
+		DCA676682269DEF30060C89E /* AdViewAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675EC2269DEF30060C89E /* AdViewAaaExt.swift */; };
+		DCA676692269DEF30060C89E /* AgreementVCAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675ED2269DEF30060C89E /* AgreementVCAaaExt.swift */; };
+		DCA6766A2269DEF30060C89E /* AnnouncementViewAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675EE2269DEF30060C89E /* AnnouncementViewAaaExt.swift */; };
+		DCA6766B2269DEF30060C89E /* APIAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675EF2269DEF30060C89E /* APIAaaExt.swift */; };
+		DCA6766C2269DEF30060C89E /* APIAnalyzerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675F02269DEF30060C89E /* APIAnalyzerAaaExt.swift */; };
+		DCA6766D2269DEF30060C89E /* AppDelegateAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675F12269DEF30060C89E /* AppDelegateAaaExt.swift */; };
+		DCA6766E2269DEF30060C89E /* BalloonMarkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675F22269DEF30060C89E /* BalloonMarkerAaaExt.swift */; };
+		DCA6766F2269DEF30060C89E /* BankCellAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675F32269DEF30060C89E /* BankCellAaaExt.swift */; };
+		DCA676702269DEF30060C89E /* BankCurrencyInteractorAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675F42269DEF30060C89E /* BankCurrencyInteractorAaaExt.swift */; };
+		DCA676712269DEF30060C89E /* BankCurrencyPresenterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675F52269DEF30060C89E /* BankCurrencyPresenterAaaExt.swift */; };
+		DCA676722269DEF30060C89E /* BankCurrencyRouterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675F62269DEF30060C89E /* BankCurrencyRouterAaaExt.swift */; };
+		DCA676732269DEF30060C89E /* BankCurrencyViewControllerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675F72269DEF30060C89E /* BankCurrencyViewControllerAaaExt.swift */; };
+		DCA676742269DEF30060C89E /* BankCurrencyWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675F82269DEF30060C89E /* BankCurrencyWorkerAaaExt.swift */; };
+		DCA676752269DEF30060C89E /* BankHeaderAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675F92269DEF30060C89E /* BankHeaderAaaExt.swift */; };
+		DCA676762269DEF30060C89E /* CalculatorWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675FA2269DEF30060C89E /* CalculatorWorkerAaaExt.swift */; };
+		DCA676772269DEF30060C89E /* CharacterUnicodeWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675FB2269DEF30060C89E /* CharacterUnicodeWorkerAaaExt.swift */; };
+		DCA676782269DEF30060C89E /* ChartHeaderAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675FC2269DEF30060C89E /* ChartHeaderAaaExt.swift */; };
+		DCA676792269DEF30060C89E /* ChartInteractorAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675FD2269DEF30060C89E /* ChartInteractorAaaExt.swift */; };
+		DCA6767A2269DEF30060C89E /* ChartPresenterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675FE2269DEF30060C89E /* ChartPresenterAaaExt.swift */; };
+		DCA6767B2269DEF30060C89E /* ChartRouterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA675FF2269DEF30060C89E /* ChartRouterAaaExt.swift */; };
+		DCA6767C2269DEF30060C89E /* ChartViewControllerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676002269DEF30060C89E /* ChartViewControllerAaaExt.swift */; };
+		DCA6767D2269DEF30060C89E /* ChartWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676012269DEF30060C89E /* ChartWorkerAaaExt.swift */; };
+		DCA6767E2269DEF30060C89E /* ConvertCurrencyInteractorAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676022269DEF30060C89E /* ConvertCurrencyInteractorAaaExt.swift */; };
+		DCA6767F2269DEF30060C89E /* ConvertCurrencyPresenterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676032269DEF30060C89E /* ConvertCurrencyPresenterAaaExt.swift */; };
+		DCA676802269DEF30060C89E /* ConvertCurrencyRouterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676042269DEF30060C89E /* ConvertCurrencyRouterAaaExt.swift */; };
+		DCA676812269DEF30060C89E /* ConvertCurrencyViewControllerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676052269DEF30060C89E /* ConvertCurrencyViewControllerAaaExt.swift */; };
+		DCA676822269DEF30060C89E /* ConvertCurrencyWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676062269DEF30060C89E /* ConvertCurrencyWorkerAaaExt.swift */; };
+		DCA676832269DEF30060C89E /* ConverterCellAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676072269DEF30060C89E /* ConverterCellAaaExt.swift */; };
+		DCA676842269DEF30060C89E /* ConverterHeaderAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676082269DEF30060C89E /* ConverterHeaderAaaExt.swift */; };
+		DCA676852269DEF30060C89E /* CrownViewAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676092269DEF30060C89E /* CrownViewAaaExt.swift */; };
+		DCA676862269DEF30060C89E /* CurrencyCellAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6760A2269DEF30060C89E /* CurrencyCellAaaExt.swift */; };
+		DCA676872269DEF30060C89E /* CurrencyInteractorAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6760B2269DEF30060C89E /* CurrencyInteractorAaaExt.swift */; };
+		DCA676882269DEF30060C89E /* CurrencyPresenterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6760C2269DEF30060C89E /* CurrencyPresenterAaaExt.swift */; };
+		DCA676892269DEF30060C89E /* CurrencyRouterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6760D2269DEF30060C89E /* CurrencyRouterAaaExt.swift */; };
+		DCA6768A2269DEF30060C89E /* CurrencySourceAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6760E2269DEF30060C89E /* CurrencySourceAaaExt.swift */; };
+		DCA6768B2269DEF30060C89E /* CurrencyUnitWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6760F2269DEF30060C89E /* CurrencyUnitWorkerAaaExt.swift */; };
+		DCA6768C2269DEF30060C89E /* CurrencyViewControllerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676102269DEF30060C89E /* CurrencyViewControllerAaaExt.swift */; };
+		DCA6768D2269DEF30060C89E /* CurrencyWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676112269DEF30060C89E /* CurrencyWorkerAaaExt.swift */; };
+		DCA6768E2269DEF30060C89E /* DashBoardAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676122269DEF30060C89E /* DashBoardAaaExt.swift */; };
+		DCA6768F2269DEF30060C89E /* DataManagerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676132269DEF30060C89E /* DataManagerAaaExt.swift */; };
+		DCA676902269DEF30060C89E /* DivergenceLabelAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676142269DEF30060C89E /* DivergenceLabelAaaExt.swift */; };
+		DCA676912269DEF30060C89E /* EditConvertCurrencyInteractorAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676152269DEF30060C89E /* EditConvertCurrencyInteractorAaaExt.swift */; };
+		DCA676922269DEF30060C89E /* EditConvertCurrencyPresenterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676162269DEF30060C89E /* EditConvertCurrencyPresenterAaaExt.swift */; };
+		DCA676932269DEF30060C89E /* EditConvertCurrencyRouterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676172269DEF30060C89E /* EditConvertCurrencyRouterAaaExt.swift */; };
+		DCA676942269DEF30060C89E /* EditConvertCurrencyViewControllerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676182269DEF30060C89E /* EditConvertCurrencyViewControllerAaaExt.swift */; };
+		DCA676952269DEF30060C89E /* EditConvertCurrencyWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676192269DEF30060C89E /* EditConvertCurrencyWorkerAaaExt.swift */; };
+		DCA676962269DEF30060C89E /* ExchangeSwitcherAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6761A2269DEF30060C89E /* ExchangeSwitcherAaaExt.swift */; };
+		DCA676972269DEF30060C89E /* FlagWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6761B2269DEF30060C89E /* FlagWorkerAaaExt.swift */; };
+		DCA676982269DEF30060C89E /* HistoryCurrencyInteractorAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6761C2269DEF30060C89E /* HistoryCurrencyInteractorAaaExt.swift */; };
+		DCA676992269DEF30060C89E /* HistoryCurrencyPresenterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6761D2269DEF30060C89E /* HistoryCurrencyPresenterAaaExt.swift */; };
+		DCA6769A2269DEF30060C89E /* HistoryCurrencyRouterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6761E2269DEF30060C89E /* HistoryCurrencyRouterAaaExt.swift */; };
+		DCA6769B2269DEF30060C89E /* HistoryCurrencyViewControllerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6761F2269DEF30060C89E /* HistoryCurrencyViewControllerAaaExt.swift */; };
+		DCA6769C2269DEF30060C89E /* HistoryCurrencyWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676202269DEF30060C89E /* HistoryCurrencyWorkerAaaExt.swift */; };
+		DCA6769D2269DEF30060C89E /* HistoryMarkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676212269DEF30060C89E /* HistoryMarkerAaaExt.swift */; };
+		DCA6769E2269DEF30060C89E /* HostTabBarControllerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676222269DEF30060C89E /* HostTabBarControllerAaaExt.swift */; };
+		DCA6769F2269DEF30060C89E /* HostTabBarInteractorAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676232269DEF30060C89E /* HostTabBarInteractorAaaExt.swift */; };
+		DCA676A02269DEF30060C89E /* HostTabBarPresenterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676242269DEF30060C89E /* HostTabBarPresenterAaaExt.swift */; };
+		DCA676A12269DEF30060C89E /* HostTabBarWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676252269DEF30060C89E /* HostTabBarWorkerAaaExt.swift */; };
+		DCA676A22269DEF30060C89E /* InvestmentSubjectAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676262269DEF30060C89E /* InvestmentSubjectAaaExt.swift */; };
+		DCA676A32269DEF30060C89E /* LanguageDictionaryAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676272269DEF30060C89E /* LanguageDictionaryAaaExt.swift */; };
+		DCA676A42269DEF30060C89E /* LanguageWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676282269DEF30060C89E /* LanguageWorkerAaaExt.swift */; };
+		DCA676A52269DEF30060C89E /* LineChartAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676292269DEF30060C89E /* LineChartAaaExt.swift */; };
+		DCA676A62269DEF30060C89E /* ListBankCurrencyPresenterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6762A2269DEF30060C89E /* ListBankCurrencyPresenterAaaExt.swift */; };
+		DCA676A72269DEF30060C89E /* ListBankCurrencyRouterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6762B2269DEF30060C89E /* ListBankCurrencyRouterAaaExt.swift */; };
+		DCA676A82269DEF30060C89E /* ListBankCurrencyViewControllerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6762C2269DEF30060C89E /* ListBankCurrencyViewControllerAaaExt.swift */; };
+		DCA676A92269DEF30060C89E /* ListBankCurrencyWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6762D2269DEF30060C89E /* ListBankCurrencyWorkerAaaExt.swift */; };
+		DCA676AA2269DEF30060C89E /* ListBankInteractorAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6762E2269DEF30060C89E /* ListBankInteractorAaaExt.swift */; };
+		DCA676AB2269DEF30060C89E /* ListBankPresenterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6762F2269DEF30060C89E /* ListBankPresenterAaaExt.swift */; };
+		DCA676AC2269DEF30060C89E /* ListBankRouterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676302269DEF30060C89E /* ListBankRouterAaaExt.swift */; };
+		DCA676AD2269DEF30060C89E /* ListBankViewControllerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676312269DEF30060C89E /* ListBankViewControllerAaaExt.swift */; };
+		DCA676AE2269DEF30060C89E /* ListBankWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676322269DEF30060C89E /* ListBankWorkerAaaExt.swift */; };
+		DCA676AF2269DEF30060C89E /* ListCurrencyInteractorAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676332269DEF30060C89E /* ListCurrencyInteractorAaaExt.swift */; };
+		DCA676B02269DEF30060C89E /* ListCurrencyViewControllerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676342269DEF30060C89E /* ListCurrencyViewControllerAaaExt.swift */; };
+		DCA676B12269DEF30060C89E /* ListMoreInteractorAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676352269DEF30060C89E /* ListMoreInteractorAaaExt.swift */; };
+		DCA676B22269DEF30060C89E /* ListMorePresenterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676362269DEF30060C89E /* ListMorePresenterAaaExt.swift */; };
+		DCA676B32269DEF30060C89E /* ListMoreRouterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676372269DEF30060C89E /* ListMoreRouterAaaExt.swift */; };
+		DCA676B42269DEF30060C89E /* ListMoreViewControllerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676382269DEF30060C89E /* ListMoreViewControllerAaaExt.swift */; };
+		DCA676B52269DEF30060C89E /* ListMoreWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676392269DEF30060C89E /* ListMoreWorkerAaaExt.swift */; };
+		DCA676B62269DEF30060C89E /* LoadingViewAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6763A2269DEF30060C89E /* LoadingViewAaaExt.swift */; };
+		DCA676B72269DEF30060C89E /* MiniChartAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6763B2269DEF30060C89E /* MiniChartAaaExt.swift */; };
+		DCA676B82269DEF30060C89E /* MMCardViewAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6763C2269DEF30060C89E /* MMCardViewAaaExt.swift */; };
+		DCA676B92269DEF30060C89E /* MoreCellAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6763D2269DEF30060C89E /* MoreCellAaaExt.swift */; };
+		DCA676BA2269DEF30060C89E /* MoreHeaderAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6763E2269DEF30060C89E /* MoreHeaderAaaExt.swift */; };
+		DCA676BB2269DEF30060C89E /* MoreVariedViewAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6763F2269DEF30060C89E /* MoreVariedViewAaaExt.swift */; };
+		DCA676BC2269DEF30060C89E /* MyAppAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676402269DEF30060C89E /* MyAppAaaExt.swift */; };
+		DCA676BD2269DEF30060C89E /* NeonCellAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676412269DEF30060C89E /* NeonCellAaaExt.swift */; };
+		DCA676BE2269DEF30060C89E /* NeonTableViewAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676422269DEF30060C89E /* NeonTableViewAaaExt.swift */; };
+		DCA676BF2269DEF40060C89E /* NumberPadAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676452269DEF30060C89E /* NumberPadAaaExt.swift */; };
+		DCA676C02269DEF40060C89E /* OptionViewAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676462269DEF30060C89E /* OptionViewAaaExt.swift */; };
+		DCA676C12269DEF40060C89E /* PadButtonAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676472269DEF30060C89E /* PadButtonAaaExt.swift */; };
+		DCA676C22269DEF40060C89E /* PeriodSegmentedControlAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676482269DEF30060C89E /* PeriodSegmentedControlAaaExt.swift */; };
+		DCA676C32269DEF40060C89E /* PopupInfoAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676492269DEF30060C89E /* PopupInfoAaaExt.swift */; };
+		DCA676C42269DEF40060C89E /* PriceDashAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6764A2269DEF30060C89E /* PriceDashAaaExt.swift */; };
+		DCA676C52269DEF40060C89E /* RateAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6764B2269DEF30060C89E /* RateAaaExt.swift */; };
+		DCA676C62269DEF40060C89E /* ReachabilityWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6764C2269DEF30060C89E /* ReachabilityWorkerAaaExt.swift */; };
+		DCA676C72269DEF40060C89E /* RecordCellAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6764D2269DEF30060C89E /* RecordCellAaaExt.swift */; };
+		DCA676C82269DEF40060C89E /* RoundedViewAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6764E2269DEF30060C89E /* RoundedViewAaaExt.swift */; };
+		DCA676C92269DEF40060C89E /* ScreenShooterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6764F2269DEF30060C89E /* ScreenShooterAaaExt.swift */; };
+		DCA676CA2269DEF40060C89E /* ScreenshotChartVCAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676502269DEF30060C89E /* ScreenshotChartVCAaaExt.swift */; };
+		DCA676CB2269DEF40060C89E /* SelectCurrencyInteractorAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676512269DEF30060C89E /* SelectCurrencyInteractorAaaExt.swift */; };
+		DCA676CC2269DEF40060C89E /* SelectCurrencyPresenterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676522269DEF30060C89E /* SelectCurrencyPresenterAaaExt.swift */; };
+		DCA676CD2269DEF40060C89E /* SelectCurrencyRouterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676532269DEF30060C89E /* SelectCurrencyRouterAaaExt.swift */; };
+		DCA676CE2269DEF40060C89E /* SelectCurrencyViewControllerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676542269DEF30060C89E /* SelectCurrencyViewControllerAaaExt.swift */; };
+		DCA676CF2269DEF40060C89E /* SelectSettingInteractorAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676552269DEF30060C89E /* SelectSettingInteractorAaaExt.swift */; };
+		DCA676D02269DEF40060C89E /* SelectSettingPresenterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676562269DEF30060C89E /* SelectSettingPresenterAaaExt.swift */; };
+		DCA676D12269DEF40060C89E /* SelectSettingRouterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676572269DEF30060C89E /* SelectSettingRouterAaaExt.swift */; };
+		DCA676D22269DEF40060C89E /* SelectSettingViewControllerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676582269DEF30060C89E /* SelectSettingViewControllerAaaExt.swift */; };
+		DCA676D32269DEF40060C89E /* SimpleChartAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676592269DEF30060C89E /* SimpleChartAaaExt.swift */; };
+		DCA676D42269DEF40060C89E /* SLineChartRendererAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6765A2269DEF30060C89E /* SLineChartRendererAaaExt.swift */; };
+		DCA676D52269DEF40060C89E /* SVProgressHUDCustomConfigurationAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6765B2269DEF30060C89E /* SVProgressHUDCustomConfigurationAaaExt.swift */; };
+		DCA676D62269DEF40060C89E /* SwitcherAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6765C2269DEF30060C89E /* SwitcherAaaExt.swift */; };
+		DCA676D72269DEF40060C89E /* TimeWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6765D2269DEF30060C89E /* TimeWorkerAaaExt.swift */; };
+		DCA676D82269DEF40060C89E /* TradeSwitcherAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6765E2269DEF30060C89E /* TradeSwitcherAaaExt.swift */; };
+		DCA676D92269DEF40060C89E /* TWBankInteractorAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6765F2269DEF30060C89E /* TWBankInteractorAaaExt.swift */; };
+		DCA676DA2269DEF40060C89E /* TWBankPresenterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676602269DEF30060C89E /* TWBankPresenterAaaExt.swift */; };
+		DCA676DB2269DEF40060C89E /* TWBankRouterAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676612269DEF30060C89E /* TWBankRouterAaaExt.swift */; };
+		DCA676DC2269DEF40060C89E /* TWBankViewControllerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676622269DEF30060C89E /* TWBankViewControllerAaaExt.swift */; };
+		DCA676DD2269DEF40060C89E /* TWBankWorkerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676632269DEF30060C89E /* TWBankWorkerAaaExt.swift */; };
+		DCA676DE2269DEF40060C89E /* UserSettingsAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676642269DEF30060C89E /* UserSettingsAaaExt.swift */; };
+		DCA676DF2269DEF40060C89E /* ViewControllerAaaExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA676652269DEF30060C89E /* ViewControllerAaaExt.swift */; };
 		F6006B0320A2C5450050F351 /* AnnouncementPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6006B0220A2C5450050F351 /* AnnouncementPresentable.swift */; };
 		F60B6A681FB4322000EEFA74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60B6A671FB4322000EEFA74 /* AppDelegate.swift */; };
 		F60B6A6D1FB4322000EEFA74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60B6A6B1FB4322000EEFA74 /* Main.storyboard */; };
@@ -218,6 +340,130 @@
 		DC1AC161226487730030354C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		DC3CFC0B2268278500BD8FEC /* ProjectConfuse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProjectConfuse.h; path = ../ProjectConfuse.h; sourceTree = "<group>"; };
 		DC3CFC11226864C500BD8FEC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DCA675E92269DEF30060C89E /* AAACallHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAACallHeader.h; sourceTree = "<group>"; };
+		DCA675EA2269DEF30060C89E /* AboutMeVCAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeVCAaaExt.swift; sourceTree = "<group>"; };
+		DCA675EB2269DEF30060C89E /* AdsManagerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsManagerAaaExt.swift; sourceTree = "<group>"; };
+		DCA675EC2269DEF30060C89E /* AdViewAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdViewAaaExt.swift; sourceTree = "<group>"; };
+		DCA675ED2269DEF30060C89E /* AgreementVCAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgreementVCAaaExt.swift; sourceTree = "<group>"; };
+		DCA675EE2269DEF30060C89E /* AnnouncementViewAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementViewAaaExt.swift; sourceTree = "<group>"; };
+		DCA675EF2269DEF30060C89E /* APIAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIAaaExt.swift; sourceTree = "<group>"; };
+		DCA675F02269DEF30060C89E /* APIAnalyzerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIAnalyzerAaaExt.swift; sourceTree = "<group>"; };
+		DCA675F12269DEF30060C89E /* AppDelegateAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateAaaExt.swift; sourceTree = "<group>"; };
+		DCA675F22269DEF30060C89E /* BalloonMarkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA675F32269DEF30060C89E /* BankCellAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCellAaaExt.swift; sourceTree = "<group>"; };
+		DCA675F42269DEF30060C89E /* BankCurrencyInteractorAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCurrencyInteractorAaaExt.swift; sourceTree = "<group>"; };
+		DCA675F52269DEF30060C89E /* BankCurrencyPresenterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCurrencyPresenterAaaExt.swift; sourceTree = "<group>"; };
+		DCA675F62269DEF30060C89E /* BankCurrencyRouterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCurrencyRouterAaaExt.swift; sourceTree = "<group>"; };
+		DCA675F72269DEF30060C89E /* BankCurrencyViewControllerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCurrencyViewControllerAaaExt.swift; sourceTree = "<group>"; };
+		DCA675F82269DEF30060C89E /* BankCurrencyWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCurrencyWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA675F92269DEF30060C89E /* BankHeaderAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankHeaderAaaExt.swift; sourceTree = "<group>"; };
+		DCA675FA2269DEF30060C89E /* CalculatorWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA675FB2269DEF30060C89E /* CharacterUnicodeWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterUnicodeWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA675FC2269DEF30060C89E /* ChartHeaderAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartHeaderAaaExt.swift; sourceTree = "<group>"; };
+		DCA675FD2269DEF30060C89E /* ChartInteractorAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartInteractorAaaExt.swift; sourceTree = "<group>"; };
+		DCA675FE2269DEF30060C89E /* ChartPresenterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartPresenterAaaExt.swift; sourceTree = "<group>"; };
+		DCA675FF2269DEF30060C89E /* ChartRouterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartRouterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676002269DEF30060C89E /* ChartViewControllerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewControllerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676012269DEF30060C89E /* ChartWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676022269DEF30060C89E /* ConvertCurrencyInteractorAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertCurrencyInteractorAaaExt.swift; sourceTree = "<group>"; };
+		DCA676032269DEF30060C89E /* ConvertCurrencyPresenterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertCurrencyPresenterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676042269DEF30060C89E /* ConvertCurrencyRouterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertCurrencyRouterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676052269DEF30060C89E /* ConvertCurrencyViewControllerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertCurrencyViewControllerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676062269DEF30060C89E /* ConvertCurrencyWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertCurrencyWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676072269DEF30060C89E /* ConverterCellAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterCellAaaExt.swift; sourceTree = "<group>"; };
+		DCA676082269DEF30060C89E /* ConverterHeaderAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterHeaderAaaExt.swift; sourceTree = "<group>"; };
+		DCA676092269DEF30060C89E /* CrownViewAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrownViewAaaExt.swift; sourceTree = "<group>"; };
+		DCA6760A2269DEF30060C89E /* CurrencyCellAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyCellAaaExt.swift; sourceTree = "<group>"; };
+		DCA6760B2269DEF30060C89E /* CurrencyInteractorAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyInteractorAaaExt.swift; sourceTree = "<group>"; };
+		DCA6760C2269DEF30060C89E /* CurrencyPresenterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyPresenterAaaExt.swift; sourceTree = "<group>"; };
+		DCA6760D2269DEF30060C89E /* CurrencyRouterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyRouterAaaExt.swift; sourceTree = "<group>"; };
+		DCA6760E2269DEF30060C89E /* CurrencySourceAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencySourceAaaExt.swift; sourceTree = "<group>"; };
+		DCA6760F2269DEF30060C89E /* CurrencyUnitWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyUnitWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676102269DEF30060C89E /* CurrencyViewControllerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyViewControllerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676112269DEF30060C89E /* CurrencyWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676122269DEF30060C89E /* DashBoardAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardAaaExt.swift; sourceTree = "<group>"; };
+		DCA676132269DEF30060C89E /* DataManagerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManagerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676142269DEF30060C89E /* DivergenceLabelAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivergenceLabelAaaExt.swift; sourceTree = "<group>"; };
+		DCA676152269DEF30060C89E /* EditConvertCurrencyInteractorAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditConvertCurrencyInteractorAaaExt.swift; sourceTree = "<group>"; };
+		DCA676162269DEF30060C89E /* EditConvertCurrencyPresenterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditConvertCurrencyPresenterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676172269DEF30060C89E /* EditConvertCurrencyRouterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditConvertCurrencyRouterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676182269DEF30060C89E /* EditConvertCurrencyViewControllerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditConvertCurrencyViewControllerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676192269DEF30060C89E /* EditConvertCurrencyWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditConvertCurrencyWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA6761A2269DEF30060C89E /* ExchangeSwitcherAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeSwitcherAaaExt.swift; sourceTree = "<group>"; };
+		DCA6761B2269DEF30060C89E /* FlagWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA6761C2269DEF30060C89E /* HistoryCurrencyInteractorAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCurrencyInteractorAaaExt.swift; sourceTree = "<group>"; };
+		DCA6761D2269DEF30060C89E /* HistoryCurrencyPresenterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCurrencyPresenterAaaExt.swift; sourceTree = "<group>"; };
+		DCA6761E2269DEF30060C89E /* HistoryCurrencyRouterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCurrencyRouterAaaExt.swift; sourceTree = "<group>"; };
+		DCA6761F2269DEF30060C89E /* HistoryCurrencyViewControllerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCurrencyViewControllerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676202269DEF30060C89E /* HistoryCurrencyWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCurrencyWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676212269DEF30060C89E /* HistoryMarkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryMarkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676222269DEF30060C89E /* HostTabBarControllerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostTabBarControllerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676232269DEF30060C89E /* HostTabBarInteractorAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostTabBarInteractorAaaExt.swift; sourceTree = "<group>"; };
+		DCA676242269DEF30060C89E /* HostTabBarPresenterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostTabBarPresenterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676252269DEF30060C89E /* HostTabBarWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostTabBarWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676262269DEF30060C89E /* InvestmentSubjectAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestmentSubjectAaaExt.swift; sourceTree = "<group>"; };
+		DCA676272269DEF30060C89E /* LanguageDictionaryAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageDictionaryAaaExt.swift; sourceTree = "<group>"; };
+		DCA676282269DEF30060C89E /* LanguageWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676292269DEF30060C89E /* LineChartAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartAaaExt.swift; sourceTree = "<group>"; };
+		DCA6762A2269DEF30060C89E /* ListBankCurrencyPresenterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankCurrencyPresenterAaaExt.swift; sourceTree = "<group>"; };
+		DCA6762B2269DEF30060C89E /* ListBankCurrencyRouterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankCurrencyRouterAaaExt.swift; sourceTree = "<group>"; };
+		DCA6762C2269DEF30060C89E /* ListBankCurrencyViewControllerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankCurrencyViewControllerAaaExt.swift; sourceTree = "<group>"; };
+		DCA6762D2269DEF30060C89E /* ListBankCurrencyWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankCurrencyWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA6762E2269DEF30060C89E /* ListBankInteractorAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankInteractorAaaExt.swift; sourceTree = "<group>"; };
+		DCA6762F2269DEF30060C89E /* ListBankPresenterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankPresenterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676302269DEF30060C89E /* ListBankRouterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankRouterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676312269DEF30060C89E /* ListBankViewControllerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankViewControllerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676322269DEF30060C89E /* ListBankWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBankWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676332269DEF30060C89E /* ListCurrencyInteractorAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCurrencyInteractorAaaExt.swift; sourceTree = "<group>"; };
+		DCA676342269DEF30060C89E /* ListCurrencyViewControllerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCurrencyViewControllerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676352269DEF30060C89E /* ListMoreInteractorAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMoreInteractorAaaExt.swift; sourceTree = "<group>"; };
+		DCA676362269DEF30060C89E /* ListMorePresenterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMorePresenterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676372269DEF30060C89E /* ListMoreRouterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMoreRouterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676382269DEF30060C89E /* ListMoreViewControllerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMoreViewControllerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676392269DEF30060C89E /* ListMoreWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMoreWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA6763A2269DEF30060C89E /* LoadingViewAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewAaaExt.swift; sourceTree = "<group>"; };
+		DCA6763B2269DEF30060C89E /* MiniChartAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniChartAaaExt.swift; sourceTree = "<group>"; };
+		DCA6763C2269DEF30060C89E /* MMCardViewAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMCardViewAaaExt.swift; sourceTree = "<group>"; };
+		DCA6763D2269DEF30060C89E /* MoreCellAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreCellAaaExt.swift; sourceTree = "<group>"; };
+		DCA6763E2269DEF30060C89E /* MoreHeaderAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreHeaderAaaExt.swift; sourceTree = "<group>"; };
+		DCA6763F2269DEF30060C89E /* MoreVariedViewAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreVariedViewAaaExt.swift; sourceTree = "<group>"; };
+		DCA676402269DEF30060C89E /* MyAppAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAppAaaExt.swift; sourceTree = "<group>"; };
+		DCA676412269DEF30060C89E /* NeonCellAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonCellAaaExt.swift; sourceTree = "<group>"; };
+		DCA676422269DEF30060C89E /* NeonTableViewAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonTableViewAaaExt.swift; sourceTree = "<group>"; };
+		DCA676442269DEF30060C89E /* NewClassCallHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewClassCallHeader.h; sourceTree = "<group>"; };
+		DCA676452269DEF30060C89E /* NumberPadAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPadAaaExt.swift; sourceTree = "<group>"; };
+		DCA676462269DEF30060C89E /* OptionViewAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionViewAaaExt.swift; sourceTree = "<group>"; };
+		DCA676472269DEF30060C89E /* PadButtonAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PadButtonAaaExt.swift; sourceTree = "<group>"; };
+		DCA676482269DEF30060C89E /* PeriodSegmentedControlAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeriodSegmentedControlAaaExt.swift; sourceTree = "<group>"; };
+		DCA676492269DEF30060C89E /* PopupInfoAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupInfoAaaExt.swift; sourceTree = "<group>"; };
+		DCA6764A2269DEF30060C89E /* PriceDashAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceDashAaaExt.swift; sourceTree = "<group>"; };
+		DCA6764B2269DEF30060C89E /* RateAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateAaaExt.swift; sourceTree = "<group>"; };
+		DCA6764C2269DEF30060C89E /* ReachabilityWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA6764D2269DEF30060C89E /* RecordCellAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordCellAaaExt.swift; sourceTree = "<group>"; };
+		DCA6764E2269DEF30060C89E /* RoundedViewAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedViewAaaExt.swift; sourceTree = "<group>"; };
+		DCA6764F2269DEF30060C89E /* ScreenShooterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenShooterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676502269DEF30060C89E /* ScreenshotChartVCAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenshotChartVCAaaExt.swift; sourceTree = "<group>"; };
+		DCA676512269DEF30060C89E /* SelectCurrencyInteractorAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCurrencyInteractorAaaExt.swift; sourceTree = "<group>"; };
+		DCA676522269DEF30060C89E /* SelectCurrencyPresenterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCurrencyPresenterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676532269DEF30060C89E /* SelectCurrencyRouterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCurrencyRouterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676542269DEF30060C89E /* SelectCurrencyViewControllerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCurrencyViewControllerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676552269DEF30060C89E /* SelectSettingInteractorAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSettingInteractorAaaExt.swift; sourceTree = "<group>"; };
+		DCA676562269DEF30060C89E /* SelectSettingPresenterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSettingPresenterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676572269DEF30060C89E /* SelectSettingRouterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSettingRouterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676582269DEF30060C89E /* SelectSettingViewControllerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSettingViewControllerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676592269DEF30060C89E /* SimpleChartAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleChartAaaExt.swift; sourceTree = "<group>"; };
+		DCA6765A2269DEF30060C89E /* SLineChartRendererAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLineChartRendererAaaExt.swift; sourceTree = "<group>"; };
+		DCA6765B2269DEF30060C89E /* SVProgressHUDCustomConfigurationAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVProgressHUDCustomConfigurationAaaExt.swift; sourceTree = "<group>"; };
+		DCA6765C2269DEF30060C89E /* SwitcherAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitcherAaaExt.swift; sourceTree = "<group>"; };
+		DCA6765D2269DEF30060C89E /* TimeWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA6765E2269DEF30060C89E /* TradeSwitcherAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeSwitcherAaaExt.swift; sourceTree = "<group>"; };
+		DCA6765F2269DEF30060C89E /* TWBankInteractorAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TWBankInteractorAaaExt.swift; sourceTree = "<group>"; };
+		DCA676602269DEF30060C89E /* TWBankPresenterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TWBankPresenterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676612269DEF30060C89E /* TWBankRouterAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TWBankRouterAaaExt.swift; sourceTree = "<group>"; };
+		DCA676622269DEF30060C89E /* TWBankViewControllerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TWBankViewControllerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676632269DEF30060C89E /* TWBankWorkerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TWBankWorkerAaaExt.swift; sourceTree = "<group>"; };
+		DCA676642269DEF30060C89E /* UserSettingsAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettingsAaaExt.swift; sourceTree = "<group>"; };
+		DCA676652269DEF30060C89E /* ViewControllerAaaExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerAaaExt.swift; sourceTree = "<group>"; };
 		DE6B7C41C9D2D7D4FDBE9748 /* Pods_CURRENCY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CURRENCY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6006B0220A2C5450050F351 /* AnnouncementPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementPresentable.swift; sourceTree = "<group>"; };
 		F60B6A641FB4322000EEFA74 /* CURRENCY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CURRENCY.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -466,6 +712,145 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DCA675E82269DEF30060C89E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DCA675E92269DEF30060C89E /* AAACallHeader.h */,
+				DCA675EA2269DEF30060C89E /* AboutMeVCAaaExt.swift */,
+				DCA675EB2269DEF30060C89E /* AdsManagerAaaExt.swift */,
+				DCA675EC2269DEF30060C89E /* AdViewAaaExt.swift */,
+				DCA675ED2269DEF30060C89E /* AgreementVCAaaExt.swift */,
+				DCA675EE2269DEF30060C89E /* AnnouncementViewAaaExt.swift */,
+				DCA675EF2269DEF30060C89E /* APIAaaExt.swift */,
+				DCA675F02269DEF30060C89E /* APIAnalyzerAaaExt.swift */,
+				DCA675F12269DEF30060C89E /* AppDelegateAaaExt.swift */,
+				DCA675F22269DEF30060C89E /* BalloonMarkerAaaExt.swift */,
+				DCA675F32269DEF30060C89E /* BankCellAaaExt.swift */,
+				DCA675F42269DEF30060C89E /* BankCurrencyInteractorAaaExt.swift */,
+				DCA675F52269DEF30060C89E /* BankCurrencyPresenterAaaExt.swift */,
+				DCA675F62269DEF30060C89E /* BankCurrencyRouterAaaExt.swift */,
+				DCA675F72269DEF30060C89E /* BankCurrencyViewControllerAaaExt.swift */,
+				DCA675F82269DEF30060C89E /* BankCurrencyWorkerAaaExt.swift */,
+				DCA675F92269DEF30060C89E /* BankHeaderAaaExt.swift */,
+				DCA675FA2269DEF30060C89E /* CalculatorWorkerAaaExt.swift */,
+				DCA675FB2269DEF30060C89E /* CharacterUnicodeWorkerAaaExt.swift */,
+				DCA675FC2269DEF30060C89E /* ChartHeaderAaaExt.swift */,
+				DCA675FD2269DEF30060C89E /* ChartInteractorAaaExt.swift */,
+				DCA675FE2269DEF30060C89E /* ChartPresenterAaaExt.swift */,
+				DCA675FF2269DEF30060C89E /* ChartRouterAaaExt.swift */,
+				DCA676002269DEF30060C89E /* ChartViewControllerAaaExt.swift */,
+				DCA676012269DEF30060C89E /* ChartWorkerAaaExt.swift */,
+				DCA676022269DEF30060C89E /* ConvertCurrencyInteractorAaaExt.swift */,
+				DCA676032269DEF30060C89E /* ConvertCurrencyPresenterAaaExt.swift */,
+				DCA676042269DEF30060C89E /* ConvertCurrencyRouterAaaExt.swift */,
+				DCA676052269DEF30060C89E /* ConvertCurrencyViewControllerAaaExt.swift */,
+				DCA676062269DEF30060C89E /* ConvertCurrencyWorkerAaaExt.swift */,
+				DCA676072269DEF30060C89E /* ConverterCellAaaExt.swift */,
+				DCA676082269DEF30060C89E /* ConverterHeaderAaaExt.swift */,
+				DCA676092269DEF30060C89E /* CrownViewAaaExt.swift */,
+				DCA6760A2269DEF30060C89E /* CurrencyCellAaaExt.swift */,
+				DCA6760B2269DEF30060C89E /* CurrencyInteractorAaaExt.swift */,
+				DCA6760C2269DEF30060C89E /* CurrencyPresenterAaaExt.swift */,
+				DCA6760D2269DEF30060C89E /* CurrencyRouterAaaExt.swift */,
+				DCA6760E2269DEF30060C89E /* CurrencySourceAaaExt.swift */,
+				DCA6760F2269DEF30060C89E /* CurrencyUnitWorkerAaaExt.swift */,
+				DCA676102269DEF30060C89E /* CurrencyViewControllerAaaExt.swift */,
+				DCA676112269DEF30060C89E /* CurrencyWorkerAaaExt.swift */,
+				DCA676122269DEF30060C89E /* DashBoardAaaExt.swift */,
+				DCA676132269DEF30060C89E /* DataManagerAaaExt.swift */,
+				DCA676142269DEF30060C89E /* DivergenceLabelAaaExt.swift */,
+				DCA676152269DEF30060C89E /* EditConvertCurrencyInteractorAaaExt.swift */,
+				DCA676162269DEF30060C89E /* EditConvertCurrencyPresenterAaaExt.swift */,
+				DCA676172269DEF30060C89E /* EditConvertCurrencyRouterAaaExt.swift */,
+				DCA676182269DEF30060C89E /* EditConvertCurrencyViewControllerAaaExt.swift */,
+				DCA676192269DEF30060C89E /* EditConvertCurrencyWorkerAaaExt.swift */,
+				DCA6761A2269DEF30060C89E /* ExchangeSwitcherAaaExt.swift */,
+				DCA6761B2269DEF30060C89E /* FlagWorkerAaaExt.swift */,
+				DCA6761C2269DEF30060C89E /* HistoryCurrencyInteractorAaaExt.swift */,
+				DCA6761D2269DEF30060C89E /* HistoryCurrencyPresenterAaaExt.swift */,
+				DCA6761E2269DEF30060C89E /* HistoryCurrencyRouterAaaExt.swift */,
+				DCA6761F2269DEF30060C89E /* HistoryCurrencyViewControllerAaaExt.swift */,
+				DCA676202269DEF30060C89E /* HistoryCurrencyWorkerAaaExt.swift */,
+				DCA676212269DEF30060C89E /* HistoryMarkerAaaExt.swift */,
+				DCA676222269DEF30060C89E /* HostTabBarControllerAaaExt.swift */,
+				DCA676232269DEF30060C89E /* HostTabBarInteractorAaaExt.swift */,
+				DCA676242269DEF30060C89E /* HostTabBarPresenterAaaExt.swift */,
+				DCA676252269DEF30060C89E /* HostTabBarWorkerAaaExt.swift */,
+				DCA676262269DEF30060C89E /* InvestmentSubjectAaaExt.swift */,
+				DCA676272269DEF30060C89E /* LanguageDictionaryAaaExt.swift */,
+				DCA676282269DEF30060C89E /* LanguageWorkerAaaExt.swift */,
+				DCA676292269DEF30060C89E /* LineChartAaaExt.swift */,
+				DCA6762A2269DEF30060C89E /* ListBankCurrencyPresenterAaaExt.swift */,
+				DCA6762B2269DEF30060C89E /* ListBankCurrencyRouterAaaExt.swift */,
+				DCA6762C2269DEF30060C89E /* ListBankCurrencyViewControllerAaaExt.swift */,
+				DCA6762D2269DEF30060C89E /* ListBankCurrencyWorkerAaaExt.swift */,
+				DCA6762E2269DEF30060C89E /* ListBankInteractorAaaExt.swift */,
+				DCA6762F2269DEF30060C89E /* ListBankPresenterAaaExt.swift */,
+				DCA676302269DEF30060C89E /* ListBankRouterAaaExt.swift */,
+				DCA676312269DEF30060C89E /* ListBankViewControllerAaaExt.swift */,
+				DCA676322269DEF30060C89E /* ListBankWorkerAaaExt.swift */,
+				DCA676332269DEF30060C89E /* ListCurrencyInteractorAaaExt.swift */,
+				DCA676342269DEF30060C89E /* ListCurrencyViewControllerAaaExt.swift */,
+				DCA676352269DEF30060C89E /* ListMoreInteractorAaaExt.swift */,
+				DCA676362269DEF30060C89E /* ListMorePresenterAaaExt.swift */,
+				DCA676372269DEF30060C89E /* ListMoreRouterAaaExt.swift */,
+				DCA676382269DEF30060C89E /* ListMoreViewControllerAaaExt.swift */,
+				DCA676392269DEF30060C89E /* ListMoreWorkerAaaExt.swift */,
+				DCA6763A2269DEF30060C89E /* LoadingViewAaaExt.swift */,
+				DCA6763B2269DEF30060C89E /* MiniChartAaaExt.swift */,
+				DCA6763C2269DEF30060C89E /* MMCardViewAaaExt.swift */,
+				DCA6763D2269DEF30060C89E /* MoreCellAaaExt.swift */,
+				DCA6763E2269DEF30060C89E /* MoreHeaderAaaExt.swift */,
+				DCA6763F2269DEF30060C89E /* MoreVariedViewAaaExt.swift */,
+				DCA676402269DEF30060C89E /* MyAppAaaExt.swift */,
+				DCA676412269DEF30060C89E /* NeonCellAaaExt.swift */,
+				DCA676422269DEF30060C89E /* NeonTableViewAaaExt.swift */,
+				DCA676432269DEF30060C89E /* NewClass */,
+				DCA676452269DEF30060C89E /* NumberPadAaaExt.swift */,
+				DCA676462269DEF30060C89E /* OptionViewAaaExt.swift */,
+				DCA676472269DEF30060C89E /* PadButtonAaaExt.swift */,
+				DCA676482269DEF30060C89E /* PeriodSegmentedControlAaaExt.swift */,
+				DCA676492269DEF30060C89E /* PopupInfoAaaExt.swift */,
+				DCA6764A2269DEF30060C89E /* PriceDashAaaExt.swift */,
+				DCA6764B2269DEF30060C89E /* RateAaaExt.swift */,
+				DCA6764C2269DEF30060C89E /* ReachabilityWorkerAaaExt.swift */,
+				DCA6764D2269DEF30060C89E /* RecordCellAaaExt.swift */,
+				DCA6764E2269DEF30060C89E /* RoundedViewAaaExt.swift */,
+				DCA6764F2269DEF30060C89E /* ScreenShooterAaaExt.swift */,
+				DCA676502269DEF30060C89E /* ScreenshotChartVCAaaExt.swift */,
+				DCA676512269DEF30060C89E /* SelectCurrencyInteractorAaaExt.swift */,
+				DCA676522269DEF30060C89E /* SelectCurrencyPresenterAaaExt.swift */,
+				DCA676532269DEF30060C89E /* SelectCurrencyRouterAaaExt.swift */,
+				DCA676542269DEF30060C89E /* SelectCurrencyViewControllerAaaExt.swift */,
+				DCA676552269DEF30060C89E /* SelectSettingInteractorAaaExt.swift */,
+				DCA676562269DEF30060C89E /* SelectSettingPresenterAaaExt.swift */,
+				DCA676572269DEF30060C89E /* SelectSettingRouterAaaExt.swift */,
+				DCA676582269DEF30060C89E /* SelectSettingViewControllerAaaExt.swift */,
+				DCA676592269DEF30060C89E /* SimpleChartAaaExt.swift */,
+				DCA6765A2269DEF30060C89E /* SLineChartRendererAaaExt.swift */,
+				DCA6765B2269DEF30060C89E /* SVProgressHUDCustomConfigurationAaaExt.swift */,
+				DCA6765C2269DEF30060C89E /* SwitcherAaaExt.swift */,
+				DCA6765D2269DEF30060C89E /* TimeWorkerAaaExt.swift */,
+				DCA6765E2269DEF30060C89E /* TradeSwitcherAaaExt.swift */,
+				DCA6765F2269DEF30060C89E /* TWBankInteractorAaaExt.swift */,
+				DCA676602269DEF30060C89E /* TWBankPresenterAaaExt.swift */,
+				DCA676612269DEF30060C89E /* TWBankRouterAaaExt.swift */,
+				DCA676622269DEF30060C89E /* TWBankViewControllerAaaExt.swift */,
+				DCA676632269DEF30060C89E /* TWBankWorkerAaaExt.swift */,
+				DCA676642269DEF30060C89E /* UserSettingsAaaExt.swift */,
+				DCA676652269DEF30060C89E /* ViewControllerAaaExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DCA676432269DEF30060C89E /* NewClass */ = {
+			isa = PBXGroup;
+			children = (
+				DCA676442269DEF30060C89E /* NewClassCallHeader.h */,
+			);
+			path = NewClass;
+			sourceTree = "<group>";
+		};
 		F60B6A5B1FB4322000EEFA74 = {
 			isa = PBXGroup;
 			children = (
@@ -489,6 +874,7 @@
 		F60B6A661FB4322000EEFA74 /* CURRENCY */ = {
 			isa = PBXGroup;
 			children = (
+				DCA675E82269DEF30060C89E /* Extension */,
 				DC3CFC0B2268278500BD8FEC /* ProjectConfuse.h */,
 				F66B4827203EAAA600A8B7B3 /* Localization */,
 				F65FA080201B1B1600A56DD4 /* Font */,
@@ -1189,7 +1575,9 @@
 				F6680F8F1FFDCF2F0027FB21 /* Array+ComparePrevNext.swift in Sources */,
 				F65EE615201479020077B04C /* NeonTableView.swift in Sources */,
 				F60B6A9C1FB4351200EEFA74 /* CurrencyRouter.swift in Sources */,
+				DCA6766F2269DEF30060C89E /* BankCellAaaExt.swift in Sources */,
 				F60B6A9F1FB4351200EEFA74 /* CurrencyInteractor.swift in Sources */,
+				DCA676B32269DEF30060C89E /* ListMoreRouterAaaExt.swift in Sources */,
 				F68A4F392063547D003CA991 /* ListBankWorker.swift in Sources */,
 				F6DA7F0B1FB9FE7000B07B45 /* Configuration.swift in Sources */,
 				F6F9A9A420439BEA0023E8EE /* SelectSettingModels.swift in Sources */,
@@ -1197,28 +1585,58 @@
 				F6F9A647206BD1220035CF56 /* MiniChart.swift in Sources */,
 				F6367DDD206B54D60039CC5B /* CardView.swift in Sources */,
 				F64961A12063AB7C00B12B8E /* BankHeader.swift in Sources */,
+				DCA6769E2269DEF30060C89E /* HostTabBarControllerAaaExt.swift in Sources */,
+				DCA6766E2269DEF30060C89E /* BalloonMarkerAaaExt.swift in Sources */,
+				DCA676CC2269DEF40060C89E /* SelectCurrencyPresenterAaaExt.swift in Sources */,
 				F61A4AF8205627AE00571DAD /* Errors.swift in Sources */,
+				DCA676D22269DEF40060C89E /* SelectSettingViewControllerAaaExt.swift in Sources */,
 				F6B468EE208F0B5E00D80F81 /* UIView+Setup.swift in Sources */,
+				DCA676BC2269DEF30060C89E /* MyAppAaaExt.swift in Sources */,
 				F62C93161FBD5FA6003D0DD5 /* XibLoadable.swift in Sources */,
 				F61B85B0206B77E600B208CB /* UIView+Screenshot.swift in Sources */,
+				DCA676A02269DEF30060C89E /* HostTabBarPresenterAaaExt.swift in Sources */,
+				DCA676A12269DEF30060C89E /* HostTabBarWorkerAaaExt.swift in Sources */,
+				DCA6766A2269DEF30060C89E /* AnnouncementViewAaaExt.swift in Sources */,
+				DCA676AF2269DEF30060C89E /* ListCurrencyInteractorAaaExt.swift in Sources */,
+				DCA676D02269DEF40060C89E /* SelectSettingPresenterAaaExt.swift in Sources */,
 				F66B4848203EAE5300A8B7B3 /* ListMoreViewController.swift in Sources */,
+				DCA676722269DEF30060C89E /* BankCurrencyRouterAaaExt.swift in Sources */,
 				F6ECC2A620A29901007AC843 /* FlagWorker.swift in Sources */,
 				F699F15F206B255300C65102 /* ChartRouter.swift in Sources */,
 				F66B4847203EAE5300A8B7B3 /* ListSettingModels.swift in Sources */,
 				F65CFEE32091D4BF00643273 /* AdView.swift in Sources */,
 				F68D99D3206A17B800D0530A /* ListBankCurrencyWorker.swift in Sources */,
 				F699F15B206B255300C65102 /* ChartPresenter.swift in Sources */,
+				DCA6769F2269DEF30060C89E /* HostTabBarInteractorAaaExt.swift in Sources */,
+				DCA676AA2269DEF30060C89E /* ListBankInteractorAaaExt.swift in Sources */,
+				DCA676C62269DEF40060C89E /* ReachabilityWorkerAaaExt.swift in Sources */,
+				DCA676812269DEF30060C89E /* ConvertCurrencyViewControllerAaaExt.swift in Sources */,
 				F6D977511FC05AB30010BFF4 /* Date+StringValue.swift in Sources */,
 				F68D99F3206A1A7B00D0530A /* BankCurrencyModels.swift in Sources */,
+				DCA676792269DEF30060C89E /* ChartInteractorAaaExt.swift in Sources */,
+				DCA676B12269DEF30060C89E /* ListMoreInteractorAaaExt.swift in Sources */,
 				F65EE61B20157EDE0077B04C /* OptionView.swift in Sources */,
+				DCA676922269DEF30060C89E /* EditConvertCurrencyPresenterAaaExt.swift in Sources */,
+				DCA6769B2269DEF30060C89E /* HistoryCurrencyViewControllerAaaExt.swift in Sources */,
+				DCA676A82269DEF30060C89E /* ListBankCurrencyViewControllerAaaExt.swift in Sources */,
+				DCA676BF2269DEF40060C89E /* NumberPadAaaExt.swift in Sources */,
+				DCA676932269DEF30060C89E /* EditConvertCurrencyRouterAaaExt.swift in Sources */,
+				DCA676C92269DEF40060C89E /* ScreenShooterAaaExt.swift in Sources */,
 				F6AD32F6207F266C00AA616B /* DS.swift in Sources */,
 				F622BECE20523240004D082A /* ConverterHeader.swift in Sources */,
 				F686E88A1FFD271600C50876 /* Double+DecimalPoint.swift in Sources */,
 				F66ABB432014747400560FB3 /* SelectCurrencyPresenter.swift in Sources */,
 				F65B0F5E2080908F009F8068 /* String+EmptyValue.swift in Sources */,
 				F61F08DC204547B900443EEA /* AboutMeVC.swift in Sources */,
+				DCA676AD2269DEF30060C89E /* ListBankViewControllerAaaExt.swift in Sources */,
 				F6EF4FED1FB58F0F0040E786 /* DivergenceLabel.swift in Sources */,
+				DCA6769C2269DEF30060C89E /* HistoryCurrencyWorkerAaaExt.swift in Sources */,
+				DCA676912269DEF30060C89E /* EditConvertCurrencyInteractorAaaExt.swift in Sources */,
+				DCA6767C2269DEF30060C89E /* ChartViewControllerAaaExt.swift in Sources */,
+				DCA676D42269DEF40060C89E /* SLineChartRendererAaaExt.swift in Sources */,
 				F658BF3E201ED1840033CCB9 /* ConvertCurrencyRouter.swift in Sources */,
+				DCA676CB2269DEF40060C89E /* SelectCurrencyInteractorAaaExt.swift in Sources */,
+				DCA676942269DEF30060C89E /* EditConvertCurrencyViewControllerAaaExt.swift in Sources */,
 				F699F15D206B255300C65102 /* ChartWorker.swift in Sources */,
 				F6F2CFB520930E910037E905 /* UIControlControl.swift in Sources */,
 				F6DBFF081FBC9DDF0079C5E3 /* String+dollarMark.swift in Sources */,
@@ -1226,26 +1644,39 @@
 				F666EC4A206DE23A00184A61 /* PeriodSegmentedControl.swift in Sources */,
 				F652A9E71FCFEB1B00B13DAC /* API.swift in Sources */,
 				F6B45287202ACAC60043387B /* ReachabilityWorker.swift in Sources */,
+				DCA676872269DEF30060C89E /* CurrencyInteractorAaaExt.swift in Sources */,
+				DCA676B82269DEF30060C89E /* MMCardViewAaaExt.swift in Sources */,
 				F6F9A9A620439BEA0023E8EE /* SelectSettingRouter.swift in Sources */,
 				F6F4DBDA201F187500C29FCE /* ConverterCell.swift in Sources */,
 				F688E22C20197C5C005067DE /* HostTabBarRouter.swift in Sources */,
+				DCA6768A2269DEF30060C89E /* CurrencySourceAaaExt.swift in Sources */,
+				DCA676C02269DEF40060C89E /* OptionViewAaaExt.swift in Sources */,
 				F65E6B471FBAC70000EAE946 /* LineChart.swift in Sources */,
 				F6B45289202AD3310043387B /* NetworkReachable.swift in Sources */,
 				F6583EF22063869900E9C630 /* String+SliceHTMLComponent.swift in Sources */,
 				F61B85B3206B898200B208CB /* ScreenShooter.swift in Sources */,
 				F68D99F5206A1A7B00D0530A /* BankCurrencyViewController.swift in Sources */,
 				F61125A4207C9246000108D1 /* ModelProtocols.swift in Sources */,
+				DCA676802269DEF30060C89E /* ConvertCurrencyRouterAaaExt.swift in Sources */,
+				DCA676672269DEF30060C89E /* AdsManagerAaaExt.swift in Sources */,
 				F60B6A9B1FB4351200EEFA74 /* CurrencyWorker.swift in Sources */,
 				F658BF41201ED1840033CCB9 /* ConvertCurrencyInteractor.swift in Sources */,
+				DCA6767D2269DEF30060C89E /* ChartWorkerAaaExt.swift in Sources */,
+				DCA676DB2269DEF40060C89E /* TWBankRouterAaaExt.swift in Sources */,
 				F6006B0320A2C5450050F351 /* AnnouncementPresentable.swift in Sources */,
 				F699F165206B255300C65102 /* ChartInteractor.swift in Sources */,
 				F6A1BE75204F8FB100AA0CB4 /* SLineChartRenderer.swift in Sources */,
 				F61F08DA204547AE00443EEA /* AgreementVC.swift in Sources */,
 				F6367DE0206B5BB80039CC5B /* ChartHeader.swift in Sources */,
+				DCA676D32269DEF40060C89E /* SimpleChartAaaExt.swift in Sources */,
 				F6114ED020525C2500D0C04B /* MMPopup.swift in Sources */,
 				F699F182206B3B0100C65102 /* HistoryCurrencyViewController.swift in Sources */,
 				F6114ED220527A4D00D0C04B /* Shakeable.swift in Sources */,
 				F699F172206B28D300C65102 /* SimpleChart.swift in Sources */,
+				DCA676772269DEF30060C89E /* CharacterUnicodeWorkerAaaExt.swift in Sources */,
+				DCA676A72269DEF30060C89E /* ListBankCurrencyRouterAaaExt.swift in Sources */,
+				DCA676682269DEF30060C89E /* AdViewAaaExt.swift in Sources */,
+				DCA676742269DEF30060C89E /* BankCurrencyWorkerAaaExt.swift in Sources */,
 				F698006D206E3E62006C9FDC /* HistoryMarker.swift in Sources */,
 				F6F9A9B22043F5B30023E8EE /* MoreVariedView.swift in Sources */,
 				F6F4DBE220200EA600C29FCE /* PadButton.swift in Sources */,
@@ -1254,80 +1685,145 @@
 				F68D99D1206A17B800D0530A /* ListBankCurrencyPresenter.swift in Sources */,
 				F68A4F2B20634EE2003CA991 /* TWBankModels.swift in Sources */,
 				F6DA7F0D1FBA88CA00B07B45 /* Switcher.swift in Sources */,
+				DCA676662269DEF30060C89E /* AboutMeVCAaaExt.swift in Sources */,
 				F6A1BE6F204E6D9A00AA0CB4 /* KVNProgressCustomConfiguration.swift in Sources */,
 				F66B4846203EAE5300A8B7B3 /* ListMoreRouter.swift in Sources */,
+				DCA676832269DEF30060C89E /* ConverterCellAaaExt.swift in Sources */,
+				DCA6767B2269DEF30060C89E /* ChartRouterAaaExt.swift in Sources */,
 				DC1AC162226487740030354C /* R.generated.swift in Sources */,
+				DCA676A32269DEF30060C89E /* LanguageDictionaryAaaExt.swift in Sources */,
 				F6F9A9B02043F3B10023E8EE /* MoreCell.swift in Sources */,
 				F66ABB472014747400560FB3 /* SelectCurrencyViewController.swift in Sources */,
+				DCA676C82269DEF40060C89E /* RoundedViewAaaExt.swift in Sources */,
+				DCA676C52269DEF40060C89E /* RateAaaExt.swift in Sources */,
+				DCA676972269DEF30060C89E /* FlagWorkerAaaExt.swift in Sources */,
+				DCA676692269DEF30060C89E /* AgreementVCAaaExt.swift in Sources */,
 				F658BF40201ED1840033CCB9 /* ConvertCurrencyViewController.swift in Sources */,
 				F6FD25D1206C77380067FBAE /* LanguageDictionary.swift in Sources */,
 				F6521B8A1FBC704B00F297EC /* BalloonMarker.swift in Sources */,
 				F62C93181FBD6A2B003D0DD5 /* UIFont+Size.swift in Sources */,
 				F68A4F412063547D003CA991 /* ListBankInteractor.swift in Sources */,
+				DCA676DF2269DEF40060C89E /* ViewControllerAaaExt.swift in Sources */,
 				F699F17E206B3B0100C65102 /* HistoryCurrencyRouter.swift in Sources */,
 				F60B6A7A1FB4323A00EEFA74 /* ViewController.swift in Sources */,
+				DCA6769A2269DEF30060C89E /* HistoryCurrencyRouterAaaExt.swift in Sources */,
+				DCA676BE2269DEF30060C89E /* NeonTableViewAaaExt.swift in Sources */,
+				DCA676822269DEF30060C89E /* ConvertCurrencyWorkerAaaExt.swift in Sources */,
+				DCA676CD2269DEF40060C89E /* SelectCurrencyRouterAaaExt.swift in Sources */,
 				F6B1DA52202D7282002F834B /* EditConvertCurrencyRouter.swift in Sources */,
+				DCA676712269DEF30060C89E /* BankCurrencyPresenterAaaExt.swift in Sources */,
 				F6B1DA51202D7282002F834B /* EditConvertCurrencyWorker.swift in Sources */,
 				F658BF3D201ED1840033CCB9 /* ConvertCurrencyWorker.swift in Sources */,
+				DCA6767F2269DEF30060C89E /* ConvertCurrencyPresenterAaaExt.swift in Sources */,
 				F66B4844203EAE5300A8B7B3 /* ListMorePresenter.swift in Sources */,
+				DCA676BA2269DEF30060C89E /* MoreHeaderAaaExt.swift in Sources */,
 				F658BF3C201ED1840033CCB9 /* ConvertCurrencyPresenter.swift in Sources */,
 				F62C930D1FBD4DB1003D0DD5 /* DashBoard.swift in Sources */,
 				F6F9A9AA2043C48F0023E8EE /* ReloadAnimationable.swift in Sources */,
 				F6A59B3E2089C28F004A42B3 /* XibLiveControl.swift in Sources */,
 				F688E22E20197C5C005067DE /* HostTabBarController.swift in Sources */,
+				DCA676D12269DEF40060C89E /* SelectSettingRouterAaaExt.swift in Sources */,
+				DCA676DC2269DEF40060C89E /* TWBankViewControllerAaaExt.swift in Sources */,
 				F699F180206B3B0100C65102 /* HistoryCurrencyModels.swift in Sources */,
 				F66ABB462014747400560FB3 /* SelectCurrencyModels.swift in Sources */,
 				F6DBFF0A1FBD25A20079C5E3 /* UIImage+Rotate.swift in Sources */,
+				DCA6766B2269DEF30060C89E /* APIAaaExt.swift in Sources */,
 				F64EF5CA20440F4E00EB691D /* NavigationControllerTheme.swift in Sources */,
+				DCA676A62269DEF30060C89E /* ListBankCurrencyPresenterAaaExt.swift in Sources */,
+				DCA676A52269DEF30060C89E /* LineChartAaaExt.swift in Sources */,
 				F68D99ED206A1A7B00D0530A /* BankCurrencyPresenter.swift in Sources */,
 				F699F17C206B3B0100C65102 /* HistoryCurrencyWorker.swift in Sources */,
 				F68D99F1206A1A7B00D0530A /* BankCurrencyRouter.swift in Sources */,
 				F6F9A9A720439BEA0023E8EE /* SelectSettingViewController.swift in Sources */,
+				DCA676B52269DEF30060C89E /* ListMoreWorkerAaaExt.swift in Sources */,
 				F66B4845203EAE5300A8B7B3 /* ListMoreWorker.swift in Sources */,
+				DCA676952269DEF30060C89E /* EditConvertCurrencyWorkerAaaExt.swift in Sources */,
 				F68A4F2D20634EE2003CA991 /* TWBankViewController.swift in Sources */,
 				F622BED32052330A004D082A /* ExchangeSwitcher.swift in Sources */,
 				F66B485F203EC1B200A8B7B3 /* LanguageWorker.swift in Sources */,
 				F688E22A20197C5C005067DE /* HostTabBarPresenter.swift in Sources */,
+				DCA676A92269DEF30060C89E /* ListBankCurrencyWorkerAaaExt.swift in Sources */,
 				F6F4DBDE20200E1200C29FCE /* NumberPad.swift in Sources */,
 				F60B6AA71FB4372100EEFA74 /* RecordCell.swift in Sources */,
 				F6B45285202AAE9A0043387B /* TimeWorker.swift in Sources */,
 				F60B6A9E1FB4351200EEFA74 /* CurrencyViewController.swift in Sources */,
 				F68A4F372063547D003CA991 /* ListBankPresenter.swift in Sources */,
 				F688E22D20197C5C005067DE /* HostTabBarModels.swift in Sources */,
+				DCA676B92269DEF30060C89E /* MoreCellAaaExt.swift in Sources */,
 				F66B4878203FBAB100A8B7B3 /* LoadingView.swift in Sources */,
 				F6B1DA50202D7282002F834B /* EditConvertCurrencyPresenter.swift in Sources */,
+				DCA6768F2269DEF30060C89E /* DataManagerAaaExt.swift in Sources */,
+				DCA676982269DEF30060C89E /* HistoryCurrencyInteractorAaaExt.swift in Sources */,
+				DCA676B42269DEF30060C89E /* ListMoreViewControllerAaaExt.swift in Sources */,
+				DCA676CE2269DEF40060C89E /* SelectCurrencyViewControllerAaaExt.swift in Sources */,
 				F6CE7853209FF0B200B400A2 /* CurrenyUnitWorker.swift in Sources */,
+				DCA676782269DEF30060C89E /* ChartHeaderAaaExt.swift in Sources */,
 				F6F9A9A520439BEA0023E8EE /* SelectSettingPresenter.swift in Sources */,
+				DCA6767E2269DEF30060C89E /* ConvertCurrencyInteractorAaaExt.swift in Sources */,
 				F68D99C22069EDC300D0530A /* Source.swift in Sources */,
+				DCA6768D2269DEF30060C89E /* CurrencyWorkerAaaExt.swift in Sources */,
 				F699F184206B3B0100C65102 /* HistoryCurrencyInteractor.swift in Sources */,
 				F648C8AA206249ED00FA9368 /* AppKit.swift in Sources */,
+				DCA6769D2269DEF30060C89E /* HistoryMarkerAaaExt.swift in Sources */,
 				F6EF4FF51FB6FFA60040E786 /* Divergence.swift in Sources */,
+				DCA676C12269DEF40060C89E /* PadButtonAaaExt.swift in Sources */,
 				F68D99D9206A17B800D0530A /* ListBankCurrencyViewController.swift in Sources */,
 				F6583EF92063A39200E9C630 /* BankCell.swift in Sources */,
+				DCA676762269DEF30060C89E /* CalculatorWorkerAaaExt.swift in Sources */,
+				DCA676752269DEF30060C89E /* BankHeaderAaaExt.swift in Sources */,
 				F688E22B20197C5C005067DE /* HostTabBarWorker.swift in Sources */,
+				DCA676D72269DEF40060C89E /* TimeWorkerAaaExt.swift in Sources */,
 				F6B1DA54202D7282002F834B /* EditConvertCurrencyViewController.swift in Sources */,
+				DCA676DA2269DEF40060C89E /* TWBankPresenterAaaExt.swift in Sources */,
+				DCA676DD2269DEF40060C89E /* TWBankWorkerAaaExt.swift in Sources */,
 				F6EF4FEF1FB5AA9F0040E786 /* InvestmentSubject.swift in Sources */,
+				DCA676AE2269DEF30060C89E /* ListBankWorkerAaaExt.swift in Sources */,
+				DCA6768B2269DEF30060C89E /* CurrencyUnitWorkerAaaExt.swift in Sources */,
+				DCA6768E2269DEF30060C89E /* DashBoardAaaExt.swift in Sources */,
+				DCA676D62269DEF40060C89E /* SwitcherAaaExt.swift in Sources */,
 				F6DBFF061FBC9C7A0079C5E3 /* Array+Average.swift in Sources */,
+				DCA676DE2269DEF40060C89E /* UserSettingsAaaExt.swift in Sources */,
 				F68A4F2520634EE2003CA991 /* TWBankPresenter.swift in Sources */,
 				F65EE617201487220077B04C /* NeonCell.swift in Sources */,
+				DCA676842269DEF30060C89E /* ConverterHeaderAaaExt.swift in Sources */,
+				DCA676C42269DEF40060C89E /* PriceDashAaaExt.swift in Sources */,
+				DCA676B62269DEF30060C89E /* LoadingViewAaaExt.swift in Sources */,
+				DCA676992269DEF30060C89E /* HistoryCurrencyPresenterAaaExt.swift in Sources */,
+				DCA676D82269DEF40060C89E /* TradeSwitcherAaaExt.swift in Sources */,
 				F6733D0C207222C90063AFEC /* ErrorHandlerConfiguration.swift in Sources */,
 				F6B1DA53202D7282002F834B /* EditConvertCurrencyModels.swift in Sources */,
 				F68D99C52069EF1E00D0530A /* Bank.swift in Sources */,
+				DCA676AB2269DEF30060C89E /* ListBankPresenterAaaExt.swift in Sources */,
 				F6F9A9A320439BEA0023E8EE /* SelectSettingInteractor.swift in Sources */,
 				F6F9A9A820439BEA0023E8EE /* SelectSettingWorker.swift in Sources */,
+				DCA6767A2269DEF30060C89E /* ChartPresenterAaaExt.swift in Sources */,
 				F6733D002071D49E0063AFEC /* APIAnalyzer.swift in Sources */,
 				F6D977671FC188E70010BFF4 /* Array+Priceable.swift in Sources */,
+				DCA676962269DEF30060C89E /* ExchangeSwitcherAaaExt.swift in Sources */,
 				F658BF3F201ED1840033CCB9 /* ConvertCurrencyModels.swift in Sources */,
+				DCA676AC2269DEF30060C89E /* ListBankRouterAaaExt.swift in Sources */,
 				F66B4849203EAE5300A8B7B3 /* ListMoreInteractor.swift in Sources */,
 				F6A59B142089862D004A42B3 /* CrownView.swift in Sources */,
 				F68A4F2920634EE2003CA991 /* TWBankRouter.swift in Sources */,
+				DCA676B02269DEF30060C89E /* ListCurrencyViewControllerAaaExt.swift in Sources */,
 				F699F17A206B3B0100C65102 /* HistoryCurrencyPresenter.swift in Sources */,
+				DCA676D92269DEF40060C89E /* TWBankInteractorAaaExt.swift in Sources */,
+				DCA676BD2269DEF30060C89E /* NeonCellAaaExt.swift in Sources */,
+				DCA676D52269DEF40060C89E /* SVProgressHUDCustomConfigurationAaaExt.swift in Sources */,
 				F68D99EF206A1A7B00D0530A /* BankCurrencyWorker.swift in Sources */,
+				DCA676C32269DEF40060C89E /* PopupInfoAaaExt.swift in Sources */,
+				DCA676B22269DEF30060C89E /* ListMorePresenterAaaExt.swift in Sources */,
+				DCA676B72269DEF30060C89E /* MiniChartAaaExt.swift in Sources */,
 				F68A4F2720634EE2003CA991 /* TWBankWorker.swift in Sources */,
+				DCA676CF2269DEF40060C89E /* SelectSettingInteractorAaaExt.swift in Sources */,
 				F660E952208B2B610087FA74 /* Debug.swift in Sources */,
 				F61B85B6206B96B000B208CB /* ScreenshotChartVC.swift in Sources */,
+				DCA676BB2269DEF30060C89E /* MoreVariedViewAaaExt.swift in Sources */,
 				F62D4F4B202432880013F87D /* DataManager.swift in Sources */,
+				DCA676CA2269DEF40060C89E /* ScreenshotChartVCAaaExt.swift in Sources */,
+				DCA676892269DEF30060C89E /* CurrencyRouterAaaExt.swift in Sources */,
 				F699F161206B255300C65102 /* ChartModels.swift in Sources */,
+				DCA676902269DEF30060C89E /* DivergenceLabelAaaExt.swift in Sources */,
 				F6C14F86207FAA08004A5DE5 /* UIView+Glowing.swift in Sources */,
 				F60B6A9A1FB4351200EEFA74 /* CurrencyPresenter.swift in Sources */,
 				F6B1F951209066BF00882795 /* AdsManager.swift in Sources */,
@@ -1335,17 +1831,29 @@
 				F61F08D5204535D200443EEA /* MoreHeader.swift in Sources */,
 				F61F08D32045106800443EEA /* APP.swift in Sources */,
 				F68A4F2F20634EE2003CA991 /* TWBankInteractor.swift in Sources */,
+				DCA676C72269DEF40060C89E /* RecordCellAaaExt.swift in Sources */,
 				F699F163206B255300C65102 /* ChartViewController.swift in Sources */,
 				F68D99D7206A17B800D0530A /* ListBankCurrencyModels.swift in Sources */,
 				F60B6A9D1FB4351200EEFA74 /* CurrencyModels.swift in Sources */,
 				F6B45282202AA0140043387B /* CurrencyFaker.swift in Sources */,
+				DCA676882269DEF30060C89E /* CurrencyPresenterAaaExt.swift in Sources */,
+				DCA6768C2269DEF30060C89E /* CurrencyViewControllerAaaExt.swift in Sources */,
+				DCA676862269DEF30060C89E /* CurrencyCellAaaExt.swift in Sources */,
+				DCA676702269DEF30060C89E /* BankCurrencyInteractorAaaExt.swift in Sources */,
 				F68A4F3B2063547D003CA991 /* ListBankRouter.swift in Sources */,
 				F66B484B203EB07C00A8B7B3 /* Setting.swift in Sources */,
 				F68D99DB206A17B800D0530A /* ListBankCurrencyInteractor.swift in Sources */,
+				DCA676A42269DEF30060C89E /* LanguageWorkerAaaExt.swift in Sources */,
+				DCA676C22269DEF40060C89E /* PeriodSegmentedControlAaaExt.swift in Sources */,
+				DCA6766C2269DEF30060C89E /* APIAnalyzerAaaExt.swift in Sources */,
 				F6F9A9AC2043C4F30023E8EE /* AppReloadable.swift in Sources */,
+				DCA676852269DEF30060C89E /* CrownViewAaaExt.swift in Sources */,
+				DCA676A22269DEF30060C89E /* InvestmentSubjectAaaExt.swift in Sources */,
+				DCA6766D2269DEF30060C89E /* AppDelegateAaaExt.swift in Sources */,
 				F611259E207B6C89000108D1 /* UIScrollViewBridge.swift in Sources */,
 				F68A4F3F2063547D003CA991 /* ListBankViewController.swift in Sources */,
 				F6BCB3201FC66D5800937D5E /* Date+MillionSeconds.swift in Sources */,
+				DCA676732269DEF30060C89E /* BankCurrencyViewControllerAaaExt.swift in Sources */,
 				F62C93091FBD4AFE003D0DD5 /* UIImage+Coloring.swift in Sources */,
 				F688E22F20197C5C005067DE /* HostTabBarInteractor.swift in Sources */,
 				F672AE932018B3DE0058D1FC /* Date+Comparable.swift in Sources */,
