@@ -100,7 +100,7 @@ class ListMoreViewController: UIViewController,
     tableView.delegate = self
     tableView.dataSource = self
     tableView.rowHeight = 60
-    tableView.separatorColor = Configuration.Theme.lightBlue
+    tableView.separatorColor = KKConfiguration.Theme.lightBlue
     tableView.separatorInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     tableView.register(R.nib.moreCell(), forCellReuseIdentifier: R.reuseIdentifier.moreCell.identifier)
   }
@@ -115,7 +115,7 @@ class ListMoreViewController: UIViewController,
     let composeVC = MFMailComposeViewController()
     guard MFMailComposeViewController.canSendMail() else {
       // notify user can't send mail
-      //MMAlertView(confirmTitle: "OK", detail: "Something wrong with your mail configuration").show()
+      //MMAlertView(confirmTitle: "OK", detail: "Something wrong with your mail KKConfiguration").show()
       return
     }
     composeVC.mailComposeDelegate = self
@@ -243,10 +243,10 @@ class ListMoreViewController: UIViewController,
     guard let headerView = R.nib.moreHeader.firstView(owner: self), section != 2 else {
       return nil
     }
-    headerView.contentView.backgroundColor = Configuration.Theme.headerDefaultColor
+    headerView.contentView.backgroundColor = KKConfiguration.Theme.headerDefaultColor
     headerView.titleLabel.textAlignment = .left
-    headerView.titleLabel.font = Configuration.Font.largeTitleFont.size(of: 20)
-    headerView.titleLabel.textColor = Configuration.Theme.textColor
+    headerView.titleLabel.font = KKConfiguration.Font.largeTitleFont.size(of: 20)
+    headerView.titleLabel.textColor = KKConfiguration.Theme.textColor
     return headerView
   }
 
@@ -254,11 +254,11 @@ class ListMoreViewController: UIViewController,
     guard let footerView = R.nib.moreHeader.firstView(owner: self), section == 2 else {
       return nil
     }
-    //footerView.contentView.backgroundColor = Configuration.Theme.headerDefaultColor
-    footerView.contentView.backgroundColor = Configuration.Theme.headerDefaultColor
+    //footerView.contentView.backgroundColor = KKConfiguration.Theme.headerDefaultColor
+    footerView.contentView.backgroundColor = KKConfiguration.Theme.headerDefaultColor
     footerView.titleLabel.textAlignment = .left
-    footerView.titleLabel.font = Configuration.Font.largeTitleFont.size(of: 14)
-    footerView.titleLabel.textColor = Configuration.Theme.mediumGray
+    footerView.titleLabel.font = KKConfiguration.Font.largeTitleFont.size(of: 14)
+    footerView.titleLabel.textColor = KKConfiguration.Theme.mediumGray
     return footerView
   }
 

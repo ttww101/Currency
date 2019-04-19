@@ -120,7 +120,7 @@ class HostTabBarController: RAMAnimatedTabBarController, HostTabBarDisplayLogic,
   func configureTabBar() {
     let topLiner = CALayer()
     topLiner.frame = CGRect(x: 0, y: 0, width: tabBar.frame.width, height: 0.3)
-    topLiner.backgroundColor = Configuration.Theme.lightGray.alpha(80).cgColor
+    topLiner.backgroundColor = KKConfiguration.Theme.lightGray.alpha(80).cgColor
     tabBar.layer.addSublayer(topLiner)
   }
 
@@ -132,7 +132,7 @@ class HostTabBarController: RAMAnimatedTabBarController, HostTabBarDisplayLogic,
                                        selectedImage: selectedImage)
     _item.img = image
     _item.selectedImg = selectedImage
-    _item.textColor = Configuration.Theme.textColor
+    _item.textColor = KKConfiguration.Theme.textColor
     _item.textFontSize = 10
     _item.animation = HostBounceAnimation(tabBarItem: _item)
     return _item
@@ -210,7 +210,7 @@ class HostBounceAnimation: RAMItemAnimation {
 
   override func playAnimation(_ icon: UIImageView, textLabel: UILabel) {
     playBounceAnimation(icon)
-    textLabel.textColor = Configuration.Theme.textColor
+    textLabel.textColor = KKConfiguration.Theme.textColor
     guard let item = tabBarItem as? HostAnimatedTabBarItem else {
       fatalError("item selected image is nil")
     }
@@ -218,7 +218,7 @@ class HostBounceAnimation: RAMItemAnimation {
   }
 
   override func deselectAnimation(_ icon: UIImageView, textLabel: UILabel, defaultTextColor: UIColor, defaultIconColor: UIColor) {
-    textLabel.textColor = Configuration.Theme.lightBlue
+    textLabel.textColor = KKConfiguration.Theme.lightBlue
     guard let item = tabBarItem as? HostAnimatedTabBarItem else {
       fatalError("item image is nil")
     }
@@ -226,7 +226,7 @@ class HostBounceAnimation: RAMItemAnimation {
   }
 
   override func selectedState(_ icon: UIImageView, textLabel: UILabel) {
-    textLabel.textColor = Configuration.Theme.textColor
+    textLabel.textColor = KKConfiguration.Theme.textColor
   }
 
   func playBounceAnimation(_ icon: UIImageView) {

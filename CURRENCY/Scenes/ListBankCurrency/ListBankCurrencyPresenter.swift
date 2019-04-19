@@ -34,7 +34,7 @@ class ListBankCurrencyPresenter: ListBankCurrencyPresentationLogic {
                                                       let localizedCurrencyName = LanguageWorker.shared.localizedString(key: $0.name,
                                                                                                                         table: .listCurrency)
                                                       let width = localizedCurrencyName.sizing(aliment: .left,
-                                                                                               font: Configuration.Font.letterFont).width
+                                                                                               font: KKConfiguration.Font.letterFont).width
                                                       displayNameMaxWidth = max(displayNameMaxWidth, width)
                                                       return BankCurrency.Fetch.DisplayCurrency(name: $0.name,
                                                                                                 buy: $0.buy,

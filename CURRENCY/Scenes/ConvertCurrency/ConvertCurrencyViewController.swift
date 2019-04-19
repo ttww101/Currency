@@ -172,7 +172,7 @@ class ConvertCurrencyViewController: UIViewController,
 
     tableView.rowHeight = UITableView.automaticDimension
     tableView.estimatedRowHeight = 60
-    tableView.separatorColor = Configuration.Theme.lightBlue
+    tableView.separatorColor = KKConfiguration.Theme.lightBlue
     tableView.separatorInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     tableView.register(R.nib.converterCell(),
                        forCellReuseIdentifier: R.reuseIdentifier.converterCell.identifier)
@@ -473,7 +473,7 @@ class ConvertCurrencyViewController: UIViewController,
   func tableView(_ tableView: UITableView, willDisplayFooterView view: UIView, forSection section: Int) {
     guard let footer = view as? UITableViewHeaderFooterView else { return }
     footer.textLabel?.textAlignment = .right
-    footer.textLabel?.font = Configuration.Font.letterFont
+    footer.textLabel?.font = KKConfiguration.Font.letterFont
   }
 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -491,7 +491,7 @@ class ConvertCurrencyViewController: UIViewController,
     if displayResults.count == displayCurrencies.count, cell != currentCell {
       cell.storedString = displayResults[indexPath.row]
     }
-//    cell.backgroundColor = indexPath.row % 2 == 0 ? Configuration.Theme.lightGray : Configuration.Theme.white
+//    cell.backgroundColor = indexPath.row % 2 == 0 ? KKConfiguration.Theme.lightGray : KKConfiguration.Theme.white
     return cell
   }
 

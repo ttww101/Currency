@@ -16,6 +16,6 @@ class MoreCell: UITableViewCell {
   override func awakeFromNib() {
     super.awakeFromNib()
 
-    nameLabel.font = Configuration.Font.letterFont.size(of: 16)
+    nameLabel.font = KKConfiguration.Font.letterFont.size(of: 16)
   }
 }

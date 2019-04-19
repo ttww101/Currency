@@ -21,7 +21,7 @@ struct DataManager {
     do {
       try Disk.save(currencySource,
                     to: .documents,
-                    as: "\(Configuration.Storage.sourceDirectoryPath)/\(source.name)/all.json")
+                    as: "\(KKConfiguration.Storage.sourceDirectoryPath)/\(source.name)/all.json")
     } catch let error {
       print("save source: \(source.name) error: \(error.localizedDescription)")
     }
@@ -29,7 +29,7 @@ struct DataManager {
 
   func loadAll(source: Source) -> CurrencySource? {
     do {
-      return try Disk.retrieve("\(Configuration.Storage.sourceDirectoryPath)/\(source.name)/all.json",
+      return try Disk.retrieve("\(KKConfiguration.Storage.sourceDirectoryPath)/\(source.name)/all.json",
         from: .documents,
         as: CurrencySource.self)
     } catch let error {
@@ -42,7 +42,7 @@ struct DataManager {
     do {
       try Disk.save(currency,
                     to: .documents,
-                    as: "\(Configuration.Storage.sourceDirectoryPath)/\(source.name)/\(currency.name).json")
+                    as: "\(KKConfiguration.Storage.sourceDirectoryPath)/\(source.name)/\(currency.name).json")
     } catch let error {
       print("save source: \(source.name) error: \(error.localizedDescription)")
     }
@@ -52,7 +52,7 @@ struct DataManager {
     var investmentSubjects: [InvestmentSubject] = []
     Source.Currency.all.forEach { (element) in
       do {
-        let investSubject = try Disk.retrieve("\(Configuration.Storage.sourceDirectoryPath)/\(source.name)/\(element).json",
+        let investSubject = try Disk.retrieve("\(KKConfiguration.Storage.sourceDirectoryPath)/\(source.name)/\(element).json",
           from: .documents,
           as: InvestmentSubject.self)
         investmentSubjects.append(investSubject)

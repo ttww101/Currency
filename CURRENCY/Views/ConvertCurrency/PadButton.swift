@@ -53,14 +53,14 @@ class PadButton: UIView, UIGestureRecognizerDelegate {
   }
 
   func setup() {
-    backgroundColor = Configuration.Theme.darkGray
+    backgroundColor = KKConfiguration.Theme.darkGray
 
     addSubview(label)
     label.translatesAutoresizingMaskIntoConstraints = false
     label.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
     label.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
-    label.font = Configuration.Font.numericFont.size(of: 22)
-    label.textColor = Configuration.Theme.white
+    label.font = KKConfiguration.Font.numericFont.size(of: 22)
+    label.textColor = KKConfiguration.Theme.white
     label.backgroundColor = .clear
 
     addSubview(imageView)
@@ -87,12 +87,12 @@ class PadButton: UIView, UIGestureRecognizerDelegate {
       delegate?.buttonDidLongPress(self, symbol: self.symbol)
       UIView.animate(withDuration: 0.2, animations: {
         self.transform = CGAffineTransform(scaleX: 0.975, y: 0.96)
-        self.backgroundColor = Configuration.Theme.lightBlue.alpha(0.7)
+        self.backgroundColor = KKConfiguration.Theme.lightBlue.alpha(0.7)
       }, completion: nil)
     case .cancelled, .ended:
       UIView.animate(withDuration: 0.2, animations: {
         self.transform = CGAffineTransform.identity
-        self.backgroundColor = Configuration.Theme.blue
+        self.backgroundColor = KKConfiguration.Theme.blue
       })
     default:
       UIView.animate(withDuration: 0) { }

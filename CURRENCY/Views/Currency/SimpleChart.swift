@@ -61,8 +61,8 @@ class SimpleChart: BarLineChartViewBase, ChartViewDelegate, LineChartDataProvide
     highlightPerTapEnabled = true
     clipValuesToContentEnabled = true // 要不要切掉 label content
     chartDescription?.text = sourceDescription // 右下角的表格說明
-    chartDescription?.font = Configuration.Font.letterFont.size(of: 13) // 表格說明的字型
-    chartDescription?.textColor = Configuration.Theme.darkBlue // 表格說明的文字顏色
+    chartDescription?.font = KKConfiguration.Font.letterFont.size(of: 13) // 表格說明的字型
+    chartDescription?.textColor = KKConfiguration.Theme.darkBlue // 表格說明的文字顏色
     legend.enabled = false // 圖例說明
 
     minOffset = 0 // 上左下右的最小offset
@@ -81,10 +81,10 @@ class SimpleChart: BarLineChartViewBase, ChartViewDelegate, LineChartDataProvide
   }
 
   func setupAxisBase() {
-    xAxis.gridColor = Configuration.Theme.lightBlue
+    xAxis.gridColor = KKConfiguration.Theme.lightBlue
     xAxis.labelPosition = .bottom // 顯示曲線數值的位置
-    xAxis.labelTextColor = Configuration.Theme.darkBlue
-    xAxis.labelFont = Configuration.Font.numericFont
+    xAxis.labelTextColor = KKConfiguration.Theme.darkBlue
+    xAxis.labelFont = KKConfiguration.Font.numericFont
 
     // 所有有關x軸的標線都不要
     //xAxis.enabled = false
@@ -137,8 +137,8 @@ class SimpleChart: BarLineChartViewBase, ChartViewDelegate, LineChartDataProvide
      */
     //line1.lineDashLengths = [0, 0]
     //line.setColor(.white)
-    let filledBackgroundGradientColors = [Configuration.Theme.green.cgColor,
-                                          Configuration.Theme.yellow.cgColor]
+    let filledBackgroundGradientColors = [KKConfiguration.Theme.green.cgColor,
+                                          KKConfiguration.Theme.yellow.cgColor]
     if let gradient = CGGradient(colorsSpace: nil,
                                  colors: filledBackgroundGradientColors as CFArray,
                                  locations: nil) {
@@ -147,8 +147,8 @@ class SimpleChart: BarLineChartViewBase, ChartViewDelegate, LineChartDataProvide
       }
     }
     line.lineWidth = 0.0
-    line.valueTextColor = Configuration.Theme.white
-    line.valueFont = Configuration.Font.numericFont
+    line.valueTextColor = KKConfiguration.Theme.white
+    line.valueFont = KKConfiguration.Font.numericFont
     line.mode = .cubicBezier // 線圖使用曲線
   }
 
@@ -156,7 +156,7 @@ class SimpleChart: BarLineChartViewBase, ChartViewDelegate, LineChartDataProvide
     line.highlightEnabled = true // 是否開啟highlight(顯示十字線)
     line.drawVerticalHighlightIndicatorEnabled = false // 移動highlight顯示垂直線
     line.drawHorizontalHighlightIndicatorEnabled = false // 移動highlight顯示水平線
-    line.highlightColor = Configuration.Theme.lightBlue
+    line.highlightColor = KKConfiguration.Theme.lightBlue
     line.highlightLineWidth = 1
     line.highlightLineDashLengths = [5, 5] // 讓highlight 虛線
     line.highlightLineDashPhase = 5
@@ -168,13 +168,13 @@ class SimpleChart: BarLineChartViewBase, ChartViewDelegate, LineChartDataProvide
     line.circleRadius = 7.0 // 交叉點半徑
     line.drawCircleHoleEnabled = false // 交叉點中空
     line.circleHoleRadius = 3.0 // 交叉中空心點半徑
-    line.circleHoleColor = Configuration.Theme.darkBlue // 空心點顏色
-    line.circleColors = [Configuration.Theme.darkBlue.alpha(0.2)]
+    line.circleHoleColor = KKConfiguration.Theme.darkBlue // 空心點顏色
+    line.circleColors = [KKConfiguration.Theme.darkBlue.alpha(0.2)]
   }
 
   private func setLineColor(line: LineChartDataSet) {
-    let filledBackgroundGradientColors = [Configuration.Theme.green.cgColor,
-                                          Configuration.Theme.yellow.cgColor]
+    let filledBackgroundGradientColors = [KKConfiguration.Theme.green.cgColor,
+                                          KKConfiguration.Theme.yellow.cgColor]
     if let gradient = CGGradient(colorsSpace: nil,
                                  colors: filledBackgroundGradientColors as CFArray,
                                  locations: nil) {
@@ -186,12 +186,12 @@ class SimpleChart: BarLineChartViewBase, ChartViewDelegate, LineChartDataProvide
 
   private func setBallonMarker() {
     // 使用自己的marker
-    let marker = BalloonMarker(color: Configuration.Theme.white,
-                               font: Configuration.Font.ballonFont,
-                               textColor: Configuration.Theme.white,
+    let marker = BalloonMarker(color: KKConfiguration.Theme.white,
+                               font: KKConfiguration.Font.ballonFont,
+                               textColor: KKConfiguration.Theme.white,
                                insets: UIEdgeInsets(top: 8, left: 0, bottom: 8, right: 0))
     // assign image depends chat value point
-    marker.img = R.image.marker_up()?.coloring(on: Configuration.Theme.mediumLightBlue.alpha(0.8)) // 設定marker的背景圖片
+    marker.img = R.image.marker_up()?.coloring(on: KKConfiguration.Theme.mediumLightBlue.alpha(0.8)) // 設定marker的背景圖片
     marker.chartView = self // 指定marker用在哪裡
     self.marker = marker // assign local to global
   }
@@ -280,7 +280,7 @@ class SimpleChart: BarLineChartViewBase, ChartViewDelegate, LineChartDataProvide
   }
 
   // custom draw grid
-  func drawGrid(at index: Int, color: UIColor = Configuration.Theme.lightBlue, offset: CGFloat = 15) {
+  func drawGrid(at index: Int, color: UIColor = KKConfiguration.Theme.lightBlue, offset: CGFloat = 15) {
     guard let set = data?.dataSets.first,
       let entry = data?.dataSets.first?.entryForIndex(index),
         var startY = self.renderer?.viewPortHandler.contentBottom else {

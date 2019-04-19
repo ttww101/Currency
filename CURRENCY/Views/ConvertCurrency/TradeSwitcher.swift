@@ -27,12 +27,12 @@ class TradeSwitcher: DGRunkeeperSwitch {
 
   func setup() {
     titles = ["cash", "stock"]
-    //layer.borderColor = Configuration.Theme.white.cgColor
+    //layer.borderColor = KKConfiguration.Theme.white.cgColor
     //layer.borderWidth = 1.5
-    backgroundColor = Configuration.Theme.lightPink
-    selectedBackgroundColor = Configuration.Theme.pink
-    titleColor = Configuration.Theme.white
-    selectedTitleColor = Configuration.Theme.white
-    titleFont = Configuration.Font.letterFont.size(of: 16)
+    backgroundColor = KKConfiguration.Theme.lightPink
+    selectedBackgroundColor = KKConfiguration.Theme.pink
+    titleColor = KKConfiguration.Theme.white
+    selectedTitleColor = KKConfiguration.Theme.white
+    titleFont = KKConfiguration.Font.letterFont.size(of: 16)
   }
 }

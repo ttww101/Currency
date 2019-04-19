@@ -166,7 +166,7 @@ open class HistoryMarker: MarkerImage {
 
       path.lineWidth = 1.0
       path.lineCapStyle = .butt
-      Configuration.Theme.darkBlue.set()
+      KKConfiguration.Theme.darkBlue.set()
       path.stroke()
     }
   }

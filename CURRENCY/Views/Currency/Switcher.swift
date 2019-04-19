@@ -26,13 +26,13 @@ import DGRunkeeperSwitch
 //    borderWidth = 1.0
 //    tintColor = .white
 
-//    backColor = Configuration.Theme.darkBlue
-//    backBorderColor = Configuration.Theme.lightBlue
-//    enabledColor = Configuration.Theme.white
+//    backColor = KKConfiguration.Theme.darkBlue
+//    backBorderColor = KKConfiguration.Theme.lightBlue
+//    enabledColor = KKConfiguration.Theme.white
 //    // enabledColor, disabledColor is used for text color
-//    disabledColor = Configuration.Theme.lightBlue
-//    enabledBackgroundColor = Configuration.Theme.green
-//    enabledBorderColor = Configuration.Theme.green
+//    disabledColor = KKConfiguration.Theme.lightBlue
+//    enabledBackgroundColor = KKConfiguration.Theme.green
+//    enabledBorderColor = KKConfiguration.Theme.green
 //  }
 //}
 
@@ -55,12 +55,12 @@ class Switcher: DGRunkeeperSwitch {
 
   func setup() {
     titles = ["stock", "cash"]
-    //layer.borderColor = Configuration.Theme.white.cgColor
+    //layer.borderColor = KKConfiguration.Theme.white.cgColor
     //layer.borderWidth = 1.5
-    backgroundColor = Configuration.Theme.lightBlue
-    selectedBackgroundColor = Configuration.Theme.darkBlue
-    titleColor = Configuration.Theme.white
-    selectedTitleColor = Configuration.Theme.white
-    titleFont = Configuration.Font.letterFont.size(of: 16)
+    backgroundColor = KKConfiguration.Theme.lightBlue
+    selectedBackgroundColor = KKConfiguration.Theme.darkBlue
+    titleColor = KKConfiguration.Theme.white
+    selectedTitleColor = KKConfiguration.Theme.white
+    titleFont = KKConfiguration.Font.letterFont.size(of: 16)
   }
 }

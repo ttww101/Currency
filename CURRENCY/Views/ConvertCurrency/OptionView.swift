@@ -33,7 +33,7 @@ class OptionView: UIView {
   init() {
     super.init(frame: CGRect.zero)
     xibInit()
-    // Programmatically init doesn't trigger awakeFromNib(), So need to do set view's configuration.
+    // Programmatically init doesn't trigger awakeFromNib(), So need to do set view's KKConfiguration.
     setupButtons()
     configure()
   }
@@ -59,7 +59,7 @@ class OptionView: UIView {
   }
 
   func setupButtons() {
-    confirmBtn.setImage(R.image.hook()?.coloring(on: Configuration.Theme.green), for: .normal)
-    cancelBtn.setImage(R.image.cross()?.coloring(on: Configuration.Theme.red), for: .normal)
+    confirmBtn.setImage(R.image.hook()?.coloring(on: KKConfiguration.Theme.green), for: .normal)
+    cancelBtn.setImage(R.image.cross()?.coloring(on: KKConfiguration.Theme.red), for: .normal)
   }
 }

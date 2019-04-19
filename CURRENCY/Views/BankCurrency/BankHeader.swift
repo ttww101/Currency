@@ -24,13 +24,13 @@ class BankHeader: UITableViewHeaderFooterView {
   }
 
   func configure() {
-    nameLabel.font = Configuration.Font.numericFont
-    buyLabel.font = Configuration.Font.numericFont
-    sellLabel.font = Configuration.Font.numericFont
+    nameLabel.font = KKConfiguration.Font.numericFont
+    buyLabel.font = KKConfiguration.Font.numericFont
+    sellLabel.font = KKConfiguration.Font.numericFont
 
-    nameLabel.textColor = Configuration.Theme.textColor
-    buyLabel.textColor = Configuration.Theme.textColor
-    sellLabel.textColor = Configuration.Theme.textColor
+    nameLabel.textColor = KKConfiguration.Theme.textColor
+    buyLabel.textColor = KKConfiguration.Theme.textColor
+    sellLabel.textColor = KKConfiguration.Theme.textColor
   }
 
   func reload() {

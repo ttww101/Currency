@@ -13,7 +13,7 @@ class SelectedView: UIView {
   var selected: Bool = false {
     didSet {
       self.backgroundColor = selected
-        ? Configuration.Theme.textColor
+        ? KKConfiguration.Theme.textColor
         : .clear
     }
   }
@@ -38,14 +38,14 @@ class ConverterCell: UITableViewCell, UITextFieldDelegate {
     textField.delegate = self
     textField.textAlignment = .right
     textField.borderStyle = .none
-    textField.textColor = Configuration.Theme.textColor
-    textField.font = Configuration.Font.numericFont.size(of: 17)
+    textField.textColor = KKConfiguration.Theme.textColor
+    textField.font = KKConfiguration.Font.numericFont.size(of: 17)
     textField.keyboardType = .decimalPad
     textField.inputView = UIView(frame: CGRect(x: 0, y: 0, width: 1, height: 1))
 
     subjectLabel.textAlignment = .left
-    subjectLabel.textColor = Configuration.Theme.black
-    subjectLabel.font = Configuration.Font.letterFont.size(of: 16)
+    subjectLabel.textColor = KKConfiguration.Theme.black
+    subjectLabel.font = KKConfiguration.Font.letterFont.size(of: 16)
 
     // KVO for Swift 3.2 and above.
     // Warning: This triggered will after setSelected(selected:animated:) when selecting
@@ -114,7 +114,7 @@ class ConverterCell: UITableViewCell, UITextFieldDelegate {
     selectedView.selected = selected
     
     if selected {
-        self.backgroundColor = Configuration.Theme.textColor
+        self.backgroundColor = KKConfiguration.Theme.textColor
     }
     
     guard shouldDisplayPlaceHolder, storedString != "" else {

@@ -40,15 +40,15 @@ class BankCell: UITableViewCell {
   }
 
   func configure() {
-    nameLabel.font = Configuration.Font.letterFont
-    timeLabel.font = Configuration.Font.numericFont
-    buyCrownView.font = Configuration.Font.numericFont
-    sellCrownView.font = Configuration.Font.numericFont
+    nameLabel.font = KKConfiguration.Font.letterFont
+    timeLabel.font = KKConfiguration.Font.numericFont
+    buyCrownView.font = KKConfiguration.Font.numericFont
+    sellCrownView.font = KKConfiguration.Font.numericFont
 
-    nameLabel.textColor = Configuration.Theme.textColor
-    timeLabel.textColor = Configuration.Theme.textColor
-    buyCrownView.textColor = Configuration.Theme.textColor
-    sellCrownView.textColor = Configuration.Theme.textColor
+    nameLabel.textColor = KKConfiguration.Theme.textColor
+    timeLabel.textColor = KKConfiguration.Theme.textColor
+    buyCrownView.textColor = KKConfiguration.Theme.textColor
+    sellCrownView.textColor = KKConfiguration.Theme.textColor
 
     logoFilter.backgroundColor = .clear
     logoFilter.layer.cornerRadius = 5

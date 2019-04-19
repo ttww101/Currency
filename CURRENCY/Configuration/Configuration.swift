@@ -1,5 +1,5 @@
 //
-//  Configuration.swift
+//  KKConfiguration.swift
 //  ExchangeHelper
 //
 //  Created by Meiliang Wen on 14/11/2017.
@@ -8,8 +8,8 @@
 
 import Hue
 
-/// App Configurations
-enum Configuration {
+/// App KKConfigurations
+enum KKConfiguration {
 
   // MARK: Storage Path
 

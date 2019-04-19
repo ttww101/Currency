@@ -11,19 +11,19 @@ import Foundation
 extension Date {
 
   var onlyDateStringValue: String {
-    return Configuration.Date().mdFormatter.string(from: self)
+    return KKConfiguration.Date().mdFormatter.string(from: self)
   }
 
   var dateStringValue: String {
-    return Configuration.Date().dateFormatter.string(from: self)
+    return KKConfiguration.Date().dateFormatter.string(from: self)
   }
 
   var timeStringValue: String {
-    return Configuration.Date().timeFormatter.string(from: self)
+    return KKConfiguration.Date().timeFormatter.string(from: self)
   }
 
   var preciseTimeStringValue: String {
-    return Configuration.Date().preciseTimeFormatter.string(from: self)
+    return KKConfiguration.Date().preciseTimeFormatter.string(from: self)
   }
 
   var isToday: Bool {
@@ -34,19 +34,19 @@ extension Date {
 extension String {
 
   var toMonthDay: Date? {
-    return Configuration.Date().mdFormatter.date(from: self)
+    return KKConfiguration.Date().mdFormatter.date(from: self)
   }
 
   var toDate: Date? {
-    return Configuration.Date().dateFormatter.date(from: self)
+    return KKConfiguration.Date().dateFormatter.date(from: self)
   }
 
   var toTime: Date? {
-    return Configuration.Date().timeFormatter.date(from: self)
+    return KKConfiguration.Date().timeFormatter.date(from: self)
   }
 
   var toPreciseTime: Date? {
-    return Configuration.Date().preciseTimeFormatter.date(from: self)
+    return KKConfiguration.Date().preciseTimeFormatter.date(from: self)
   }
 
   func dateSeperatorReplace(by newSeperator: String) -> String {
@@ -112,7 +112,7 @@ extension Array where Element: StringProtocol {
     guard let dateStrings = self as? [String] else { return [] }
     var dates: [Date] = []
     for dateString in dateStrings {
-      guard let date = Configuration.Date().dateFormatter.date(from: dateString) else {
+      guard let date = KKConfiguration.Date().dateFormatter.date(from: dateString) else {
         return nil
       }
       dates.append(date)

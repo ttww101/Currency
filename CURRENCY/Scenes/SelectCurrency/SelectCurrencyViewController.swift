@@ -131,7 +131,7 @@ class SelectCurrencyViewController: UIViewController,
 
   // MARK: Setup ViewController
   func configure() {
-    view.backgroundColor = Configuration.Theme.white
+    view.backgroundColor = KKConfiguration.Theme.white
   }
 
   // MARK: Setup Neon TableViews

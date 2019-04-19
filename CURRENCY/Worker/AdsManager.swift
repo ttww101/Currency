@@ -21,17 +21,17 @@ class AdsManager: NSObject {
   static let shared = AdsManager()
   var shouldPlaceFullPageAds: Bool {
     // If user use calculator more than maximum calculate count, Should show ads
-    if calculatedCount > Configuration.Ads.AdsCondition.calculatedCount {
+    if calculatedCount > KKConfiguration.Ads.AdsCondition.calculatedCount {
       return true
     }
-    if !Configuration.Ads.AdsCondition.shouldPresentAtFirst {
+    if !KKConfiguration.Ads.AdsCondition.shouldPresentAtFirst {
       return false
     }
     // If calculate count smaller than maximum calculate count
     guard let lastShownDate = Defaults[AdsKeys.AdsShownDateString].toPreciseTime else { return true }
     let last = lastShownDate.millionSeconds
     let now = Date().millionSeconds
-    return now - last > Configuration.Ads.AdsCondition.fullPagePresentPeriod
+    return now - last > KKConfiguration.Ads.AdsCondition.fullPagePresentPeriod
   }
 
   var calculatedCount: Int = 0
@@ -49,15 +49,15 @@ class AdsManager: NSObject {
 //var adColonyInterstitial: AdColonyInterstitial?
 //
 //func setupAdColony() {
-//  AdColony.configure(withAppID: Configuration.Ads.AdColony.appId,
-//                     zoneIDs: [Configuration.Ads.AdColony.fullPage],
+//  AdColony.configure(withAppID: KKConfiguration.Ads.AdColony.appId,
+//                     zoneIDs: [KKConfiguration.Ads.AdColony.fullPage],
 //                     options: nil) { (_) in }
 //}
 //
 //var adColonyInterstitialOpen: ((AdColonyInterstitial) -> Void)?
 //
 //func requestAdColony() {
-//  AdColony.requestInterstitial(inZone: Configuration.Ads.AdColony.fullPage,
+//  AdColony.requestInterstitial(inZone: KKConfiguration.Ads.AdColony.fullPage,
 //                               options: nil,
 //                               success: { (interstitial) in
 //                                interstitial.setOpen {

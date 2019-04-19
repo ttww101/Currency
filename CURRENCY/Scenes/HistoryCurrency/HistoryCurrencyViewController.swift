@@ -90,7 +90,7 @@ class HistoryCurrencyViewController: UIViewController,
 
   func configure() {
     self.isHeroEnabled = true
-    divergenceLabel.font = Configuration.Font.numericFont.size(of: 15)
+    divergenceLabel.font = KKConfiguration.Font.numericFont.size(of: 15)
 
     if #available(iOS 11.0, *) {
       navigationItem.largeTitleDisplayMode = .never

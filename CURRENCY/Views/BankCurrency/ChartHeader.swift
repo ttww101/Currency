@@ -51,16 +51,16 @@ class ChartHeader: UIView {
   lazy var nameLabel: UILabel = {
     let _label = UILabel(frame: CGRect.zero)
     _label.translatesAutoresizingMaskIntoConstraints = false
-    _label.font = Configuration.Font.letterFont
-    _label.textColor = Configuration.Theme.textColor
+    _label.font = KKConfiguration.Font.letterFont
+    _label.textColor = KKConfiguration.Theme.textColor
     return _label
   }()
 
   lazy var rateLabel: UILabel = {
     let _label = UILabel(frame: CGRect.zero)
     _label.translatesAutoresizingMaskIntoConstraints = false
-    _label.font = Configuration.Font.numericFont
-    _label.textColor = Configuration.Theme.textColor
+    _label.font = KKConfiguration.Font.numericFont
+    _label.textColor = KKConfiguration.Theme.textColor
     return _label
   }()
 

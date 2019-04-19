@@ -17,7 +17,7 @@ class NeonCell: UITableViewCell {
   lazy var label: UILabel = {
     let _label = UILabel()
     _label.backgroundColor = .clear
-    _label.textColor = Configuration.Theme.darkBlue
+    _label.textColor = KKConfiguration.Theme.darkBlue
     return _label
   }()
 
@@ -43,7 +43,7 @@ class NeonCell: UITableViewCell {
   }
 
   func setup() {
-    // color configuration need to put in init(style: reuseIdentifier) otherwise it won't work.
+    // color KKConfiguration need to put in init(style: reuseIdentifier) otherwise it won't work.
     backgroundColor = .clear
     contentView.backgroundColor = .clear
 
@@ -65,10 +65,10 @@ class NeonCell: UITableViewCell {
     super.setSelected(selected, animated: animated)
     if selected == true {
       selectedBackgroundView = selectedView
-      label.textColor = Configuration.Theme.white
+      label.textColor = KKConfiguration.Theme.white
     } else {
       selectedBackgroundView = nil
-      label.textColor = Configuration.Theme.darkBlue
+      label.textColor = KKConfiguration.Theme.darkBlue
     }
   }
 }
@@ -77,7 +77,7 @@ class NeonCell: UITableViewCell {
 class RoundedView: UIView {
 
   var roundingSide: RoundingSide = .all
-  var selectedColor: UIColor = Configuration.Theme.darkBlue
+  var selectedColor: UIColor = KKConfiguration.Theme.darkBlue
 
   override func draw(_ rect: CGRect) {
     super.draw(rect)

@@ -50,8 +50,8 @@ class MoreVariedView: UIView {
     label.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
 
     label.textAlignment = NSTextAlignment.right
-    label.font = Configuration.Font.letterFont.size(of: 16)
-    label.textColor = Configuration.Theme.lightBlue
+    label.font = KKConfiguration.Font.letterFont.size(of: 16)
+    label.textColor = KKConfiguration.Theme.lightBlue
     label.text = value
   }
 

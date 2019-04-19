@@ -178,7 +178,7 @@ class ListBankViewController: UIViewController,
   func tableView(_ tableView: UITableView, willDisplayFooterView view: UIView, forSection section: Int) {
     guard let footer = view as? UITableViewHeaderFooterView else { return }
     footer.textLabel?.textAlignment = .right
-    footer.textLabel?.font = Configuration.Font.letterFont
+    footer.textLabel?.font = KKConfiguration.Font.letterFont
   }
 
 

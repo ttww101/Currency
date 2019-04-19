@@ -18,12 +18,12 @@ class AboutMeVC: UIViewController, LanguageRelodable {
   }
 
   func configureTextLabel() {
-    textLabel.textColor = Configuration.Theme.mediumGray
+    textLabel.textColor = KKConfiguration.Theme.mediumGray
     textLabel.text = LanguageWorker.shared.localizedString(key: R.string.uI.aboutme_detail.key,
                                                            table: .ui)
-    //versionLabel.textColor = Configuration.Theme.mediumGray
+    //versionLabel.textColor = KKConfiguration.Theme.mediumGray
     //versionLabel.text = VersionWorker.longVersion
-    agreementLabel.textColor = Configuration.Theme.mediumGray
+    agreementLabel.textColor = KKConfiguration.Theme.mediumGray
     agreementLabel.text = LanguageWorker.shared.localizedString(key: R.string.uI.agreement_detail.key,
                                                            table: .ui)
   }

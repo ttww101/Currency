@@ -103,7 +103,7 @@ class SelectSettingViewController: UIViewController,
     tableView.delegate = self
     tableView.dataSource = self
     tableView.rowHeight = 60
-    tableView.separatorColor = Configuration.Theme.lightBlue
+    tableView.separatorColor = KKConfiguration.Theme.lightBlue
     tableView.separatorInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     tableView.register(R.nib.moreCell(), forCellReuseIdentifier: R.reuseIdentifier.moreCell.identifier)
   }
@@ -194,7 +194,7 @@ class SelectSettingViewController: UIViewController,
     cell.accessoryType = (chosenOption ?? currentOption) == optionKey ? .checkmark : .none // if chosenOption is nil, show currentOption
     //print("optionKey: \(optionKey)")
     //print("currentOption: \(currentOption)")
-    cell.tintColor = Configuration.Theme.green
+    cell.tintColor = KKConfiguration.Theme.green
     return cell
   }
 }

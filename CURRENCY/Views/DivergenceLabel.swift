@@ -22,11 +22,11 @@ class DivergenceLabel: UIView, XibLiveControl {
       if glowingEnabled == true {
         switch self.tendency {
         case .even:
-          self.startGlowing(Configuration.Theme.darkBlue)
+          self.startGlowing(KKConfiguration.Theme.darkBlue)
         case .rise:
-          self.startGlowing(Configuration.Theme.red)
+          self.startGlowing(KKConfiguration.Theme.red)
         case .fall:
-          self.startGlowing(Configuration.Theme.green)
+          self.startGlowing(KKConfiguration.Theme.green)
         }
       } else {
         self.stopGlowing()
@@ -57,13 +57,13 @@ class DivergenceLabel: UIView, XibLiveControl {
       switch tendency {
       case .even:
         imageView.image = R.image.even()
-        label.textColor = Configuration.Theme.darkBlue
+        label.textColor = KKConfiguration.Theme.darkBlue
       case .rise:
         imageView.image = R.image.arrow_up()
-        label.textColor = Configuration.Theme.red
+        label.textColor = KKConfiguration.Theme.red
       case .fall:
         imageView.image = R.image.arrow_down()
-        label.textColor = Configuration.Theme.green
+        label.textColor = KKConfiguration.Theme.green
       }
     }
   }

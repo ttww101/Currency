@@ -53,7 +53,7 @@ class NumberPad: UIView, PadButtonDelegate {
 
   func setup() {
 
-    backgroundColor = Configuration.Theme.green
+    backgroundColor = KKConfiguration.Theme.green
     for btn in numericBtns {
       btn.delegate = self
     }

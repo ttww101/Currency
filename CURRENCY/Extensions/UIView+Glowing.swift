@@ -7,7 +7,7 @@ import UIKit
 import ObjectiveC
 import Dispatch
 
-//private var glowingColor = Configuration.Theme.lightYellow
+//private var glowingColor = KKConfiguration.Theme.lightYellow
 var glowingColor = UIColor.yellow
 
 protocol GlowingContainer: class {

@@ -113,7 +113,7 @@ class CurrencyViewController: UIViewController,
   // MARK: Setup ViewController
 
   func configure() {
-    view.backgroundColor = Configuration.Theme.white
+    view.backgroundColor = KKConfiguration.Theme.white
   }
 
   // MARK: Setup ReachabilityWorker
@@ -159,7 +159,7 @@ class CurrencyViewController: UIViewController,
     tableView.backgroundColor = .clear
     tableView.rowHeight = 60
     tableView.estimatedRowHeight = UITableView.automaticDimension
-    tableView.separatorColor = Configuration.Theme.lightBlue
+    tableView.separatorColor = KKConfiguration.Theme.lightBlue
     tableView.separatorInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     //tableView.allowsSelection = false
     tableView.register(R.nib.recordCell(), forCellReuseIdentifier: R.reuseIdentifier.recordCell.identifier)
@@ -328,7 +328,7 @@ class CurrencyViewController: UIViewController,
     guard let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.recordCell.identifier) as? RecordCell else {
       fatalError("RecordCell is nil")
     }
-    cell.backgroundColor = indexPath.row % 2 == 0 ? Configuration.Theme.lightGray : Configuration.Theme.white
+    cell.backgroundColor = indexPath.row % 2 == 0 ? KKConfiguration.Theme.lightGray : KKConfiguration.Theme.white
     let displayTrade = displayTrades[indexPath.row]
 
     cell.dateLabel.text = displayTrade.date

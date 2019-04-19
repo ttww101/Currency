@@ -108,7 +108,7 @@ LanguageRelodable {
     tableView.rowHeight = 60
     tableView.sectionHeaderHeight = 40
     tableView.sectionFooterHeight = 40
-    tableView.separatorColor = Configuration.Theme.lightBlue
+    tableView.separatorColor = KKConfiguration.Theme.lightBlue
     tableView.separatorInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
 
     tableView.register(R.nib.currencyCell(),
@@ -205,8 +205,8 @@ LanguageRelodable {
       else { return UITableViewCell() }
 
     let bgColor = indexPath.row % 2 == 0
-      ? Configuration.Theme.lightGray
-      : Configuration.Theme.white
+      ? KKConfiguration.Theme.lightGray
+      : KKConfiguration.Theme.white
     cell.backgroundColor = bgColor
 
     guard let displayBank = displayBank else { return cell }

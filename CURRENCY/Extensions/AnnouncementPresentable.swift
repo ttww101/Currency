@@ -48,19 +48,19 @@ class AnnouncementView: UIView, XibLiveControl {
   }
 
   func configure() {
-    label.textColor = Configuration.Theme.mediumGray
-    label.font = Configuration.Font.letterFont.size(of: 20)
+    label.textColor = KKConfiguration.Theme.mediumGray
+    label.font = KKConfiguration.Font.letterFont.size(of: 20)
     label.backgroundColor = .clear
     label.textAlignment = NSTextAlignment.center
 
     let localizedReload = LanguageWorker.shared.localizedString(key: R.string.uI.reload.key,
                                                                 table: .ui)
     button.setAttributedTitle(NSAttributedString(string: localizedReload,
-                                                 attributes: [NSAttributedString.Key.foregroundColor: Configuration.Theme.textColor,
-                                                              NSAttributedString.Key.font: Configuration.Font.letterFont]),
+                                                 attributes: [NSAttributedString.Key.foregroundColor: KKConfiguration.Theme.textColor,
+                                                              NSAttributedString.Key.font: KKConfiguration.Font.letterFont]),
                               for: .normal)
     button.layer.cornerRadius = 5
-    button.layer.borderColor = Configuration.Theme.textColor.cgColor
+    button.layer.borderColor = KKConfiguration.Theme.textColor.cgColor
     button.layer.borderWidth = 1.0
     button.addTarget(self,
                      action: #selector(buttonDidTap(sender:)),

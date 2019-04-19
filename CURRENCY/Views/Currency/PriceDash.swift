@@ -49,13 +49,13 @@ class PriceDash: UIView {
     ratesLabel = UILabel()
     divergenceLabel = DivergenceLabel()
 
-    nameLabel.font = Configuration.Font.letterFont
-    ratesLabel.font = Configuration.Font.numericFont.size(of: 28)
-    nameLabel.textColor = Configuration.Theme.mediumLightBlue
-    ratesLabel.textColor = Configuration.Theme.textColor
+    nameLabel.font = KKConfiguration.Font.letterFont
+    ratesLabel.font = KKConfiguration.Font.numericFont.size(of: 28)
+    nameLabel.textColor = KKConfiguration.Theme.mediumLightBlue
+    ratesLabel.textColor = KKConfiguration.Theme.textColor
     ratesLabel.adjustsFontSizeToFitWidth = true
     ratesLabel.textAlignment = NSTextAlignment.right
-    divergenceLabel.font = Configuration.Font.numericFont.size(of: 12)
+    divergenceLabel.font = KKConfiguration.Font.numericFont.size(of: 12)
     divergenceLabel.label.adjustsFontSizeToFitWidth = true
 
     addSubview(nameLabel)

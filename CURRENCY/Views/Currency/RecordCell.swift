@@ -19,17 +19,17 @@ class RecordCell: UITableViewCell {
   override func awakeFromNib() {
     super.awakeFromNib()
     // Initialization code
-    dateLabel.font = Configuration.Font.numericFont.size(of: 13)
-    buyRateLabel.font = Configuration.Font.numericFont
-    divergenceOfBuyLabel.font = Configuration.Font.numericFont.size(of: 12)
+    dateLabel.font = KKConfiguration.Font.numericFont.size(of: 13)
+    buyRateLabel.font = KKConfiguration.Font.numericFont
+    divergenceOfBuyLabel.font = KKConfiguration.Font.numericFont.size(of: 12)
     divergenceOfBuyLabel.label.adjustsFontSizeToFitWidth = true
-    sellRateLabel.font = Configuration.Font.numericFont
-    divergenceOfSellLabel.font = Configuration.Font.numericFont.size(of: 12)
+    sellRateLabel.font = KKConfiguration.Font.numericFont
+    divergenceOfSellLabel.font = KKConfiguration.Font.numericFont.size(of: 12)
     divergenceOfSellLabel.label.adjustsFontSizeToFitWidth = true
 
-    dateLabel.textColor = Configuration.Theme.mediumGray
-    buyRateLabel.textColor = Configuration.Theme.textColor
-    sellRateLabel.textColor = Configuration.Theme.textColor
+    dateLabel.textColor = KKConfiguration.Theme.mediumGray
+    buyRateLabel.textColor = KKConfiguration.Theme.textColor
+    sellRateLabel.textColor = KKConfiguration.Theme.textColor
   }
 
   override func setSelected(_ selected: Bool, animated: Bool) {

@@ -50,7 +50,7 @@ extension LineChart {
     func drawLYmGIAaa(_ AAA: String, _ rect: CGRect) {
         print(AAA)
     }
-    func drawGridKdGScAaa(_ AAA: String, at index: Int, color: UIColor = Configuration.Theme.lightBlue, offset: CGFloat = 15) {
+    func drawGridKdGScAaa(_ AAA: String, at index: Int, color: UIColor = KKConfiguration.Theme.lightBlue, offset: CGFloat = 15) {
         print(AAA)
     }
 }
@@ -106,7 +106,7 @@ extension LineChart {
     func drawfsXrsAaa(_ AAA: String, _ rect: CGRect) {
         print(AAA)
     }
-    func drawGridnbFhMAaa(_ AAA: String, at index: Int, color: UIColor = Configuration.Theme.lightBlue, offset: CGFloat = 15) {
+    func drawGridnbFhMAaa(_ AAA: String, at index: Int, color: UIColor = KKConfiguration.Theme.lightBlue, offset: CGFloat = 15) {
         print(AAA)
     }
 }

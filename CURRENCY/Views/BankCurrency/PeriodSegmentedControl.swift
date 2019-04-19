@@ -29,10 +29,10 @@ class PeriodSegmentedControl: UIView,
     let _segmentedControl = SJFluidSegmentedControl(frame: CGRect.zero)
     _segmentedControl.delegate = self
     _segmentedControl.dataSource = self
-    _segmentedControl.textFont = Configuration.Font.letterFont
-    _segmentedControl.textColor = Configuration.Theme.lightGray
+    _segmentedControl.textFont = KKConfiguration.Font.letterFont
+    _segmentedControl.textColor = KKConfiguration.Theme.lightGray
     _segmentedControl.selectedSegmentTextColor = .white
-    _segmentedControl.selectorViewColor = Configuration.Theme.darkBlue
+    _segmentedControl.selectorViewColor = KKConfiguration.Theme.darkBlue
     _segmentedControl.applyCornerRadiusToSelectorView = false
     _segmentedControl.shapeStyle = .liquid
     _segmentedControl.transitionStyle = .fade

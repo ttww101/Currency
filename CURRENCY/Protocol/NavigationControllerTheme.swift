@@ -14,9 +14,9 @@ import UIKit
 
 //extension UINavigationController: NavigationControllerTheme {
 //  func applyTheme() {
-//    navigationBar.tintColor = Configuration.Theme.darkBlue
-//    navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: Configuration.Theme.darkBlue,
-//                                         NSAttributedStringKey.font: Configuration.Font.letterFont.size(of: 17)]
+//    navigationBar.tintColor = KKConfiguration.Theme.darkBlue
+//    navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: KKConfiguration.Theme.darkBlue,
+//                                         NSAttributedStringKey.font: KKConfiguration.Font.letterFont.size(of: 17)]
 //  }
 
 //  open override func viewDidLoad() {

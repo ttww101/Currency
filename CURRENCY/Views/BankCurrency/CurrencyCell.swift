@@ -26,13 +26,13 @@ class CurrencyCell: UITableViewCell, LoadingControl {
   }
 
   func configure() {
-    nameLabel.font = Configuration.Font.letterFont
-    buyLabel.font = Configuration.Font.numericFont
-    sellLabel.font = Configuration.Font.numericFont
+    nameLabel.font = KKConfiguration.Font.letterFont
+    buyLabel.font = KKConfiguration.Font.numericFont
+    sellLabel.font = KKConfiguration.Font.numericFont
 
-    nameLabel.textColor = Configuration.Theme.darkGray
-    buyLabel.textColor = Configuration.Theme.darkGray
-    sellLabel.textColor = Configuration.Theme.darkGray
+    nameLabel.textColor = KKConfiguration.Theme.darkGray
+    buyLabel.textColor = KKConfiguration.Theme.darkGray
+    sellLabel.textColor = KKConfiguration.Theme.darkGray
 
 //    buyLabel.textAlignment = NSTextAlignment.left
 //    sellLabel.textAlignment = NSTextAlignment.left

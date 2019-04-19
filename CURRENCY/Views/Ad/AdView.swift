@@ -26,7 +26,7 @@ class AdView: UIView, XibLiveControl {
   @IBOutlet weak var mainTextLabel: UILabel!
   @IBOutlet weak var callToActionLabel: UILabel! {
     didSet {
-      guard let width = self.callToActionLabel.text?.sizing(aliment: .center, font: Configuration.Font.letterFont).width else {
+      guard let width = self.callToActionLabel.text?.sizing(aliment: .center, font: KKConfiguration.Font.letterFont).width else {
         return
       }
       actionLabelWidthConstraint.constant = max(width, 65)
@@ -60,13 +60,13 @@ class AdView: UIView, XibLiveControl {
     isHidden = true
     containerView?.isHidden = isHidden
     // Ads
-    titleLabel.font = Configuration.Font.letterFont
-    mainTextLabel.font = Configuration.Font.letterFont.size(of: 13)
-    callToActionLabel.font = Configuration.Font.letterFont
-    titleLabel.textColor = Configuration.Theme.textColor
-    mainTextLabel.textColor = Configuration.Theme.mediumGray
+    titleLabel.font = KKConfiguration.Font.letterFont
+    mainTextLabel.font = KKConfiguration.Font.letterFont.size(of: 13)
+    callToActionLabel.font = KKConfiguration.Font.letterFont
+    titleLabel.textColor = KKConfiguration.Theme.textColor
+    mainTextLabel.textColor = KKConfiguration.Theme.mediumGray
     callToActionLabel.textColor = .white
-    callToActionLabel.backgroundColor = Configuration.Theme.darkBlue
+    callToActionLabel.backgroundColor = KKConfiguration.Theme.darkBlue
     callToActionLabel.roundCorner(cornerRadius: 3)
     callToActionLabel.layer.masksToBounds = true
     callToActionLabel.textAlignment = NSTextAlignment.center

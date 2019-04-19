@@ -36,7 +36,7 @@ extension Decimal {
     let result = fraction / divisor.doubleValue
     // To remove the useless zero after decimal point
     let resultNumber = NSDecimalNumber(decimal: result.decimalNumber)
-    return Configuration.Number().formatter(position: position).string(from: resultNumber) ?? "n/a"
+    return KKConfiguration.Number().formatter(position: position).string(from: resultNumber) ?? "n/a"
     //return String(format: "%.\(position)f", result) 
   }
 

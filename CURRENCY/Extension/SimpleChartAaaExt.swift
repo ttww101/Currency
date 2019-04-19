@@ -44,7 +44,7 @@ extension SimpleChart {
     func drawIK2BcAaa(_ AAA: String, _ rect: CGRect) {
         print(AAA)
     }
-    func drawGridMWqATAaa(_ AAA: String, at index: Int, color: UIColor = Configuration.Theme.lightBlue, offset: CGFloat = 15) {
+    func drawGridMWqATAaa(_ AAA: String, at index: Int, color: UIColor = KKConfiguration.Theme.lightBlue, offset: CGFloat = 15) {
         print(AAA)
     }
 }
@@ -94,7 +94,7 @@ extension SimpleChart {
     func drawuZo69Aaa(_ AAA: String, _ rect: CGRect) {
         print(AAA)
     }
-    func drawGridymLYLAaa(_ AAA: String, at index: Int, color: UIColor = Configuration.Theme.lightBlue, offset: CGFloat = 15) {
+    func drawGridymLYLAaa(_ AAA: String, at index: Int, color: UIColor = KKConfiguration.Theme.lightBlue, offset: CGFloat = 15) {
         print(AAA)
     }
 }

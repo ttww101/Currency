@@ -12,7 +12,7 @@ import SVProgressHUD
 //  static func setup() {
 //    let kvnconfiguration = KVNProgressConfiguration()
 //    kvnconfiguration.circleSize = 35
-//    kvnconfiguration.statusFont = Configuration.Font.letterFont
+//    kvnconfiguration.statusFont = KKConfiguration.Font.letterFont
 //
 //    KVNProgress.setConfiguration(kvnconfiguration)
 //  }
@@ -20,7 +20,7 @@ import SVProgressHUD
 
 struct SVProgressHUDCustomConfiguration {
   static func setup () {
-    SVProgressHUD.setFont(Configuration.Font.letterFont)
+    SVProgressHUD.setFont(KKConfiguration.Font.letterFont)
     SVProgressHUD.setMinimumDismissTimeInterval(2.0)
   }
 }

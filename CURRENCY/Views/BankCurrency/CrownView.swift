@@ -14,7 +14,7 @@ class CrownView: UIView {
     didSet {
       imageView.isHidden = !isCrownShown
       isCrownShown == true
-        ? imageView.startGlowing(Configuration.Theme.yellow)
+        ? imageView.startGlowing(KKConfiguration.Theme.yellow)
         : imageView.stopGlowing()
     }
   }

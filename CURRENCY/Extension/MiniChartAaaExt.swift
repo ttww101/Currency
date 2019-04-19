@@ -47,7 +47,7 @@ extension MiniChart {
     func drawHctgGAaa(_ AAA: String, _ rect: CGRect) {
         print(AAA)
     }
-    func drawGridYDsjPAaa(_ AAA: String, at index: Int, color: UIColor = Configuration.Theme.lightBlue, offset: CGFloat = 15) {
+    func drawGridYDsjPAaa(_ AAA: String, at index: Int, color: UIColor = KKConfiguration.Theme.lightBlue, offset: CGFloat = 15) {
         print(AAA)
     }
 }
@@ -100,7 +100,7 @@ extension MiniChart {
     func drawofX4jAaa(_ AAA: String, _ rect: CGRect) {
         print(AAA)
     }
-    func drawGridXPPcwAaa(_ AAA: String, at index: Int, color: UIColor = Configuration.Theme.lightBlue, offset: CGFloat = 15) {
+    func drawGridXPPcwAaa(_ AAA: String, at index: Int, color: UIColor = KKConfiguration.Theme.lightBlue, offset: CGFloat = 15) {
         print(AAA)
     }
 }

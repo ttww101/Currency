@@ -53,21 +53,21 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 extension AppDelegate {
 
   func configureNavigationBarAppearance() {
-    UINavigationBar.appearance().tintColor = Configuration.Theme.textColor
-    UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: Configuration.Theme.textColor,
-                                                        NSAttributedString.Key.font: Configuration.Font.normalTitleFont]
+    UINavigationBar.appearance().tintColor = KKConfiguration.Theme.textColor
+    UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: KKConfiguration.Theme.textColor,
+                                                        NSAttributedString.Key.font: KKConfiguration.Font.normalTitleFont]
     if #available(iOS 11.0, *) {
       UINavigationBar.appearance().prefersLargeTitles = true
-        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: Configuration.Theme.textColor,
-                                                                 NSAttributedString.Key.font: Configuration.Font.largeTitleFont]
+        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: KKConfiguration.Theme.textColor,
+                                                                 NSAttributedString.Key.font: KKConfiguration.Font.largeTitleFont]
     } else {
       // Fallback on earlier versions
     }
   }
 
   func configureBarButtonItemAppearance() {
-    UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: Configuration.Theme.textColor,
-                                                         NSAttributedString.Key.font: Configuration.Font.navigationItemFont],
+    UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: KKConfiguration.Theme.textColor,
+                                                         NSAttributedString.Key.font: KKConfiguration.Font.navigationItemFont],
                                                         for: .normal)
   }
 }
@@ -77,7 +77,7 @@ extension AppDelegate {
 
   func configureAppirater() {
     // Setup Appirater
-    Appirater.setAppId(Configuration.AppStore.appleID)
+    Appirater.setAppId(KKConfiguration.AppStore.appleID)
     Appirater.setDaysUntilPrompt(3)
     Appirater.setUsesUntilPrompt(5)
     Appirater.setSignificantEventsUntilPrompt(-1)
