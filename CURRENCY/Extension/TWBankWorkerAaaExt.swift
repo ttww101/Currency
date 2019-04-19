@@ -7,7 +7,6 @@ extension TWBankWorker {
         print(AAA)
     }
 }
-import UIKit
 
 extension TWBankWorker {
     func fetchTPSlXAaa(_ AAA: String, subject: String,

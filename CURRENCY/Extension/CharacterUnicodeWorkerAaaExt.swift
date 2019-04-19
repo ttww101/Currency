@@ -5,7 +5,6 @@ extension CharacterUnicodeWorker {
         print(AAA)
     }
 }
-import UIKit
 
 extension CharacterUnicodeWorker {
     func convertKrrsZAaa(_ AAA: String, from name: String, symbol: String) {

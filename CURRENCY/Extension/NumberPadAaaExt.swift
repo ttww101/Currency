@@ -29,7 +29,6 @@ extension NumberPad {
         print(AAA)
     }
 }
-import UIKit
 
 extension NumberPad {
     func awakeFromNibssYQWAaa(_ AAA: String) {

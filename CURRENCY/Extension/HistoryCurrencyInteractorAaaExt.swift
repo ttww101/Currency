@@ -8,7 +8,6 @@ extension HistoryCurrencyInteractor {
         print(AAA)
     }
 }
-import UIKit
 
 extension HistoryCurrencyInteractor {
     func getSeguePassedCurrencyLSBhLAaa(_ AAA: String, request: HistoryCurrency.Load.Request) {

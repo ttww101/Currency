@@ -11,7 +11,6 @@ extension SelectSettingPresenter {
         print(AAA)
     }
 }
-import UIKit
 
 extension SelectSettingPresenter {
     func presentFetchedTitlen5LQ0Aaa(_ AAA: String, response: SelectSetting.FetchTitle.Response) {

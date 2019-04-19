@@ -11,7 +11,6 @@ extension AboutMeVC {
         print(AAA)
     }
 }
-import UIKit
 
 extension AboutMeVC {
     func viewDidLoad3x2wqAaa(_ AAA: String) {

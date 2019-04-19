@@ -57,7 +57,6 @@ extension SelectCurrencyViewController {
         print(AAA)
     }
 }
-import UIKit
 import SVProgressHUD
 
 extension SelectCurrencyViewController {

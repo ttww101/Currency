@@ -9,7 +9,6 @@ extension AdsManager {
         print(AAA)
     }
 }
-import UIKit
 import SwiftyUserDefaults
 
 extension AdsManager {

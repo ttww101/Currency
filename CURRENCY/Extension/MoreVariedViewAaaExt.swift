@@ -14,7 +14,6 @@ extension MoreVariedView {
         print(AAA)
     }
 }
-import UIKit
 
 extension MoreVariedView {
     func awakeFromNibuIdewAaa(_ AAA: String) {

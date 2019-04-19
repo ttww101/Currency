@@ -14,7 +14,6 @@ extension CurrencyInteractor {
         print(AAA)
     }
 }
-import UIKit
 
 extension CurrencyInteractor {
     func fetchFakeJOM9uAaa(_ AAA: String, request: Currency.Subject.Request) {

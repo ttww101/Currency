@@ -42,7 +42,6 @@ extension ChartViewController {
         print(AAA)
     }
 }
-import UIKit
 import Hero
 
 extension ChartViewController {

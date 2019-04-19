@@ -5,7 +5,6 @@ extension HostTabBarPresenter {
         print(AAA)
     }
 }
-import UIKit
 
 extension HostTabBarPresenter {
     func presentSomethingfXglnAaa(_ AAA: String, response: HostTabBar.Something.Response) {

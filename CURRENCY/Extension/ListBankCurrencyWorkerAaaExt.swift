@@ -5,7 +5,6 @@ extension ListBankCurrencyWorker {
         print(AAA)
     }
 }
-import UIKit
 
 extension ListBankCurrencyWorker {
     func doSomeWorkp30qPAaa(_ AAA: String) {

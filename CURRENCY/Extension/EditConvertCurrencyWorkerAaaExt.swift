@@ -8,7 +8,6 @@ extension EditConvertCurrencyWorker {
         print(AAA)
     }
 }
-import UIKit
 
 extension EditConvertCurrencyWorker {
     func loadAllCurrenciesmAxE2Aaa(_ AAA: String) {

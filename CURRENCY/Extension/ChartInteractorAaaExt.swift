@@ -5,7 +5,6 @@ extension ChartInteractor {
         print(AAA)
     }
 }
-import UIKit
 
 extension ChartInteractor {
     func fetchCurrencyHistoryBPvS4Aaa(_ AAA: String, request: Chart.Fetch.Request) {

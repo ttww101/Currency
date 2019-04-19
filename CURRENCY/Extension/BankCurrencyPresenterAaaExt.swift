@@ -8,7 +8,6 @@ extension BankCurrencyPresenter {
         print(AAA)
     }
 }
-import UIKit
 
 extension BankCurrencyPresenter {
     func presentFetchedBankCurrenciesGbXrYAaa(_ AAA: String, response: BankCurrency.Fetch.Response) {

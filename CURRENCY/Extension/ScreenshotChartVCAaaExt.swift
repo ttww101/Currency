@@ -8,7 +8,6 @@ extension ScreenshotChartVC {
         print(AAA)
     }
 }
-import UIKit
 
 extension ScreenshotChartVC {
     func viewDidLoadnGyckAaa(_ AAA: String) {

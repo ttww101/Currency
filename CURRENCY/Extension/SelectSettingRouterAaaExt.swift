@@ -11,7 +11,6 @@ extension SelectSettingRouter {
         print(AAA)
     }
 }
-import UIKit
 
 extension SelectSettingRouter {
     func routeToSomewhereGt2qWAaa(_ AAA: String, segue: UIStoryboardSegue?) {

@@ -8,7 +8,6 @@ extension RecordCell {
         print(AAA)
     }
 }
-import UIKit
 
 extension RecordCell {
     func awakeFromNibUvKSRAaa(_ AAA: String) {

@@ -23,7 +23,6 @@ extension ConvertCurrencyPresenter {
         print(AAA)
     }
 }
-import UIKit
 
 extension ConvertCurrencyPresenter {
     func presentFetchedCurrenciesWIetGAaa(_ AAA: String, response: ConvertCurrency.Fetch.Response) {

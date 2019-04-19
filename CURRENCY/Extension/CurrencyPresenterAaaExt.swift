@@ -17,7 +17,6 @@ extension CurrencyPresenter {
         print(AAA)
     }
 }
-import UIKit
 
 extension CurrencyPresenter {
     func presentFetchedSubjectsLx5fkAaa(_ AAA: String, response: Currency.Subject.Response) {

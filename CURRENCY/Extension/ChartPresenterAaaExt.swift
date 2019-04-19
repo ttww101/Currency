@@ -5,7 +5,6 @@ extension ChartPresenter {
         print(AAA)
     }
 }
-import UIKit
 
 extension ChartPresenter {
     func presentFetchedHistorywXXCfAaa(_ AAA: String, response: Chart.Fetch.Response) {

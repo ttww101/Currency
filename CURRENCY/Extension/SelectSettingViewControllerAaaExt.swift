@@ -50,7 +50,6 @@ extension SelectSettingViewController {
         print(AAA)
     }
 }
-import UIKit
 
 extension SelectSettingViewController {
     func setupQRHq3Aaa(_ AAA: String) {

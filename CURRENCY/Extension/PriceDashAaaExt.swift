@@ -8,7 +8,6 @@ extension PriceDash {
         print(AAA)
     }
 }
-import UIKit
 
 extension PriceDash {
     func setupLabels9VBy5Aaa(_ AAA: String) {

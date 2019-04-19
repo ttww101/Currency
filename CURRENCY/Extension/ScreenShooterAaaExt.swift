@@ -11,7 +11,6 @@ extension ScreenShooter {
         print(AAA)
     }
 }
-import UIKit
 
 extension ScreenShooter {
     func configurebxOgqAaa(_ AAA: String) {

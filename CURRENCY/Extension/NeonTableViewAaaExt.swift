@@ -11,7 +11,6 @@ extension NeonTableView {
         print(AAA)
     }
 }
-import UIKit
 
 extension NeonTableView {
     func setupBdKZbAaa(_ AAA: String) {

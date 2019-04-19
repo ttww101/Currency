@@ -11,7 +11,6 @@ extension AdView {
         print(AAA)
     }
 }
-import UIKit
 
 extension AdView {
     func awakeFromNibuNgLGAaa(_ AAA: String) {

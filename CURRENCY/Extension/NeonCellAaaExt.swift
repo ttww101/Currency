@@ -11,7 +11,6 @@ extension NeonCell {
         print(AAA)
     }
 }
-import UIKit
 
 extension NeonCell {
     func setupU0ZT0Aaa(_ AAA: String) {

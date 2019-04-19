@@ -15,7 +15,6 @@ extension BankCell {
         print(AAA)
     }
 }
-import UIKit
 import Kingfisher
 
 extension BankCell {

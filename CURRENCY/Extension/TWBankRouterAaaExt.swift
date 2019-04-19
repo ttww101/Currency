@@ -19,7 +19,6 @@ extension TWBankRouter {
         print(AAA)
     }
 }
-import UIKit
 
 extension TWBankRouter {
     func routeToListBankcv804Aaa(_ AAA: String, segue: UIStoryboardSegue?) {

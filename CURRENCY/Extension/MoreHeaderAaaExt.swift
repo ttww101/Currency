@@ -5,7 +5,6 @@ extension MoreHeader {
         print(AAA)
     }
 }
-import UIKit
 
 extension MoreHeader {
     func awakeFromNibBmLZEAaa(_ AAA: String) {

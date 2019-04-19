@@ -14,7 +14,6 @@ extension DivergenceLabel {
         print(AAA)
     }
 }
-import UIKit
 
 extension DivergenceLabel {
     func awakeFromNibxl4i6Aaa(_ AAA: String) {

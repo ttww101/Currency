@@ -7,7 +7,6 @@ extension BankCurrencyWorker {
         print(AAA)
     }
 }
-import UIKit
 
 extension BankCurrencyWorker {
     func fetchE2o5hAaa(_ AAA: String, rter: Rter,

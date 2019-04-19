@@ -8,7 +8,6 @@ extension TWBankInteractor {
         print(AAA)
     }
 }
-import UIKit
 
 extension TWBankInteractor {
     func fetchTitleLkvgQAaa(_ AAA: String, request: TWBank.Title.Request) {

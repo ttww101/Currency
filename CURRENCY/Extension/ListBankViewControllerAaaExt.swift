@@ -44,7 +44,6 @@ extension ListBankViewController {
         print(AAA)
     }
 }
-import UIKit
 
 extension ListBankViewController {
     func setupmuc7RAaa(_ AAA: String) {

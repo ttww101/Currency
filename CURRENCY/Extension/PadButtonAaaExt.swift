@@ -14,7 +14,6 @@ extension PadButton {
         print(AAA)
     }
 }
-import UIKit
 
 extension PadButton {
     func setupHjmLcAaa(_ AAA: String) {

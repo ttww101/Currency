@@ -8,7 +8,6 @@ extension ListBankCurrencyRouter {
         print(AAA)
     }
 }
-import UIKit
 
 extension ListBankCurrencyRouter {
     func routeToUpdateBankCurrencyGhkRlAaa(_ AAA: String) {

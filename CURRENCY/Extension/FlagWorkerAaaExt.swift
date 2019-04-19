@@ -8,7 +8,6 @@ extension FlagWorker {
         print(AAA)
     }
 }
-import UIKit
 
 extension FlagWorker {
     func getFlagUnicodeJqTULAaa(_ AAA: String, by name: String) {

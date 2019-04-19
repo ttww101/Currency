@@ -5,7 +5,6 @@ extension CrownView {
         print(AAA)
     }
 }
-import UIKit
 
 extension CrownView {
     func configureConstraintseAOdFAaa(_ AAA: String) {

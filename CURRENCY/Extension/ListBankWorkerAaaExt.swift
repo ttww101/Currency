@@ -5,7 +5,6 @@ extension ListBankWorker {
         print(AAA)
     }
 }
-import UIKit
 
 extension ListBankWorker {
     func doSomeWorkyRXTMAaa(_ AAA: String) {

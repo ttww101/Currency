@@ -8,7 +8,6 @@ extension BankCurrencyInteractor {
         print(AAA)
     }
 }
-import UIKit
 
 extension BankCurrencyInteractor {
     func changeBankpEVQ2Aaa(_ AAA: String, request: BankCurrency.ChangeSource.Request) {

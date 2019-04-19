@@ -11,7 +11,6 @@ extension ListBankRouter {
         print(AAA)
     }
 }
-import UIKit
 
 extension ListBankRouter {
     func routeToSomewhere0m0tXAaa(_ AAA: String, segue: UIStoryboardSegue?) {

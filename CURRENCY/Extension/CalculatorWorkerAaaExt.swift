@@ -8,7 +8,6 @@ extension CalculatorWorker {
         print(AAA)
     }
 }
-import UIKit
 
 extension CalculatorWorker {
     func calculateESBtwAaa(_ AAA: String, usd: String,

@@ -6,7 +6,6 @@ extension Switcher {
         print(AAA)
     }
 }
-import UIKit
 import DGRunkeeperSwitch
 
 extension Switcher {
@@ -20,7 +19,6 @@ extension Switcher {
         print(AAA)
     }
 }
-import UIKit
 import DGRunkeeperSwitch
 
 extension Switcher {
@@ -28,7 +26,6 @@ extension Switcher {
         print(AAA)
     }
 }
-import UIKit
 import DGRunkeeperSwitch
 
 extension Switcher {

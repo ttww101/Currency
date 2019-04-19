@@ -33,7 +33,6 @@ extension CurrencyWorker {
         print(AAA)
     }
 }
-import UIKit
 
 extension CurrencyWorker {
     func loadLocalCurrencyAmnUwAaa(_ AAA: String, by source: String, currency cname: String) {

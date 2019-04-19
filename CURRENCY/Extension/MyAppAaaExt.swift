@@ -10,7 +10,6 @@ extension MyApp {
         print(AAA)
     }
 }
-import UIKit
 
 extension MyApp {
     func reloadAppYtbQ1Aaa(_ AAA: String, type: APP.Preference,

@@ -17,7 +17,6 @@ extension HistoryCurrencyRouter {
         print(AAA)
     }
 }
-import UIKit
 
 extension HistoryCurrencyRouter {
     func routeToTWBankqG5rOAaa(_ AAA: String, segue: UIStoryboardSegue?) {

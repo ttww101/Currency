@@ -130,7 +130,6 @@ extension ConvertCurrencyViewController {
         print(AAA)
     }
 }
-import UIKit
 import SVProgressHUD
 import CRRefresh
 

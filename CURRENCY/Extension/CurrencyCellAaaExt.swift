@@ -30,7 +30,6 @@ extension CurrencyCell {
         print(AAA)
     }
 }
-import UIKit
 import Kingfisher
 
 extension CurrencyCell {

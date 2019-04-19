@@ -15,7 +15,6 @@ extension ViewController {
         print(AAA)
     }
 }
-import UIKit
 import Alamofire
 
 extension ViewController {

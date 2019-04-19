@@ -5,7 +5,6 @@ extension ChartWorker {
         print(AAA)
     }
 }
-import UIKit
 
 extension ChartWorker {
     func doSomeWorkGplCJAaa(_ AAA: String) {

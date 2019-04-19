@@ -34,7 +34,6 @@ extension ConvertCurrencyWorker {
         print(AAA)
     }
 }
-import UIKit
 
 extension ConvertCurrencyWorker {
     func loadLocalSourceBqio3Aaa(_ AAA: String, source: Source) {

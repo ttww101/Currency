@@ -15,7 +15,6 @@ extension AppDelegate {
         print(AAA)
     }
 }
-import UIKit
 import Fabric
 import Crashlytics
 import Appirater

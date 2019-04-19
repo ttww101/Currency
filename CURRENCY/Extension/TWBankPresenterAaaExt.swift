@@ -11,7 +11,6 @@ extension TWBankPresenter {
         print(AAA)
     }
 }
-import UIKit
 
 extension TWBankPresenter {
     func presentTitlewoqIMAaa(_ AAA: String, response: TWBank.Title.Response) {

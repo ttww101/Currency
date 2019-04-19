@@ -14,7 +14,6 @@ extension AnnouncementView {
         print(AAA)
     }
 }
-import UIKit
 
 extension AnnouncementView {
     func awakeFromNibjp5r3Aaa(_ AAA: String) {

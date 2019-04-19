@@ -11,7 +11,6 @@ extension SelectCurrencyRouter {
         print(AAA)
     }
 }
-import UIKit
 
 extension SelectCurrencyRouter {
     func routeToCurrency4SUCDAaa(_ AAA: String, segue: UIStoryboardSegue?) {

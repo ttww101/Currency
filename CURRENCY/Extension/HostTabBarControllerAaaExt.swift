@@ -35,7 +35,6 @@ extension HostTabBarController {
         print(AAA)
     }
 }
-import UIKit
 import RAMAnimatedTabBarController
 
 extension HostTabBarController {

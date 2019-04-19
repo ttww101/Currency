@@ -20,7 +20,6 @@ extension OptionView {
         print(AAA)
     }
 }
-import UIKit
 
 extension OptionView {
     func confirmGBjzaAaa(_ AAA: String, _ sender: Any) {

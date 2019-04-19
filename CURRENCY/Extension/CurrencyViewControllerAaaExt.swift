@@ -76,7 +76,6 @@ extension CurrencyViewController {
         print(AAA)
     }
 }
-import UIKit
 import CRRefresh
 import SVProgressHUD
 

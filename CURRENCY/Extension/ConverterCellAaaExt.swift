@@ -30,7 +30,6 @@ extension ConverterCell {
         print(AAA)
     }
 }
-import UIKit
 import JVFloatLabeledTextField
 
 extension ConverterCell {

@@ -5,7 +5,6 @@ extension ListMoreWorker {
         print(AAA)
     }
 }
-import UIKit
 
 extension ListMoreWorker {
     func doSomeWorkL3Da3Aaa(_ AAA: String) {

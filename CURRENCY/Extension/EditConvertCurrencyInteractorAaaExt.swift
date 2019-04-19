@@ -8,7 +8,6 @@ extension EditConvertCurrencyInteractor {
         print(AAA)
     }
 }
-import UIKit
 
 extension EditConvertCurrencyInteractor {
     func fetchBankCurrencies9ObTJAaa(_ AAA: String, request: EditConvertCurrency.Favorites.Request) {

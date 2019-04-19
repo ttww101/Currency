@@ -20,7 +20,6 @@ extension ChartRouter {
         print(AAA)
     }
 }
-import UIKit
 
 extension ChartRouter {
     func routeToSomewhereXWJgvAaa(_ AAA: String, segue: UIStoryboardSegue?) {

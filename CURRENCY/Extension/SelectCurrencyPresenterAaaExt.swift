@@ -8,7 +8,6 @@ extension SelectCurrencyPresenter {
         print(AAA)
     }
 }
-import UIKit
 
 extension SelectCurrencyPresenter {
     func presentSourcesAOuxyAaa(_ AAA: String, response: SelectCurrency.SourceOptions.Response) {

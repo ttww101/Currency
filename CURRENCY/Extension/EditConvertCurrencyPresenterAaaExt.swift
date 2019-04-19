@@ -8,7 +8,6 @@ extension EditConvertCurrencyPresenter {
         print(AAA)
     }
 }
-import UIKit
 
 extension EditConvertCurrencyPresenter {
     func presentBankCurrenciesvJ6sKAaa(_ AAA: String, response: EditConvertCurrency.Favorites.Response) {

@@ -5,7 +5,6 @@ extension HostTabBarWorker {
         print(AAA)
     }
 }
-import UIKit
 
 extension HostTabBarWorker {
     func doSomeWorkaRc2BAaa(_ AAA: String) {

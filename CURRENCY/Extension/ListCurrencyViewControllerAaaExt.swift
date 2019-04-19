@@ -32,7 +32,6 @@ extension UIViewController {
         print(AAA)
     }
 }
-import UIKit
 
 extension UIViewController {
     func setupvtFnbAaa(_ AAA: String) {

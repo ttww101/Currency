@@ -11,7 +11,6 @@ extension HistoryCurrencyPresenter {
         print(AAA)
     }
 }
-import UIKit
 
 extension HistoryCurrencyPresenter {
     func presentSeguePassedCurrency7hd63Aaa(_ AAA: String, response: HistoryCurrency.Load.Response) {

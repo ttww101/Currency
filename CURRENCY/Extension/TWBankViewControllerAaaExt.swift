@@ -43,7 +43,6 @@ extension TWBankViewController {
         print(AAA)
     }
 }
-import UIKit
 import PagingMenuController
 import SVProgressHUD
 

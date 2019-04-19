@@ -49,7 +49,6 @@ extension ListBankCurrencyViewController {
         print(AAA)
     }
 }
-import UIKit
 import Hero
 import SVProgressHUD
 

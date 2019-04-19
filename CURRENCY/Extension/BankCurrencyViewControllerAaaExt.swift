@@ -50,7 +50,6 @@ extension BankCurrencyViewController {
         print(AAA)
     }
 }
-import UIKit
 import Hero
 import PagingMenuController
 import SVProgressHUD

@@ -30,7 +30,6 @@ extension ConvertCurrencyInteractor {
         print(AAA)
     }
 }
-import UIKit
 
 extension ConvertCurrencyInteractor {
     func fetchCurrenciesZp0GDAaa(_ AAA: String, request: ConvertCurrency.Fetch.Request) {

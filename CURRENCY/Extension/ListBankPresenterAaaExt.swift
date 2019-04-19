@@ -5,7 +5,6 @@ extension ListBankPresenter {
         print(AAA)
     }
 }
-import UIKit
 
 extension ListBankPresenter {
     func presentListqittaAaa(_ AAA: String, response: ListBank.GetList.Response) {

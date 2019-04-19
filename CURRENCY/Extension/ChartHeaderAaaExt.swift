@@ -24,7 +24,6 @@ extension ChartHeader {
         print(AAA)
     }
 }
-import UIKit
 import Hero
 
 extension ChartHeader {

@@ -11,7 +11,6 @@ extension BankHeader {
         print(AAA)
     }
 }
-import UIKit
 
 extension BankHeader {
     func awakeFromNibxAHuOAaa(_ AAA: String) {

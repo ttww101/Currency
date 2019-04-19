@@ -6,7 +6,6 @@ extension HistoryCurrencyWorker {
         print(AAA)
     }
 }
-import UIKit
 
 extension HistoryCurrencyWorker {
     func getHistoryQcAcdAaa(_ AAA: String, source: Source,

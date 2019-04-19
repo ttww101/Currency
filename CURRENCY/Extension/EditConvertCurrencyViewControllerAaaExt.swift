@@ -41,7 +41,6 @@ extension EditConvertCurrencyViewController {
         print(AAA)
     }
 }
-import UIKit
 
 extension EditConvertCurrencyViewController {
     func setupZTSE4Aaa(_ AAA: String) {

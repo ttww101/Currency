@@ -8,7 +8,6 @@ extension SelectCurrencyInteractor {
         print(AAA)
     }
 }
-import UIKit
 
 extension SelectCurrencyInteractor {
     func fetchSourcesIsEk3Aaa(_ AAA: String, request: SelectCurrency.SourceOptions.Request) {

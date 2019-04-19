@@ -5,7 +5,6 @@ extension MoreCell {
         print(AAA)
     }
 }
-import UIKit
 
 extension MoreCell {
     func awakeFromNibzGBzCAaa(_ AAA: String) {

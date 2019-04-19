@@ -11,7 +11,6 @@ extension DashBoard {
         print(AAA)
     }
 }
-import UIKit
 
 extension DashBoard {
     func awakeFromNibhAn3GAaa(_ AAA: String) {

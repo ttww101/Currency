@@ -5,7 +5,6 @@ extension ListBankInteractor {
         print(AAA)
     }
 }
-import UIKit
 
 extension ListBankInteractor {
     func getListCbLRkAaa(_ AAA: String, request: ListBank.GetList.Request) {

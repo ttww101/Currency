@@ -11,7 +11,6 @@ extension SelectSettingInteractor {
         print(AAA)
     }
 }
-import UIKit
 
 extension SelectSettingInteractor {
     func fetchTitlexVjBgAaa(_ AAA: String, request: SelectSetting.FetchTitle.Request) {
