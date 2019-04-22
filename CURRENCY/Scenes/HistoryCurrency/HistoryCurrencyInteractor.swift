@@ -41,7 +41,7 @@ class HistoryCurrencyInteractor: HistoryCurrencyBusinessLogic, HistoryCurrencyDa
   func fetchCurrencyHistory(request: HistoryCurrency.Fetch.Request) {
     self.period = request.period
     guard let savedHistories = historiesStorage.getHistory(period: request.period) else {
-      worker.getHistory(source: .google(UserSettings.currencyUnit, name, period)) { [weak self] (histories, error) in
+      worker.getHistory(source: .google(KKUserSetting.currencyUnit, name, period)) { [weak self] (histories, error) in
         if let error = error {
           let response = Base.HandleError.Response(error: error)
           self?.presenter?.presentError(resopnse: response)

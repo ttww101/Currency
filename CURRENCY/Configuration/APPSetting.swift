@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum APP {
+enum APPSetting {
   // ListMore - Setting List
   static let settings = [Setting(.language),
                          Setting(.source),
@@ -43,7 +43,7 @@ enum APP {
   }
 }
 
-extension APP.Preference {
+extension APPSetting.Preference {
   var options: [String] {
     switch self {
     case .language:
@@ -68,17 +68,17 @@ extension APP.Preference {
   var currentOption: String {
     switch self {
     case .language:
-      return UserSettings.language()
+      return KKUserSetting.language()
     case .source:
-      return UserSettings.source
+      return KKUserSetting.source
     case .currency:
-      return UserSettings.currency
+      return KKUserSetting.currency
     case .decimal:
-      return UserSettings.decimalPoint().stringValue
+      return KKUserSetting.decimalPoint().stringValue
     case .period:
-      return UserSettings.historyPeriod()
+      return KKUserSetting.historyPeriod()
     case .unit:
-      return UserSettings.currencyUnit
+      return KKUserSetting.currencyUnit
     }
   }
 
@@ -86,20 +86,20 @@ extension APP.Preference {
   var currentOptionLocalizedString: String {
     switch self {
     case .language:
-      return LanguageWorker.shared.localizedString(key: UserSettings.language(),
+      return LanguageWorker.shared.localizedString(key: KKUserSetting.language(),
                                                    table: .listLanguage)
     case .source:
-      return LanguageWorker.shared.localizedString(key: UserSettings.source,
+      return LanguageWorker.shared.localizedString(key: KKUserSetting.source,
                                                    table: .listCurrency)
     case .currency:
-      return LanguageWorker.shared.localizedString(key: UserSettings.currency,
+      return LanguageWorker.shared.localizedString(key: KKUserSetting.currency,
                                                    table: .listCurrency)
     case .decimal:
-      return UserSettings.decimalPoint().stringValue
+      return KKUserSetting.decimalPoint().stringValue
     case .period:
-      return UserSettings.historyPeriod()
+      return KKUserSetting.historyPeriod()
     case .unit:
-      return LanguageWorker.shared.localizedString(key: UserSettings.currencyUnit,
+      return LanguageWorker.shared.localizedString(key: KKUserSetting.currencyUnit,
                                                    table: .listCurrency)
     }
   }
@@ -109,21 +109,21 @@ extension APP.Preference {
     case .language:
       return { (chosenOption) in
         if let chosenOption = chosenOption {
-          UserSettings.setLanguage(lang: chosenOption)
+          KKUserSetting.setLanguage(lang: chosenOption)
           MyApp.shared.reloadApp(type: self)
         }
       }
     case .source:
       return { (chosenOption) in
         if let chosenOption = chosenOption {
-          UserSettings.setSource(name: chosenOption)
+          KKUserSetting.setSource(name: chosenOption)
           MyApp.shared.reloadApp(type: self)
         }
       }
     case .currency:
       return { (chosenOption) in
         if let chosenOption = chosenOption {
-          UserSettings.setCurrency(name: chosenOption)
+          KKUserSetting.setCurrency(name: chosenOption)
           MyApp.shared.reloadApp(type: self)
         }
       }
@@ -131,27 +131,27 @@ extension APP.Preference {
       return { (chosenOption) in
         if let chosenOption = chosenOption {
           let point = chosenOption.intValue
-          UserSettings.setDecimalPoint(point: point)
+          KKUserSetting.setDecimalPoint(point: point)
           MyApp.shared.reloadApp(type: self)
         }
       }
     case .period:
       return { (chosenOption) in
         if let chosenOption = chosenOption {
-          UserSettings.setHistoryPeriod(name: chosenOption)
+          KKUserSetting.setHistoryPeriod(name: chosenOption)
         }
       }
     case .unit:
       return { (chosenOption) in
         if let chosenOption = chosenOption {
-          UserSettings.setCurrencyUnit(name: chosenOption)
+          KKUserSetting.setCurrencyUnit(name: chosenOption)
         }
       }
     }
   }
 }
 
-extension APP.Other {
+extension APPSetting.Other {
   var content: String {
     switch self {
     case .rating:
@@ -174,7 +174,7 @@ class MyApp {
   static let shared = MyApp()
   var window: UIWindow?
 
-  func reloadApp(type: APP.Preference,
+  func reloadApp(type: APPSetting.Preference,
                  window: UIWindow? = UIApplication.shared.keyWindow) {
     guard let window = window,
       let rootVC = window.rootViewController else {
@@ -205,7 +205,7 @@ class MyApp {
   }
 
   private func reloadViewController(viewController: UIViewController,
-                                    with type: APP.Preference) {
+                                    with type: APPSetting.Preference) {
     print("reload viewController: \(String(describing: viewController.self))")
     if type == .language {
       guard let vc = viewController as? LanguageRelodable else {

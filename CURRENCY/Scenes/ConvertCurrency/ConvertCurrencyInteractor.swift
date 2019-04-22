@@ -35,21 +35,21 @@ class ConvertCurrencyInteractor: ConvertCurrencyBusinessLogic, ConvertCurrencyDa
 
   /// For favorite currencies, give it a initial favorite currencies list
   /// Get, Set
-  var favoriteCurrencyNameList: [String] = UserSettings.favoriteCurrencies() {
+  var favoriteCurrencyNameList: [String] = KKUserSetting.favoriteCurrencies() {
     didSet {
       favoriteCurrencyList = favoriteCurrencyNameList.map {
         return ConvertCurrency.Currency(name: $0, buy: "nan", sell: "nan", lastUpdate: "")
       }
     }
   }
-  var favoriteCurrencyList: [ConvertCurrency.Currency] = UserSettings.favoriteCurrencies().map {
+  var favoriteCurrencyList: [ConvertCurrency.Currency] = KKUserSetting.favoriteCurrencies().map {
     return ConvertCurrency.Currency(name: $0, buy: "nan", sell: "nan", lastUpdate: "")
   }
 
   var theUSD: String?
   // For save all currencies
-  var bank: ConvertCurrency.Bank = ConvertCurrency.Bank(name: UserSettings.source,
-                                                        swiftCode: UserSettings.source,
+  var bank: ConvertCurrency.Bank = ConvertCurrency.Bank(name: KKUserSetting.source,
+                                                        swiftCode: KKUserSetting.source,
                                                         stock: [],
                                                         cash: [])
   // MARK: Fetch Data

@@ -131,7 +131,7 @@ enum Source {
   case rter(Rter, ExchangeType?)
 
   enum Currency {
-    static let all = APP.Preference.currency.options
+    static let all = APPSetting.Preference.currency.options
   }
 
   static let all = [Source.bot(nil, nil)]
@@ -139,11 +139,11 @@ enum Source {
   var currencies: [String] {
     switch self {
     case .google:
-      return APP.Preference.currency.options
+      return APPSetting.Preference.currency.options
     case .bot:
-      return APP.Preference.currency.options
+      return APPSetting.Preference.currency.options
     case .rter:
-      return APP.Preference.currency.options
+      return APPSetting.Preference.currency.options
     }
   }
 }

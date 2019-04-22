@@ -15,7 +15,7 @@ protocol LoadingContainer: class {
 
 protocol LoadingControl {
   var indicatorView: UIView { get }
-  var indicatorContainer: LoadingView? { get }
+  var indicatorContainer: KKLoadingView? { get }
   var onView: LoadingContainer { get }
   func showLoading()
   func dismissLoading()
@@ -90,8 +90,8 @@ extension LoadingControl {
                                    color: .darkGray, padding: 0)
   }
   // Default refresh view
-  var indicatorContainer: LoadingView? {
-    return LoadingView(indicator: self.indicatorView)
+  var indicatorContainer: KKLoadingView? {
+    return KKLoadingView(indicator: self.indicatorView)
   }
 
   func dismissLoading() {

@@ -24,7 +24,7 @@ class CurrencyWorker {
   }
 
   func fetchRemote(completion: @escaping (InvestmentSubject?, Error?) -> Void) {
-    API().getBankOfTaiwan(subject: UserSettings.currency, period: .month3) { [unowned self] (currency, error) in
+    APIService().getBankOfTaiwan(subject: KKUserSetting.currency, period: .month3) { [unowned self] (currency, error) in
       guard let currency = currency else {
         completion(nil, error)
         return

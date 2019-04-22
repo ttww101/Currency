@@ -16,7 +16,7 @@ class BankCurrencyWorker {
   func fetch(rter: Rter,
              exchange: ExchangeType,
              completion: @escaping (RterBank<[RterCurrency]>?, Error?) -> Void) {
-    API().currenciesOfBank(source: Source.rter(rter, exchange)) { (bank, error) in
+    APIService().currenciesOfBank(source: Source.rter(rter, exchange)) { (bank, error) in
       completion(bank, error)
     }
   }

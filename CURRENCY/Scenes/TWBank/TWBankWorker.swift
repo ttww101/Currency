@@ -15,7 +15,7 @@ class TWBankWorker {
   func fetch(subject: String,
              exchange: ExchangeType,
              completion: @escaping ([RterBank<RterCurrency>], Error?) -> Void) {
-    API().highestCurrencyOfBanks(source: .rter(.currency(subject), exchange)) { (banks, error) in
+    APIService().highestCurrencyOfBanks(source: .rter(.currency(subject), exchange)) { (banks, error) in
       guard let banks = banks,
         error == nil else {
         completion([], error)

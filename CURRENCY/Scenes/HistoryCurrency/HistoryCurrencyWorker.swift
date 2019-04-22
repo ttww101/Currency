@@ -15,7 +15,7 @@ import UIKit
 class HistoryCurrencyWorker {
   func getHistory(source: Source,
                   completion: @escaping ([HistoryModelize]?, Error?) -> Void) {
-    API().history(source: source) { (histories, error) in
+    APIService().history(source: source) { (histories, error) in
 
       guard let histories = histories else {
         guard let error = error else {

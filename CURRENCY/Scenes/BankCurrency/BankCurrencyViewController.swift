@@ -149,7 +149,7 @@ class BankCurrencyViewController: UIViewController,
     configureReachability()
 
     fetchAll()
-    self.title = LanguageWorker.shared.localizedString(key: UserSettings.source,
+    self.title = LanguageWorker.shared.localizedString(key: KKUserSetting.source,
                                                        table: .listCurrency)
   }
 
@@ -166,7 +166,7 @@ class BankCurrencyViewController: UIViewController,
     } else {
       // Fallback on earlier versions
     }
-    self.title = LanguageWorker.shared.localizedString(key: UserSettings.source,
+    self.title = LanguageWorker.shared.localizedString(key: KKUserSetting.source,
                                                        table: .listCurrency)
     let editTitle = LanguageWorker.shared.localizedString(key: R.string.uI.edit.key, table: .ui)
     let editBarButtonItem = UIBarButtonItem(title: editTitle,
@@ -247,7 +247,7 @@ class BankCurrencyViewController: UIViewController,
   }
 
   @objc func reloadCurrency() {
-    self.title = LanguageWorker.shared.localizedString(key: UserSettings.source,
+    self.title = LanguageWorker.shared.localizedString(key: KKUserSetting.source,
                                                        table: .listCurrency)
     let request = BankCurrency.ChangeSource.Request()
     interactor?.changeBank(request: request) // get the changed bank in DataStore

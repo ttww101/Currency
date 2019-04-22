@@ -29,7 +29,7 @@ class ListMoreInteractor: ListMoreBusinessLogic, ListMoreDataStore {
   // MARK: Fetch settings
 
   func fetchSettings(request: ListMore.Fetch.Request) {
-    self.settings = APP.settings
+    self.settings = APPSetting.settings
     let response = ListMore.Fetch.Response(settings: settings)
     presenter?.presentFetchedSettings(response: response)
   }

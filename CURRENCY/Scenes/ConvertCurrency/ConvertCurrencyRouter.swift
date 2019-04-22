@@ -49,7 +49,7 @@ class ConvertCurrencyRouter: NSObject, ConvertCurrencyRoutingLogic, ConvertCurre
   func passDataToEditConvertCurrency(source: ConvertCurrencyDataStore,
                                      destination: inout EditConvertCurrencyDataStore) {
     destination.listCurrencyVC = viewController
-    destination.currencies = APP.Preference.currency.options.map {
+    destination.currencies = APPSetting.Preference.currency.options.map {
       if source.favoriteCurrencyNameList.contains($0) {
         return EditConvertCurrency.Favorites.Response.FavoriteCurrency(name: $0, isFavored: true)
       } else {

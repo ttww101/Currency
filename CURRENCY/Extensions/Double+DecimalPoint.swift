@@ -18,7 +18,7 @@ extension Decimal {
 
   var userSettingDecimal: Decimal {
     var decimalNumber = self
-    return decimalNumber.decimal(after: UserSettings.decimalPoint())
+    return decimalNumber.decimal(after: KKUserSetting.decimalPoint())
   }
 
   var calculationDecimalString: String {
@@ -69,7 +69,7 @@ extension String {
       // If decimal is empty string ""
       return "/"
     }
-    let afterD = decimal.decimal(after: UserSettings.decimalPoint())
+    let afterD = decimal.decimal(after: KKUserSetting.decimalPoint())
     return afterD
   }
 }

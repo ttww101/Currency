@@ -81,9 +81,9 @@ class ListMoreViewController: UIViewController,
   }
 
   // MARK: View lifecycle
-  var loadingView: LoadingView = LoadingView()
-  var settings: [Setting] = APP.settings
-  var others: [More] = APP.others
+  var loadingView: KKLoadingView = KKLoadingView()
+  var settings: [Setting] = APPSetting.settings
+  var others: [More] = APPSetting.others
 
   override func viewDidLoad() {
     super.viewDidLoad()

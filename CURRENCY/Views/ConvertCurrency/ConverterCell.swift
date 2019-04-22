@@ -71,7 +71,7 @@ class ConverterCell: UITableViewCell, UITextFieldDelegate {
     // 小數點不該出現在第一位
     guard !content.hasPrefix(".") else { return false }
     // 如果小於最大上限並且沒有小數點
-    if content.count < NumberPad.maximumDigits, !content.contains(".") {
+    if content.count < NumberKeyboard.maximumDigits, !content.contains(".") {
       // if lenth not exceed maximum, assign string passed by number pad to textfield
       textField.text = content
       return true
@@ -81,9 +81,9 @@ class ConverterCell: UITableViewCell, UITextFieldDelegate {
     // 把分開後的數字字數加總
     let digitCount = digits.reduce(0, +)
     // 如果加總小於(上限 + 1), 因為要把小數點算進去
-    if digitCount < (NumberPad.maximumDigits + 1) {
+    if digitCount < (NumberKeyboard.maximumDigits + 1) {
       // 加總等於上限，而且最後一個字元是小數點，就不做任何動作
-      if digitCount == NumberPad.maximumDigits && content.hasSuffix(".") {
+      if digitCount == NumberKeyboard.maximumDigits && content.hasSuffix(".") {
         return false
       }
       textField.text = content

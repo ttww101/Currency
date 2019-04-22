@@ -1,6 +1,6 @@
 import UIKit
 
-extension NumberPad {
+extension NumberKeyboard {
     func awakeFromNib1HzpeAaa(_ AAA: String) {
         print(AAA)
     }
@@ -30,7 +30,7 @@ extension NumberPad {
     }
 }
 
-extension NumberPad {
+extension NumberKeyboard {
     func awakeFromNibssYQWAaa(_ AAA: String) {
         print(AAA)
     }

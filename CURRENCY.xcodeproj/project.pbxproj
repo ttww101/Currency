@@ -154,7 +154,7 @@
 		F61B85B3206B898200B208CB /* ScreenShooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B85B2206B898200B208CB /* ScreenShooter.swift */; };
 		F61B85B6206B96B000B208CB /* ScreenshotChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B85B5206B96B000B208CB /* ScreenshotChartVC.swift */; };
 		F61F08CF2044FECA00443EEA /* truenorg.otf in Resources */ = {isa = PBXBuildFile; fileRef = F61F08CE2044FE3600443EEA /* truenorg.otf */; };
-		F61F08D32045106800443EEA /* APP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F08D22045106800443EEA /* APP.swift */; };
+		F61F08D32045106800443EEA /* APPSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F08D22045106800443EEA /* APPSetting.swift */; };
 		F61F08D5204535D200443EEA /* MoreHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F08D4204535D200443EEA /* MoreHeader.swift */; };
 		F61F08D7204535F100443EEA /* MoreHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = F61F08D6204535F100443EEA /* MoreHeader.xib */; };
 		F61F08DA204547AE00443EEA /* AgreementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F08D9204547AE00443EEA /* AgreementVC.swift */; };
@@ -179,7 +179,7 @@
 		F64EF5CA20440F4E00EB691D /* NavigationControllerTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64EF5C920440F4E00EB691D /* NavigationControllerTheme.swift */; };
 		F6519FBF20561E92003C31C9 /* Error.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6519FC120561E92003C31C9 /* Error.strings */; };
 		F6521B8A1FBC704B00F297EC /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6521B891FBC704B00F297EC /* BalloonMarker.swift */; };
-		F652A9E71FCFEB1B00B13DAC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F652A9E61FCFEB1B00B13DAC /* API.swift */; };
+		F652A9E71FCFEB1B00B13DAC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F652A9E61FCFEB1B00B13DAC /* APIService.swift */; };
 		F6583EF22063869900E9C630 /* String+SliceHTMLComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6583EF12063869900E9C630 /* String+SliceHTMLComponent.swift */; };
 		F6583EF92063A39200E9C630 /* BankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6583EF72063A39200E9C630 /* BankCell.swift */; };
 		F6583EFB2063A39200E9C630 /* BankCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6583EF82063A39200E9C630 /* BankCell.xib */; };
@@ -201,7 +201,7 @@
 		F65FA08C201B1FF400A56DD4 /* HurmeGeometricSans1 Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F65FA08B201B1FF400A56DD4 /* HurmeGeometricSans1 Regular.otf */; };
 		F660E952208B2B610087FA74 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = F660E951208B2B610087FA74 /* Debug.swift */; };
 		F666EC4A206DE23A00184A61 /* PeriodSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F666EC49206DE23A00184A61 /* PeriodSegmentedControl.swift */; };
-		F6680F8D1FFDC7400027FB21 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6680F8C1FFDC7400027FB21 /* UserSettings.swift */; };
+		F6680F8D1FFDC7400027FB21 /* KKUserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6680F8C1FFDC7400027FB21 /* KKUserSetting.swift */; };
 		F6680F8F1FFDCF2F0027FB21 /* Array+ComparePrevNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6680F8E1FFDCF2F0027FB21 /* Array+ComparePrevNext.swift */; };
 		F66ABB432014747400560FB3 /* SelectCurrencyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66ABB3D2014747400560FB3 /* SelectCurrencyPresenter.swift */; };
 		F66ABB452014747400560FB3 /* SelectCurrencyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66ABB3F2014747400560FB3 /* SelectCurrencyRouter.swift */; };
@@ -220,7 +220,7 @@
 		F66B485F203EC1B200A8B7B3 /* LanguageWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66B485E203EC1B200A8B7B3 /* LanguageWorker.swift */; };
 		F66B4862203EC85000A8B7B3 /* ListLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = F66B4864203EC85000A8B7B3 /* ListLanguage.strings */; };
 		F66B4872203FAD1900A8B7B3 /* ListSettings.strings in Resources */ = {isa = PBXBuildFile; fileRef = F66B4874203FAD1900A8B7B3 /* ListSettings.strings */; };
-		F66B4878203FBAB100A8B7B3 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66B4877203FBAB100A8B7B3 /* LoadingView.swift */; };
+		F66B4878203FBAB100A8B7B3 /* KKLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66B4877203FBAB100A8B7B3 /* KKLoadingView.swift */; };
 		F66B487A203FBF9100A8B7B3 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66B4879203FBF9100A8B7B3 /* LoadingView.xib */; };
 		F66B487D203FD2A700A8B7B3 /* UI.strings in Resources */ = {isa = PBXBuildFile; fileRef = F66B487F203FD2A700A8B7B3 /* UI.strings */; };
 		F672AE932018B3DE0058D1FC /* Date+Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672AE922018B3DE0058D1FC /* Date+Comparable.swift */; };
@@ -316,7 +316,7 @@
 		F6F2CFB520930E910037E905 /* UIControlControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F2CFB420930E910037E905 /* UIControlControl.swift */; };
 		F6F4DBDA201F187500C29FCE /* ConverterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4DBD9201F187500C29FCE /* ConverterCell.swift */; };
 		F6F4DBDC201F1CA400C29FCE /* ConverterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6F4DBDB201F1CA400C29FCE /* ConverterCell.xib */; };
-		F6F4DBDE20200E1200C29FCE /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4DBDD20200E1200C29FCE /* NumberPad.swift */; };
+		F6F4DBDE20200E1200C29FCE /* NumberKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4DBDD20200E1200C29FCE /* NumberKeyboard.swift */; };
 		F6F4DBE020200E3300C29FCE /* NumberPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6F4DBDF20200E3300C29FCE /* NumberPad.xib */; };
 		F6F4DBE220200EA600C29FCE /* PadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4DBE120200EA600C29FCE /* PadButton.swift */; };
 		F6F9A647206BD1220035CF56 /* MiniChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F9A646206BD1220035CF56 /* MiniChart.swift */; };
@@ -489,7 +489,7 @@
 		F61B85B2206B898200B208CB /* ScreenShooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShooter.swift; sourceTree = "<group>"; };
 		F61B85B5206B96B000B208CB /* ScreenshotChartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotChartVC.swift; sourceTree = "<group>"; };
 		F61F08CE2044FE3600443EEA /* truenorg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = truenorg.otf; sourceTree = "<group>"; };
-		F61F08D22045106800443EEA /* APP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APP.swift; sourceTree = "<group>"; };
+		F61F08D22045106800443EEA /* APPSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPSetting.swift; sourceTree = "<group>"; };
 		F61F08D4204535D200443EEA /* MoreHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreHeader.swift; sourceTree = "<group>"; };
 		F61F08D6204535F100443EEA /* MoreHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreHeader.xib; sourceTree = "<group>"; };
 		F61F08D9204547AE00443EEA /* AgreementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementVC.swift; sourceTree = "<group>"; };
@@ -516,7 +516,7 @@
 		F6519FC220561E97003C31C9 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Error.strings"; sourceTree = "<group>"; };
 		F6519FC320561E98003C31C9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Error.strings"; sourceTree = "<group>"; };
 		F6521B891FBC704B00F297EC /* BalloonMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
-		F652A9E61FCFEB1B00B13DAC /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		F652A9E61FCFEB1B00B13DAC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		F6583EF12063869900E9C630 /* String+SliceHTMLComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+SliceHTMLComponent.swift"; sourceTree = "<group>"; };
 		F6583EF72063A39200E9C630 /* BankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCell.swift; sourceTree = "<group>"; };
 		F6583EF82063A39200E9C630 /* BankCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BankCell.xib; sourceTree = "<group>"; };
@@ -538,7 +538,7 @@
 		F65FA08B201B1FF400A56DD4 /* HurmeGeometricSans1 Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HurmeGeometricSans1 Regular.otf"; sourceTree = "<group>"; };
 		F660E951208B2B610087FA74 /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
 		F666EC49206DE23A00184A61 /* PeriodSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodSegmentedControl.swift; sourceTree = "<group>"; };
-		F6680F8C1FFDC7400027FB21 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		F6680F8C1FFDC7400027FB21 /* KKUserSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKUserSetting.swift; sourceTree = "<group>"; };
 		F6680F8E1FFDCF2F0027FB21 /* Array+ComparePrevNext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+ComparePrevNext.swift"; sourceTree = "<group>"; };
 		F66ABB3D2014747400560FB3 /* SelectCurrencyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrencyPresenter.swift; sourceTree = "<group>"; };
 		F66ABB3F2014747400560FB3 /* SelectCurrencyRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrencyRouter.swift; sourceTree = "<group>"; };
@@ -563,7 +563,7 @@
 		F66B4873203FAD1900A8B7B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ListSettings.strings; sourceTree = "<group>"; };
 		F66B4875203FAD1C00A8B7B3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/ListSettings.strings"; sourceTree = "<group>"; };
 		F66B4876203FAD1D00A8B7B3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ListSettings.strings"; sourceTree = "<group>"; };
-		F66B4877203FBAB100A8B7B3 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		F66B4877203FBAB100A8B7B3 /* KKLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKLoadingView.swift; sourceTree = "<group>"; };
 		F66B4879203FBF9100A8B7B3 /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		F66B487E203FD2A700A8B7B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UI.strings; sourceTree = "<group>"; };
 		F66B4880203FD2A800A8B7B3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/UI.strings"; sourceTree = "<group>"; };
@@ -664,7 +664,7 @@
 		F6F2CFB420930E910037E905 /* UIControlControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControlControl.swift; sourceTree = "<group>"; };
 		F6F4DBD9201F187500C29FCE /* ConverterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterCell.swift; sourceTree = "<group>"; };
 		F6F4DBDB201F1CA400C29FCE /* ConverterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConverterCell.xib; sourceTree = "<group>"; };
-		F6F4DBDD20200E1200C29FCE /* NumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
+		F6F4DBDD20200E1200C29FCE /* NumberKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberKeyboard.swift; sourceTree = "<group>"; };
 		F6F4DBDF20200E3300C29FCE /* NumberPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberPad.xib; sourceTree = "<group>"; };
 		F6F4DBE120200EA600C29FCE /* PadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadButton.swift; sourceTree = "<group>"; };
 		F6F9A646206BD1220035CF56 /* MiniChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniChart.swift; sourceTree = "<group>"; };
@@ -923,8 +923,8 @@
 			children = (
 				F60B6AAC1FB54BA700EEFA74 /* R.generated.swift */,
 				F6DA7F0A1FB9FE7000B07B45 /* Configuration.swift */,
-				F6680F8C1FFDC7400027FB21 /* UserSettings.swift */,
-				F61F08D22045106800443EEA /* APP.swift */,
+				F6680F8C1FFDC7400027FB21 /* KKUserSetting.swift */,
+				F61F08D22045106800443EEA /* APPSetting.swift */,
 				F6A1BE6E204E6D9A00AA0CB4 /* KVNProgressCustomConfiguration.swift */,
 			);
 			path = Configuration;
@@ -1113,7 +1113,7 @@
 				F622BED420523314004D082A /* TradeSwitcher.swift */,
 				F622BECD20523240004D082A /* ConverterHeader.swift */,
 				F622BED020523276004D082A /* ConverterHeader.xib */,
-				F6F4DBDD20200E1200C29FCE /* NumberPad.swift */,
+				F6F4DBDD20200E1200C29FCE /* NumberKeyboard.swift */,
 				F6F4DBDF20200E3300C29FCE /* NumberPad.xib */,
 				F6F4DBE120200EA600C29FCE /* PadButton.swift */,
 				F65EE61A20157EDE0077B04C /* OptionView.swift */,
@@ -1243,7 +1243,7 @@
 			children = (
 				F68D99C12069EDC300D0530A /* Source.swift */,
 				F68D99C42069EF1E00D0530A /* Bank.swift */,
-				F652A9E61FCFEB1B00B13DAC /* API.swift */,
+				F652A9E61FCFEB1B00B13DAC /* APIService.swift */,
 				F6733CFF2071D49D0063AFEC /* APIAnalyzer.swift */,
 				F6733D0B207222C90063AFEC /* ErrorHandlerConfiguration.swift */,
 			);
@@ -1292,7 +1292,7 @@
 			isa = PBXGroup;
 			children = (
 				F6114ECF20525C2500D0C04B /* MMPopup.swift */,
-				F66B4877203FBAB100A8B7B3 /* LoadingView.swift */,
+				F66B4877203FBAB100A8B7B3 /* KKLoadingView.swift */,
 				F66B4879203FBF9100A8B7B3 /* LoadingView.xib */,
 				F6367DDC206B54D60039CC5B /* CardView.swift */,
 				F6F9A646206BD1220035CF56 /* MiniChart.swift */,
@@ -1621,7 +1621,7 @@
 				F6DBFF081FBC9DDF0079C5E3 /* String+dollarMark.swift in Sources */,
 				F68269B8206A36A000B068C4 /* CurrencyCell.swift in Sources */,
 				F666EC4A206DE23A00184A61 /* PeriodSegmentedControl.swift in Sources */,
-				F652A9E71FCFEB1B00B13DAC /* API.swift in Sources */,
+				F652A9E71FCFEB1B00B13DAC /* APIService.swift in Sources */,
 				F6B45287202ACAC60043387B /* ReachabilityWorker.swift in Sources */,
 				DCA676872269DEF30060C89E /* CurrencyInteractorAaaExt.swift in Sources */,
 				DCA676B82269DEF30060C89E /* MMCardViewAaaExt.swift in Sources */,
@@ -1722,14 +1722,14 @@
 				F66B485F203EC1B200A8B7B3 /* LanguageWorker.swift in Sources */,
 				F688E22A20197C5C005067DE /* HostTabBarPresenter.swift in Sources */,
 				DCA676A92269DEF30060C89E /* ListBankCurrencyWorkerAaaExt.swift in Sources */,
-				F6F4DBDE20200E1200C29FCE /* NumberPad.swift in Sources */,
+				F6F4DBDE20200E1200C29FCE /* NumberKeyboard.swift in Sources */,
 				F60B6AA71FB4372100EEFA74 /* RecordCell.swift in Sources */,
 				F6B45285202AAE9A0043387B /* TimeWorker.swift in Sources */,
 				F60B6A9E1FB4351200EEFA74 /* CurrencyViewController.swift in Sources */,
 				F68A4F372063547D003CA991 /* ListBankPresenter.swift in Sources */,
 				F688E22D20197C5C005067DE /* HostTabBarModels.swift in Sources */,
 				DCA676B92269DEF30060C89E /* MoreCellAaaExt.swift in Sources */,
-				F66B4878203FBAB100A8B7B3 /* LoadingView.swift in Sources */,
+				F66B4878203FBAB100A8B7B3 /* KKLoadingView.swift in Sources */,
 				F6B1DA50202D7282002F834B /* EditConvertCurrencyPresenter.swift in Sources */,
 				DCA6768F2269DEF30060C89E /* DataManagerAaaExt.swift in Sources */,
 				DCA676982269DEF30060C89E /* HistoryCurrencyInteractorAaaExt.swift in Sources */,
@@ -1808,7 +1808,7 @@
 				F6B1F951209066BF00882795 /* AdsManager.swift in Sources */,
 				F68A4F3D2063547D003CA991 /* ListBankModels.swift in Sources */,
 				F61F08D5204535D200443EEA /* MoreHeader.swift in Sources */,
-				F61F08D32045106800443EEA /* APP.swift in Sources */,
+				F61F08D32045106800443EEA /* APPSetting.swift in Sources */,
 				F68A4F2F20634EE2003CA991 /* TWBankInteractor.swift in Sources */,
 				DCA676C72269DEF40060C89E /* RecordCellAaaExt.swift in Sources */,
 				F699F163206B255300C65102 /* ChartViewController.swift in Sources */,
@@ -1837,7 +1837,7 @@
 				F688E22F20197C5C005067DE /* HostTabBarInteractor.swift in Sources */,
 				F672AE932018B3DE0058D1FC /* Date+Comparable.swift in Sources */,
 				F622BED520523314004D082A /* TradeSwitcher.swift in Sources */,
-				F6680F8D1FFDC7400027FB21 /* UserSettings.swift in Sources */,
+				F6680F8D1FFDC7400027FB21 /* KKUserSetting.swift in Sources */,
 				F60B6A681FB4322000EEFA74 /* AppDelegate.swift in Sources */,
 				F66ABB482014747400560FB3 /* SelectCurrencyInteractor.swift in Sources */,
 				F62C93111FBD5291003D0DD5 /* PriceDash.swift in Sources */,

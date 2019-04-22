@@ -36,7 +36,7 @@ class ConvertCurrencyViewController: UIViewController,
   var router: (NSObjectProtocol & ConvertCurrencyRoutingLogic & ConvertCurrencyDataPassing)?
 
   // MARK: Object lifecycle
-  var sourceKey: String = UserSettings.source
+  var sourceKey: String = KKUserSetting.source
   var displayCurrencies: [ConvertCurrency.Fetch.ViewModel.DisplayCurrency] = []
   var displayResults: [String] = []
   var exchangeType: ExchangeType = .stock
@@ -91,7 +91,7 @@ class ConvertCurrencyViewController: UIViewController,
   @IBOutlet weak var switchersContainer: UIView!
   @IBOutlet weak var tableView: UITableView!
   var isCRRefreshing: Bool = false
-  @IBOutlet weak var numberPad: NumberPad!
+  @IBOutlet weak var numberPad: NumberKeyboard!
   weak var currentCell: ConverterCell?
 
   var isAppearFromEditFavorite: Bool = false
@@ -294,14 +294,14 @@ class ConvertCurrencyViewController: UIViewController,
   // MARK: Interactor actions
 
   private func fetchStock() {
-    guard let rter = Rter(swiftCode: UserSettings.source) else { return }
+    guard let rter = Rter(swiftCode: KKUserSetting.source) else { return }
     let source = Source.rter(rter, .stock)
     let request = ConvertCurrency.Fetch.Request(source: source)
     interactor?.fetchCurrencies(request: request)
   }
 
   private func fetchCash() {
-    guard let rter = Rter(swiftCode: UserSettings.source) else { return }
+    guard let rter = Rter(swiftCode: KKUserSetting.source) else { return }
     let source = Source.rter(rter, .cash)
     let request = ConvertCurrency.Fetch.Request(source: source)
     interactor?.fetchCurrencies(request: request)
@@ -351,7 +351,7 @@ class ConvertCurrencyViewController: UIViewController,
     if let text = cell.textField.text, text != "" {
       updateRterCell(content: text)
     } else {
-      updateRterCellPlaceHolder(content: NumberPad.defaultValue)
+      updateRterCellPlaceHolder(content: NumberKeyboard.defaultValue)
     }
   }
 
@@ -392,7 +392,7 @@ class ConvertCurrencyViewController: UIViewController,
     currentCell = cell
     selectedCurrency = displayCurrencies[indexPath.row].name
     if shouldDisplayPlaceHolder {
-      numberPad.emptyHandler?(NumberPad.defaultValue)
+      numberPad.emptyHandler?(NumberKeyboard.defaultValue)
     } else {
       numberPad.passHandler?(cell.storedString)
     }
@@ -463,7 +463,7 @@ class ConvertCurrencyViewController: UIViewController,
     guard let subject = displayCurrencies.first else { return "" }
     let lastUpdatePrefix = LanguageWorker.shared.localizedString(key: R.string.uI.last_update_colon.key,
                                                                  table: .ui)
-    let source = LanguageWorker.shared.localizedString(key: UserSettings.source, table: .listCurrency)
+    let source = LanguageWorker.shared.localizedString(key: KKUserSetting.source, table: .listCurrency)
     let sourcePrifix = LanguageWorker.shared.localizedString(key: R.string.uI.source_from.key, table: .ui)
     return lastUpdatePrefix + subject.lastUpdate + " " + sourcePrifix + source
   }

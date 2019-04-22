@@ -106,7 +106,7 @@ private func resetStateForOldSourceCode() {
     sourceCode == "bot" else {
     return
   }
-  UserSettings.setSource(name: Bank.bankoftaiwan.swiftCode)
+  KKUserSetting.setSource(name: Bank.bankoftaiwan.swiftCode)
 }
 
 private func resetStateIfUITesting() {
@@ -117,5 +117,5 @@ private func resetStateIfUITesting() {
 
 private func resetLanguageIfUITesting(_ language: String) {
   guard ProcessInfo().arguments.contains("Snapshot-Testing") == true else { return }
-  UserSettings.setLanguage(lang: language)
+  KKUserSetting.setLanguage(lang: language)
 }

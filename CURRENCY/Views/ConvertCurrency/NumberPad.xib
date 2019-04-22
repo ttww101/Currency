@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NumberPad" customModule="CURRENCY" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NumberKeyboard" customModule="CURRENCY" customModuleProvider="target">
             <connections>
                 <outlet property="contentView" destination="iN0-l3-epB" id="QEO-bl-rx3"/>
                 <outlet property="deleteBtn" destination="uP5-Ob-YuG" id="rFe-Jy-6dd"/>
@@ -36,32 +32,32 @@
             <rect key="frame" x="0.0" y="0.0" width="383" height="200"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jjx-Yr-c54" userLabel="7" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="0.0" width="96" height="50"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jjx-Yr-c54" userLabel="7" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="127.5" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="title" value="7"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="7"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Flh-7Z-XeE" userLabel="8" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="96" y="0.0" width="96" height="50"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Flh-7Z-XeE" userLabel="8" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="127.5" y="0.0" width="128" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="title" value="8"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="8"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u1C-7z-efL" userLabel="9" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="192" y="0.0" width="96" height="50"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u1C-7z-efL" userLabel="9" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="255.5" y="0.0" width="127.5" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="title" value="9"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="9"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aZq-fP-qxe" userLabel="+" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="288" y="0.0" width="96" height="50"/>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aZq-fP-qxe" userLabel="+" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="383" y="0.0" width="0.0" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="width" id="uo1-wu-pAk"/>
@@ -71,96 +67,96 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="+"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vCu-GD-wXI" userLabel="4" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="50" width="96" height="50"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vCu-GD-wXI" userLabel="4" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="50" width="127.5" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="title" value="4"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="4"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yxm-Ze-wJk" userLabel="5" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="96" y="50" width="95.5" height="50"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yxm-Ze-wJk" userLabel="5" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="127.5" y="50" width="128" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="title" value="5"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="5"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5nF-nq-Ld7" userLabel="6" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="191.5" y="50" width="96" height="50"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5nF-nq-Ld7" userLabel="6" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="255.5" y="50" width="127.5" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="title" value="6"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="6"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WGN-WZ-Bd9" userLabel="-" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="287.5" y="50" width="95.5" height="50"/>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WGN-WZ-Bd9" userLabel="-" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="383" y="50" width="0.0" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="title" value="-"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="-"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jS1-Xv-0kX" userLabel="1" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="100" width="95.5" height="50"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jS1-Xv-0kX" userLabel="1" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="100" width="127.5" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="title" value="1"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="1"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xx7-t2-15I" userLabel="2" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="95.5" y="100" width="96" height="50"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xx7-t2-15I" userLabel="2" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="127.5" y="100" width="128" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="title" value="2"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="2"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S37-qU-dDN" userLabel="3" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="191.5" y="100" width="95.5" height="50"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S37-qU-dDN" userLabel="3" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="255.5" y="100" width="127.5" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="title" value="3"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="3"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FtM-Yu-3Zz" userLabel="*" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="287" y="100" width="96" height="50"/>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FtM-Yu-3Zz" userLabel="*" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="383" y="100" width="0.0" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="title" value="×"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="*"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bb8-vy-uhK" userLabel="." customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="150" width="96" height="50"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bb8-vy-uhK" userLabel="." customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="150" width="127.5" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="title" value="∙"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="."/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Msp-BN-kUF" userLabel="0" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="96" y="150" width="95.5" height="50"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Msp-BN-kUF" userLabel="0" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="127.5" y="150" width="128" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="title" value="0"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="0"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TIu-Jw-Cqm" userLabel="/" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="287" y="150" width="96" height="50"/>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TIu-Jw-Cqm" userLabel="/" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="383" y="150" width="0.0" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="title" value="÷"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="/"/>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uP5-Ob-YuG" userLabel="delete" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
-                    <rect key="frame" x="191.5" y="150" width="95.5" height="50"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uP5-Ob-YuG" userLabel="delete" customClass="PadButton" customModule="CURRENCY" customModuleProvider="target">
+                    <rect key="frame" x="255.5" y="150" width="127.5" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="symbol" value="B"/>

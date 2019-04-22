@@ -20,7 +20,7 @@ extension DefaultsKeys {
 }
 
 /// User settings, save in plist
-struct UserSettings {
+struct KKUserSetting {
 
   // MARK: Default
 
@@ -40,7 +40,7 @@ struct UserSettings {
       // Use Device current language code first
       guard let localLanguageCode = Locale.current.languageCode else {
         // Use programatically default language if Device current language code is nil
-        return UserSettings.defaultLanguage
+        return KKUserSetting.defaultLanguage
       }
       // Some language like chinese need to append Locale.scriptCode
       guard let localScriptCode = Locale.current.scriptCode else {
@@ -70,7 +70,7 @@ struct UserSettings {
   static func decimalPoint() -> Int {
     let point = Defaults[DefaultsKeys.UserSettingsDecimalPoint]
     guard point != 0 else {
-      return UserSettings.defaultDecimalPoint
+      return KKUserSetting.defaultDecimalPoint
     }
     return point
   }
@@ -84,7 +84,7 @@ struct UserSettings {
   static var source: String {
     let source = Defaults[DefaultsKeys.UserSettingsSource]
     guard source != "" else {
-      return UserSettings.defaultSource
+      return KKUserSetting.defaultSource
     }
     return source
   }
@@ -98,7 +98,7 @@ struct UserSettings {
   static var currency: String {
     let currency = Defaults[DefaultsKeys.UserSettingsCurrency]
     guard currency != "" else {
-      return UserSettings.defaultCurrency
+      return KKUserSetting.defaultCurrency
     }
     return currency
   }
@@ -112,7 +112,7 @@ struct UserSettings {
   static var currencyUnit: String {
     let currency = Defaults[DefaultsKeys.UserSettingsCurrencyUnit]
     guard currency != "" else {
-      return UserSettings.defaultCurrencyUnit
+      return KKUserSetting.defaultCurrencyUnit
     }
     return currency
   }
@@ -130,7 +130,7 @@ struct UserSettings {
   static func favoriteCurrencies() -> [String] {
     let currency = Defaults[DefaultsKeys.UserSettingsFavoriteCurrencies]
     guard currency.count > 0, !currency.isEmpty else {
-      return UserSettings.defaultFavoriteCurrencies
+      return KKUserSetting.defaultFavoriteCurrencies
     }
     return currency
   }
@@ -144,7 +144,7 @@ struct UserSettings {
   static func historyPeriod() -> String {
     let period = Defaults[DefaultsKeys.UserSettingsHistoryPeriod]
     guard period != "" else {
-      return UserSettings.defaultHistoryPeriod
+      return KKUserSetting.defaultHistoryPeriod
     }
     return period
   }

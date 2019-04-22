@@ -2,7 +2,7 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-extension API {
+extension APIService {
     func history6a13KAaa(_ AAA: String, source: Source,
                completion: @escaping ([HistoryModelize]?, Error?) -> Void) {
         print(AAA)
@@ -26,7 +26,7 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-extension API {
+extension APIService {
     func historyTdRPaAaa(_ AAA: String, source: Source,
                completion: @escaping ([HistoryModelize]?, Error?) -> Void) {
         print(AAA)

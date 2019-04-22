@@ -109,7 +109,7 @@ class CurrencyCell: UITableViewCell, LoadingControl {
   func fetch(name: String, completion: @escaping ([HistoryModelize], UIImage?, Error?) -> Void) {
     fetchStart()
 
-    API().history(source: .google(UserSettings.currencyUnit,
+    APIService().history(source: .google(KKUserSetting.currencyUnit,
                                   name, Period.defaultValue)) { [weak self] (histories, error) in
       if let error = error {
         completion([], nil, error)

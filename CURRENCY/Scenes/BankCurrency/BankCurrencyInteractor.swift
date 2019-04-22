@@ -27,7 +27,7 @@ class BankCurrencyInteractor: BankCurrencyBusinessLogic, BankCurrencyDataStore {
   var presenter: BankCurrencyPresentationLogic?
   var worker: BankCurrencyWorker = BankCurrencyWorker()
 
-  var source: String = UserSettings.source {
+  var source: String = KKUserSetting.source {
     didSet {
       stock = nil
       cash = nil
@@ -39,7 +39,7 @@ class BankCurrencyInteractor: BankCurrencyBusinessLogic, BankCurrencyDataStore {
   // MARK: Fetch Bank Currency
 
   func changeBank(request: BankCurrency.ChangeSource.Request) {
-    source = UserSettings.source
+    source = KKUserSetting.source
   }
 
   func fetchBankCurrencies(request: BankCurrency.Fetch.Request) {

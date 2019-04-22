@@ -66,8 +66,8 @@ class TWBankViewController: UIViewController,
   }
 
   // MARK: View lifecycle
-  lazy var loadingView: LoadingView = {
-    return LoadingView(frame: self.view.bounds)
+  lazy var loadingView: KKLoadingView = {
+    return KKLoadingView(frame: self.view.bounds)
   }()
 
   struct StockItem: MenuItemViewCustomizable {

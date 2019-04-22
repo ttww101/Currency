@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NumberPad: UIView, PadButtonDelegate {
+class NumberKeyboard: UIView, PadButtonDelegate {
 
   static let defaultValue = "100"
   static let maximumDigits = 8 // maximum is 9
@@ -70,7 +70,7 @@ class NumberPad: UIView, PadButtonDelegate {
   func buttonDidLongPress(_ btn: PadButton, symbol: String) {
     if btn == deleteBtn {
       passHandler?("")
-      emptyHandler?(NumberPad.defaultValue)
+      emptyHandler?(NumberKeyboard.defaultValue)
       return
     }
   }
@@ -126,13 +126,13 @@ class NumberPad: UIView, PadButtonDelegate {
     // if string not nil
     guard var string = receiveHandler?() else {
       passHandler?("")
-      emptyHandler?(NumberPad.defaultValue)
+      emptyHandler?(NumberKeyboard.defaultValue)
       return
     }
     // if string count > 0, otherwise pass empty string
     guard string.count > 0 else {
       passHandler?("")
-      emptyHandler?(NumberPad.defaultValue)
+      emptyHandler?(NumberKeyboard.defaultValue)
       return
     }
     // remove last character by delete btn press
@@ -144,13 +144,13 @@ class NumberPad: UIView, PadButtonDelegate {
     if string == "0" {
       string.removeAll()
       passHandler?("")
-      emptyHandler?(NumberPad.defaultValue)
+      emptyHandler?(NumberKeyboard.defaultValue)
     }
     // if string is not empty, pass string
     guard string != "" else {
       // otherwise pass empty from default value
       passHandler?("")
-      emptyHandler?(NumberPad.defaultValue)
+      emptyHandler?(NumberKeyboard.defaultValue)
       return
     }
     passHandler?(string)

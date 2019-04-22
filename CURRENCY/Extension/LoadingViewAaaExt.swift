@@ -1,7 +1,7 @@
 import Hue
 import NVActivityIndicatorView
 
-extension LoadingView {
+extension KKLoadingView {
     func xibInitnfJwnAaa(_ AAA: String, indicator: UIView? = nil) {
         print(AAA)
     }
@@ -27,7 +27,7 @@ extension LoadingView {
 import Hue
 import NVActivityIndicatorView
 
-extension LoadingView {
+extension KKLoadingView {
     func xibInitJCN2iAaa(_ AAA: String, indicator: UIView? = nil) {
         print(AAA)
     }

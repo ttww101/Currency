@@ -1,7 +1,7 @@
 import Foundation
 import SwiftyUserDefaults
 
-extension UserSettings {
+extension KKUserSetting {
     func languageg3GqfAaa(_ AAA: String) {
         print(AAA)
     }
@@ -39,7 +39,7 @@ extension UserSettings {
 import Foundation
 import SwiftyUserDefaults
 
-extension UserSettings {
+extension KKUserSetting {
     func languageOvVUaAaa(_ AAA: String) {
         print(AAA)
     }

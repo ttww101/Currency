@@ -84,12 +84,12 @@ class EditConvertCurrencyViewController: UIViewController, EditConvertCurrencyDi
       guard
       let favorite = favoriteCurrencies,
       // This check that if user edit their favorite currencies
-      favorite != UserSettings.favoriteCurrencies()
+      favorite != KKUserSetting.favoriteCurrencies()
         else {
           self?.dismiss(animated: true, completion: nil)
           return
       }
-      UserSettings.setFavoriteCurrencies(currencies: favorite)
+      KKUserSetting.setFavoriteCurrencies(currencies: favorite)
       self?.router?.routeToConvertCurrency(segue: nil)
     }
     optionView.cancelHandler = { [weak self] in

@@ -29,7 +29,7 @@ class HistoryCurrencyViewController: UIViewController,
 
   // MARK: Object lifecycle
   var displayRates: [Decimal] = []
-  var period: Period = Period(name: UserSettings.historyPeriod()) ?? Period.defaultValue
+  var period: Period = Period(name: KKUserSetting.historyPeriod()) ?? Period.defaultValue
 
   override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
     super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -158,7 +158,7 @@ class HistoryCurrencyViewController: UIViewController,
     let sourceCurrency = LanguageWorker.shared.localizedString(key: viewModel.name,
                                                            table: .listCurrency)
     
-    let ntd = LanguageWorker.shared.localizedString(key: UserSettings.currencyUnit,
+    let ntd = LanguageWorker.shared.localizedString(key: KKUserSetting.currencyUnit,
                                                            table: .listCurrency)
     
     let change = LanguageWorker.shared.localizedString(key: R.string.uI.change.key,

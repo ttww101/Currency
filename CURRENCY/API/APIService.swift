@@ -10,7 +10,7 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-class API {
+class APIService {
 
   lazy var alamofireSession: Alamofire.SessionManager = {
     let _manager = Alamofire.SessionManager.default

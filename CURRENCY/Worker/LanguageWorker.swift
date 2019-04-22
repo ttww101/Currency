@@ -21,7 +21,7 @@ class LanguageWorker {
   static let shared = LanguageWorker()
 
   var currentLanguage: String {
-    return UserSettings.language()
+    return KKUserSetting.language()
   }
 
   private var bundle: Bundle {

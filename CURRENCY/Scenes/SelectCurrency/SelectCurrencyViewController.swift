@@ -31,10 +31,10 @@ class SelectCurrencyViewController: UIViewController,
   var displaySources: [String] = []
   var displayCurrencies: [String] = []
   var userSelectedSource: String {
-    return UserSettings.source
+    return KKUserSetting.source
   }
   var userSelectedCurrency: String {
-    return UserSettings.currency
+    return KKUserSetting.currency
   }
 
   // MARK: UI
@@ -194,9 +194,9 @@ class SelectCurrencyViewController: UIViewController,
       let currency = self.displayCurrencies[selectedCurrencyIndex.row]
 
       // if user not select another source, currency, do nothing
-      guard source == UserSettings.source && currency == UserSettings.currency  else {
-        UserSettings.setSource(name: source)
-        UserSettings.setCurrency(name: currency)
+      guard source == KKUserSetting.source && currency == KKUserSetting.currency  else {
+        KKUserSetting.setSource(name: source)
+        KKUserSetting.setCurrency(name: currency)
         self.router?.routeToCurrency(segue: nil)
         return
       }

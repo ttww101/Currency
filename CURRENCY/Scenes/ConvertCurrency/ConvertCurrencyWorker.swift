@@ -50,14 +50,14 @@ class ConvertCurrencyWorker {
 
   func fetchRemote(source: Source,
                    completion: @escaping (RterBank<[RterCurrency]>?, Error?) -> Void) {
-    API().currenciesOfBank(source: source) { (bank, error) in
+    APIService().currenciesOfBank(source: source) { (bank, error) in
       completion(bank, error)
     }
   }
 
   func fetchRemoteSource(source: Source,
                          completion: @escaping (CurrencySource?, Error?) -> Void) {
-    API().getBankOfTaiwanAllToday { (currencySource, error) in
+    APIService().getBankOfTaiwanAllToday { (currencySource, error) in
       guard let currencySource = currencySource else {
         completion(nil, error)
         return

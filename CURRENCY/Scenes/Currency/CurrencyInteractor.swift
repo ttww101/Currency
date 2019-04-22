@@ -90,8 +90,8 @@ class CurrencyInteractor: CurrencyBusinessLogic, CurrencyDataStore {
     guard let worker = worker else { return }
     // load local
     guard
-      let currency = worker.loadLocalCurrency(by: UserSettings.source,
-                                              currency: UserSettings.currency)
+      let currency = worker.loadLocalCurrency(by: KKUserSetting.source,
+                                              currency: KKUserSetting.currency)
       else {
         let response = Currency.FetchError.Response(description: LoadDataError.empty.localizedDescription)
         self.presenter?.presentError(response: response)
@@ -110,7 +110,7 @@ class CurrencyInteractor: CurrencyBusinessLogic, CurrencyDataStore {
     guard let investmentSubject = self.investmentSubject else {
       let errorString = LanguageWorker.shared.localizedString(key: R.string.uI.switchExchangeError.key,
                                                               table: .ui)
-      let subject = LanguageWorker.shared.localizedString(key: UserSettings.currency,
+      let subject = LanguageWorker.shared.localizedString(key: KKUserSetting.currency,
                                                           table: .listCurrency)
       let response = Currency.FetchError.Response(description: errorString + subject)
       self.presenter?.presentError(response: response)

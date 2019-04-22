@@ -9,7 +9,7 @@
 import Hue
 import NVActivityIndicatorView
 
-class LoadingView: UIView {
+class KKLoadingView: UIView {
 
   //internal let refreshViewIdentifier = "RefreshViewContainer"
   @IBOutlet var contentView: UIView!

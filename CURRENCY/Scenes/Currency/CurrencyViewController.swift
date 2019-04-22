@@ -147,7 +147,7 @@ class CurrencyViewController: UIViewController,
     dashboard.switchBtnHandler = { [unowned self] in
       self.router?.routeToSelectCurrency(segue: nil)
     }
-    dashboard.name = LanguageWorker.shared.localizedString(key: UserSettings.currency,
+    dashboard.name = LanguageWorker.shared.localizedString(key: KKUserSetting.currency,
                                                            table: .listCurrency)
   }
 
@@ -248,7 +248,7 @@ class CurrencyViewController: UIViewController,
     lineChart.subjects = filteredRates
     lineChart.dates = filteredDates
 
-    let sourceTitle = LanguageWorker.shared.localizedString(key: UserSettings.source,
+    let sourceTitle = LanguageWorker.shared.localizedString(key: KKUserSetting.source,
                                                             table: .listCurrency)
     let sourcePrefix = LanguageWorker.shared.localizedString(key: R.string.uI.source_from.key,
                                                              table: .ui)

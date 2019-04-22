@@ -13,7 +13,7 @@ protocol MoreProtocol {
 }
 
 struct Setting {
-  var type: APP.Preference
+  var type: APPSetting.Preference
   var localizedKey: String
   var options: [String]
   var applyHandler: ((String?) -> Void)?
@@ -24,7 +24,7 @@ struct Setting {
     return type.currentOptionLocalizedString
   }
 
-  init(_ type: APP.Preference) {
+  init(_ type: APPSetting.Preference) {
     self.type = type
     self.localizedKey = type.rawValue
     self.options = type.options
@@ -33,11 +33,11 @@ struct Setting {
 }
 
 struct More: MoreProtocol {
-  var type: APP.Other
+  var type: APPSetting.Other
   var localizedKey: String
   var content: String
 
-  init(_ type: APP.Other) {
+  init(_ type: APPSetting.Other) {
     self.type = type
     self.localizedKey = type.rawValue
     self.content = type.content
