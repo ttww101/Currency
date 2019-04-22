@@ -373,9 +373,7 @@ class ConvertCurrencyViewController: UIViewController,
     guard let indexPathForSelectedRow = tableView.indexPathForSelectedRow else { return }
     tableView.scrollToRow(at: indexPathForSelectedRow, at: .middle, animated: true)
     AdsManager.shared.calculatorDidDisplayValue()
-//    mpFullPageViewModel.showAds(onViewController: self) { [weak self] in
-//      self?.isAppearFromEditFavorite = false
-//    }
+
   }
 
   func displayCellPlaceHolder(viewModel: ConvertCurrency.Calculate.ViewModel) {
@@ -401,10 +399,6 @@ class ConvertCurrencyViewController: UIViewController,
   }
 
   // MARK: UITableViewDelegate
-
-//  func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-//    return 60
-//  }
 
   func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
     return 0.0
@@ -460,6 +454,10 @@ class ConvertCurrencyViewController: UIViewController,
 //    }
 //    return header
 //  }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 66.0
+    }
 
   func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
     guard let subject = displayCurrencies.first else { return "" }
