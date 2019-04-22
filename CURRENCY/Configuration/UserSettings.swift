@@ -50,6 +50,7 @@ struct UserSettings {
         if localLanguageCode == "zh" {
           return "zh-Hant"
         }
+        
         // But english is no need to use scriptCode
         return localLanguageCode
       }

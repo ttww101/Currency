@@ -16,7 +16,7 @@ class ExchangeSwitcher: DGRunkeeperSwitch {
               LanguageWorker.shared.localizedString(key: R.string.uI.cash.key,
                                                     table: .ui)
     ]
-    layoutSubviews()
+//    layoutSubviews()
   }
 
   override func awakeFromNib() {
