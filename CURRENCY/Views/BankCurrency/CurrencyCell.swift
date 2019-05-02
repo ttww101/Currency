@@ -58,8 +58,10 @@ class CurrencyCell: UITableViewCell, LoadingControl {
 
   func bind(displayCurrency: BankCurrency.Fetch.DisplayCurrency) {
     let name = displayCurrency.name
-    logoImageView.heroID = "logoImageView:\(name)"
-    nameLabel.heroID = "nameLabel:\(name)"
+//    logoImageView.heroID = "logoImageView:\(name)"
+//    nameLabel.heroID = "nameLabel:\(name)"
+    
+    
     nameLabel.text = LanguageWorker.shared.localizedString(key: name, table: .listCurrency)
     buyLabel.text = displayCurrency.buy.userSettingDecimal.dollarMark
     sellLabel.text = displayCurrency.sell.userSettingDecimal.dollarMark
