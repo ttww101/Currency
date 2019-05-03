@@ -30,9 +30,12 @@ class ConverterCell: UITableViewCell, UITextFieldDelegate {
     textField.borderStyle = .none
     textField.textColor = KKConfiguration.Theme.black
     textField.font = KKConfiguration.Font.numericFont.size(of: 17)
-    textField.keyboardType = .decimalPad
-    textField.inputView = UIView(frame: CGRect(x: 0, y: 0, width: 1, height: 1))
-
+//    textField.keyboardType = .decimalPad
+    textField.inputView = UIView()
+    let item = textField.inputAssistantItem;
+    item.leadingBarButtonGroups = [];
+    item.trailingBarButtonGroups = [];
+    
     subjectLabel.textAlignment = .left
     subjectLabel.textColor = KKConfiguration.Theme.black
     subjectLabel.font = KKConfiguration.Font.letterFont.size(of: 16)

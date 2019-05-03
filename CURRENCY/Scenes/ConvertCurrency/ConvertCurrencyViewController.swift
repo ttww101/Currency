@@ -145,6 +145,7 @@ class ConvertCurrencyViewController: UIViewController,
     if #available(iOS 11.0, *) {
       navigationItem.largeTitleDisplayMode = .never
     }
+    self.title = LanguageWorker.shared.localizedString(key: R.string.uI.calculator_title.key, table: .ui)
   }
 
   func configureSwitchers() {
