@@ -2,7 +2,7 @@
 //  AnimationView.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 23/02/2018.
+//  Created by wang on 2019/04/26.
 //  Copyright © 2018 Meiliang Wen. All rights reserved.
 //
 

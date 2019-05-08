@@ -2,7 +2,7 @@
 //  Calculator.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 30/01/2018.
+//  Created by candy on 2019/04/25.
 //  Copyright © 2018 Meiliang Wen. All rights reserved.
 //
 

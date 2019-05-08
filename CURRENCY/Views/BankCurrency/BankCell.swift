@@ -2,7 +2,7 @@
 //  BankCell.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 22/03/2018.
+//  Created by smith on 2019/05/02.
 //  Copyright © 2018 Meiliang Wen. All rights reserved.
 //
 

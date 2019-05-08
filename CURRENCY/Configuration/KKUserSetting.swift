@@ -2,7 +2,7 @@
 //  UserSettings.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 04/01/2018.
+//  Created by stephen on 2019/04/26.
 //  Copyright © 2018 Meiliang Wen. All rights reserved.
 //
 

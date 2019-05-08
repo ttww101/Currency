@@ -2,7 +2,7 @@
 //  AdsViewModel.swift
 //  CURRENCY
 //
-//  Created by Stan Liu on 2018/4/21.
+//  Created by joe on 2019/04/27.
 //  Copyright © 2018 Stan Liu. All rights reserved.
 //
 

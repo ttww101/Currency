@@ -2,7 +2,7 @@
 //  DifferencialLabel.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 10/11/2017.
+//  Created by wang on 2019/04/26.
 //  Copyright © 2017 Meiliang Wen. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  CurrencyAPI.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 30/11/2017.
+//  Created by wang on 2019/04/21.
 //  Copyright © 2017 Meiliang Wen. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  XibLoadable.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 16/11/2017.
+//  Created by bryan on 2019/05/03.
 //  Copyright © 2017 Meiliang Wen. All rights reserved.
 //
 

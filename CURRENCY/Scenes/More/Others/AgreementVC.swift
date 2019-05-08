@@ -2,7 +2,7 @@
 //  AgreementViewController.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 27/02/2018.
+//  Created by dina on 2019/05/02.
 //  Copyright © 2018 Meiliang Wen. All rights reserved.
 //
 

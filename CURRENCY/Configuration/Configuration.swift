@@ -2,7 +2,7 @@
 //  KKConfiguration.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 14/11/2017.
+//  Created by stephen on 2019/04/26.
 //  Copyright © 2017 Meiliang Wen. All rights reserved.
 //
 
@@ -105,10 +105,7 @@ enum KKConfiguration {
       static let calculatedCount: Int = 35 // tap number and del btn more than %d times will trigger ads
     }
 
-    enum MoPub {
-      static let AdsOfCell = "8775e1315ab247d584e1d5375aeb4f8c"
-      static let fullPage = "fdfd87fb781f4793bc940aad7d2ceefa"
-    }
+
     enum Facebook {
       // 資產
       // 版位

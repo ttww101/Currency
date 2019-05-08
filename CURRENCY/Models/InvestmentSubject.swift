@@ -2,7 +2,7 @@
 //  InvestmentSubject.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 10/11/2017.
+//  Created by joe on 2019/04/27.
 //  Copyright © 2017 Meiliang Wen. All rights reserved.
 //
 

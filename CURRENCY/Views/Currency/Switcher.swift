@@ -2,7 +2,7 @@
 //  Switcher.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 14/11/2017.
+//  Created by smith on 2019/04/23.
 //  Copyright © 2017 Meiliang Wen. All rights reserved.
 //
 

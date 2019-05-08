@@ -2,7 +2,7 @@
 //  UITableViewScrollViewBridge.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 2018/4/9.
+//  Created by bryan on 2019/05/03.
 //  Copyright © 2018 Meiliang Wen. All rights reserved.
 //
 

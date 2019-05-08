@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 07/11/2017.
+//  Created by curry on 2019/05/02.
 //  Copyright © 2017 Meiliang Wen. All rights reserved.
 //
 

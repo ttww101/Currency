@@ -2,7 +2,7 @@
 //  LineChart.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 14/11/2017.
+//  Created by smith on 2019/05/02.
 //  Copyright © 2017 Meiliang Wen. All rights reserved.
 //
 

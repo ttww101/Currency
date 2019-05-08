@@ -2,7 +2,7 @@
 //  MoreVariedView.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 26/02/2018.
+//  Created by dina on 2019/04/24.
 //  Copyright © 2018 Meiliang Wen. All rights reserved.
 //
 

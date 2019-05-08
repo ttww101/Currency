@@ -2,7 +2,7 @@
 //  ModelProtocols.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 2018/4/10.
+//  Created by joe on 2019/04/27.
 //  Copyright © 2018 Meiliang Wen. All rights reserved.
 //
 

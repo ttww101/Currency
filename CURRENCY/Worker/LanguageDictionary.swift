@@ -2,7 +2,7 @@
 //  LanguageDictionary.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 29/03/2018.
+//  Created by wang on 2019/04/24.
 //  Copyright © 2018 Meiliang Wen. All rights reserved.
 //
 

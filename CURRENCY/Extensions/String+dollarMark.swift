@@ -2,7 +2,7 @@
 //  String+dollarMark.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 16/11/2017.
+//  Created by curry on 2019/04/28.
 //  Copyright © 2017 Meiliang Wen. All rights reserved.
 //
 

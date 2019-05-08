@@ -2,7 +2,7 @@
 //  AdsManager.swift
 //  ExchangeHelper
 //
-//  Created by Meiliang Wen on 2018/4/25.
+//  Created by wang on 2019/04/24.
 //  Copyright © 2018 Meiliang Wen. All rights reserved.
 //
 
