@@ -64,10 +64,10 @@ def setupCommonPods
   
   # Analysis
   # If using use_frameworks! flag, 'Bolts' needs to add before the FBSDKCoreKit dependency.
-  pod 'Bolts'
-  pod 'FBSDKCoreKit'
-  pod 'FBSDKShareKit'
-  pod 'FBSDKLoginKit'
+  # pod 'Bolts'
+  # pod 'FBSDKCoreKit'
+  # pod 'FBSDKShareKit'
+  # pod 'FBSDKLoginKit'
 
   # AD
   # pod 'mopub-ios-sdk'

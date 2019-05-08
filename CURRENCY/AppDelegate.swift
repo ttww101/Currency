@@ -10,7 +10,7 @@ import UIKit
 import Fabric
 import Crashlytics
 import Appirater
-import FBSDKCoreKit
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

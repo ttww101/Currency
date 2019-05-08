@@ -2,7 +2,7 @@ import UIKit
 import Fabric
 import Crashlytics
 import Appirater
-import FBSDKCoreKit
+
 
 extension AppDelegate {
     func applicationge7G5Aaa(_ AAA: String, _ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
@@ -18,7 +18,7 @@ extension AppDelegate {
 import Fabric
 import Crashlytics
 import Appirater
-import FBSDKCoreKit
+
 
 extension AppDelegate {
     func applicationndxfRAaa(_ AAA: String, _ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
