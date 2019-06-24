@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		63F16BBD22AD297A6F11F297 /* Pods_CURRENCY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6B7C41C9D2D7D4FDBE9748 /* Pods_CURRENCY.framework */; };
+		DC08D18222B79B5700B4BC71 /* LLBannerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D16D22B79B5700B4BC71 /* LLBannerClient.swift */; };
+		DC08D18322B79B5700B4BC71 /* LLCommercialClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D16E22B79B5700B4BC71 /* LLCommercialClient.swift */; };
+		DC08D18422B79B5700B4BC71 /* LLGetShopClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D16F22B79B5700B4BC71 /* LLGetShopClient.swift */; };
+		DC08D18522B79B5700B4BC71 /* LLMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D17022B79B5700B4BC71 /* LLMainViewController.swift */; };
+		DC08D18622B79B5700B4BC71 /* LLBannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D17222B79B5700B4BC71 /* LLBannerModel.swift */; };
+		DC08D18722B79B5700B4BC71 /* LLCatalogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D17322B79B5700B4BC71 /* LLCatalogModel.swift */; };
+		DC08D18822B79B5700B4BC71 /* LLCommercialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D17422B79B5700B4BC71 /* LLCommercialModel.swift */; };
+		DC08D18922B79B5700B4BC71 /* LLShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D17522B79B5700B4BC71 /* LLShopModel.swift */; };
+		DC08D18A22B79B5700B4BC71 /* LLCatalogCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D17822B79B5700B4BC71 /* LLCatalogCollectionView.swift */; };
+		DC08D18B22B79B5700B4BC71 /* LLCatalogCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D17922B79B5700B4BC71 /* LLCatalogCollectionViewCell.swift */; };
+		DC08D18C22B79B5700B4BC71 /* LLPageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D17B22B79B5700B4BC71 /* LLPageControlView.swift */; };
+		DC08D18D22B79B5700B4BC71 /* LLMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D17D22B79B5700B4BC71 /* LLMainCollectionViewCell.swift */; };
+		DC08D18E22B79B5700B4BC71 /* LLMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D17E22B79B5700B4BC71 /* LLMainTableView.swift */; };
+		DC08D18F22B79B5700B4BC71 /* LLMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D17F22B79B5700B4BC71 /* LLMainTableViewCell.swift */; };
+		DC08D19022B79B5700B4BC71 /* LLMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D18122B79B5700B4BC71 /* LLMainViewModel.swift */; };
 		DC1AC162226487740030354C /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1AC161226487730030354C /* R.generated.swift */; };
 		DC2913F4226DD0C300F53B08 /* CURRENCYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2913F3226DD0C300F53B08 /* CURRENCYUITests.swift */; };
 		DC3CFC12226864C500BD8FEC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3CFC11226864C500BD8FEC /* Launch Screen.storyboard */; };
@@ -471,6 +486,21 @@
 /* Begin PBXFileReference section */
 		8F80D8B84262DF956543E314 /* Pods-CURRENCY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CURRENCY.release.xcconfig"; path = "Pods/Target Support Files/Pods-CURRENCY/Pods-CURRENCY.release.xcconfig"; sourceTree = "<group>"; };
 		9BA6B6C766E2C00BB7DC3776 /* Pods-CURRENCY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CURRENCY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CURRENCY/Pods-CURRENCY.debug.xcconfig"; sourceTree = "<group>"; };
+		DC08D16D22B79B5700B4BC71 /* LLBannerClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBannerClient.swift; sourceTree = "<group>"; };
+		DC08D16E22B79B5700B4BC71 /* LLCommercialClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCommercialClient.swift; sourceTree = "<group>"; };
+		DC08D16F22B79B5700B4BC71 /* LLGetShopClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLGetShopClient.swift; sourceTree = "<group>"; };
+		DC08D17022B79B5700B4BC71 /* LLMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLMainViewController.swift; sourceTree = "<group>"; };
+		DC08D17222B79B5700B4BC71 /* LLBannerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBannerModel.swift; sourceTree = "<group>"; };
+		DC08D17322B79B5700B4BC71 /* LLCatalogModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCatalogModel.swift; sourceTree = "<group>"; };
+		DC08D17422B79B5700B4BC71 /* LLCommercialModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCommercialModel.swift; sourceTree = "<group>"; };
+		DC08D17522B79B5700B4BC71 /* LLShopModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLShopModel.swift; sourceTree = "<group>"; };
+		DC08D17822B79B5700B4BC71 /* LLCatalogCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCatalogCollectionView.swift; sourceTree = "<group>"; };
+		DC08D17922B79B5700B4BC71 /* LLCatalogCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCatalogCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC08D17B22B79B5700B4BC71 /* LLPageControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLPageControlView.swift; sourceTree = "<group>"; };
+		DC08D17D22B79B5700B4BC71 /* LLMainCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLMainCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC08D17E22B79B5700B4BC71 /* LLMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLMainTableView.swift; sourceTree = "<group>"; };
+		DC08D17F22B79B5700B4BC71 /* LLMainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLMainTableViewCell.swift; sourceTree = "<group>"; };
+		DC08D18122B79B5700B4BC71 /* LLMainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLMainViewModel.swift; sourceTree = "<group>"; };
 		DC1AC161226487730030354C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		DC2913F1226DD0C300F53B08 /* CURRENCYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CURRENCYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2913F3226DD0C300F53B08 /* CURRENCYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CURRENCYUITests.swift; sourceTree = "<group>"; };
@@ -979,6 +1009,84 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DC08D16B22B79B5700B4BC71 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DC08D16C22B79B5700B4BC71 /* Client */,
+				DC08D17022B79B5700B4BC71 /* LLMainViewController.swift */,
+				DC08D17122B79B5700B4BC71 /* Model */,
+				DC08D17622B79B5700B4BC71 /* View */,
+				DC08D18022B79B5700B4BC71 /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DC08D16C22B79B5700B4BC71 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				DC08D16D22B79B5700B4BC71 /* LLBannerClient.swift */,
+				DC08D16E22B79B5700B4BC71 /* LLCommercialClient.swift */,
+				DC08D16F22B79B5700B4BC71 /* LLGetShopClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		DC08D17122B79B5700B4BC71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC08D17222B79B5700B4BC71 /* LLBannerModel.swift */,
+				DC08D17322B79B5700B4BC71 /* LLCatalogModel.swift */,
+				DC08D17422B79B5700B4BC71 /* LLCommercialModel.swift */,
+				DC08D17522B79B5700B4BC71 /* LLShopModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC08D17622B79B5700B4BC71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC08D17722B79B5700B4BC71 /* CollectionView */,
+				DC08D17A22B79B5700B4BC71 /* PageControl */,
+				DC08D17C22B79B5700B4BC71 /* TableView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC08D17722B79B5700B4BC71 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				DC08D17822B79B5700B4BC71 /* LLCatalogCollectionView.swift */,
+				DC08D17922B79B5700B4BC71 /* LLCatalogCollectionViewCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		DC08D17A22B79B5700B4BC71 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				DC08D17B22B79B5700B4BC71 /* LLPageControlView.swift */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		DC08D17C22B79B5700B4BC71 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				DC08D17D22B79B5700B4BC71 /* LLMainCollectionViewCell.swift */,
+				DC08D17E22B79B5700B4BC71 /* LLMainTableView.swift */,
+				DC08D17F22B79B5700B4BC71 /* LLMainTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		DC08D18022B79B5700B4BC71 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DC08D18122B79B5700B4BC71 /* LLMainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		DC2913F2226DD0C300F53B08 /* CURRENCYUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -1322,6 +1430,7 @@
 		F60B6A7B1FB4341B00EEFA74 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				DC08D16B22B79B5700B4BC71 /* Main */,
 				F688E23020197D2C005067DE /* HostTabBarController */,
 				F68D99F9206A1A8000D0530A /* BankCurrency */,
 				F68D99DD206A17BF00D0530A /* ListBankCurrency */,
@@ -2034,6 +2143,7 @@
 				DCB586C4228AB83500639880 /* SimpleChart+Extension.swift in Sources */,
 				DCB586B4228AB83500639880 /* RoundedView+Extension.swift in Sources */,
 				DCA676D22269DEF40060C89E /* SelectSettingViewControllerAaaExt.swift in Sources */,
+				DC08D18322B79B5700B4BC71 /* LLCommercialClient.swift in Sources */,
 				F6B468EE208F0B5E00D80F81 /* UIView+Setup.swift in Sources */,
 				DCA676BC2269DEF30060C89E /* MyAppAaaExt.swift in Sources */,
 				F62C93161FBD5FA6003D0DD5 /* XibLoadable.swift in Sources */,
@@ -2070,6 +2180,7 @@
 				DCA676B12269DEF30060C89E /* ListMoreInteractorAaaExt.swift in Sources */,
 				DCB58674228AB83500639880 /* DataManager+Extension.swift in Sources */,
 				F65EE61B20157EDE0077B04C /* OptionView.swift in Sources */,
+				DC08D18722B79B5700B4BC71 /* LLCatalogModel.swift in Sources */,
 				DCA676922269DEF30060C89E /* EditConvertCurrencyPresenterAaaExt.swift in Sources */,
 				DCA6769B2269DEF30060C89E /* HistoryCurrencyViewControllerAaaExt.swift in Sources */,
 				DCA676A82269DEF30060C89E /* ListBankCurrencyViewControllerAaaExt.swift in Sources */,
@@ -2083,6 +2194,7 @@
 				F622BECE20523240004D082A /* ConverterHeader.swift in Sources */,
 				F686E88A1FFD271600C50876 /* Double+DecimalPoint.swift in Sources */,
 				F66ABB432014747400560FB3 /* SelectCurrencyPresenter.swift in Sources */,
+				DC08D18D22B79B5700B4BC71 /* LLMainCollectionViewCell.swift in Sources */,
 				F65B0F5E2080908F009F8068 /* String+EmptyValue.swift in Sources */,
 				F61F08DC204547B900443EEA /* AboutMeVC.swift in Sources */,
 				DCA676AD2269DEF30060C89E /* ListBankViewControllerAaaExt.swift in Sources */,
@@ -2106,6 +2218,7 @@
 				DCA676B82269DEF30060C89E /* MMCardViewAaaExt.swift in Sources */,
 				DCB58656228AB83500639880 /* BankCurrencyPresenter+Extension.swift in Sources */,
 				DCB586B9228AB83500639880 /* SelectCurrencyRouter+Extension.swift in Sources */,
+				DC08D19022B79B5700B4BC71 /* LLMainViewModel.swift in Sources */,
 				DCB5865C228AB83500639880 /* CharacterUnicodeWorker+Extension.swift in Sources */,
 				F6F9A9A620439BEA0023E8EE /* SelectSettingRouter.swift in Sources */,
 				F6F4DBDA201F187500C29FCE /* ConverterCell.swift in Sources */,
@@ -2147,6 +2260,7 @@
 				F699F182206B3B0100C65102 /* HistoryCurrencyViewController.swift in Sources */,
 				F6114ED220527A4D00D0C04B /* Shakeable.swift in Sources */,
 				F699F172206B28D300C65102 /* SimpleChart.swift in Sources */,
+				DC08D18A22B79B5700B4BC71 /* LLCatalogCollectionView.swift in Sources */,
 				DCB58669228AB83500639880 /* ConverterHeader+Extension.swift in Sources */,
 				DCB586C9228AB83500639880 /* TradeSwitcher+Extension.swift in Sources */,
 				DCA676772269DEF30060C89E /* CharacterUnicodeWorkerAaaExt.swift in Sources */,
@@ -2216,6 +2330,7 @@
 				F6B1DA51202D7282002F834B /* EditConvertCurrencyWorker.swift in Sources */,
 				F658BF3D201ED1840033CCB9 /* ConvertCurrencyWorker.swift in Sources */,
 				DCA6767F2269DEF30060C89E /* ConvertCurrencyPresenterAaaExt.swift in Sources */,
+				DC08D18E22B79B5700B4BC71 /* LLMainTableView.swift in Sources */,
 				F66B4844203EAE5300A8B7B3 /* ListMorePresenter.swift in Sources */,
 				DCA676BA2269DEF30060C89E /* MoreHeaderAaaExt.swift in Sources */,
 				F658BF3C201ED1840033CCB9 /* ConvertCurrencyPresenter.swift in Sources */,
@@ -2233,6 +2348,8 @@
 				DCB5864E228AB83500639880 /* AgreementVC+Extension.swift in Sources */,
 				DCB58681228AB83500639880 /* HistoryCurrencyRouter+Extension.swift in Sources */,
 				DCB586B6228AB83500639880 /* ScreenshotChartVC+Extension.swift in Sources */,
+				DC08D18222B79B5700B4BC71 /* LLBannerClient.swift in Sources */,
+				DC08D18622B79B5700B4BC71 /* LLBannerModel.swift in Sources */,
 				DCB586B7228AB83500639880 /* SelectCurrencyInteractor+Extension.swift in Sources */,
 				DCB58662228AB83500639880 /* ChartWorker+Extension.swift in Sources */,
 				DCA6766B2269DEF30060C89E /* APIAaaExt.swift in Sources */,
@@ -2251,6 +2368,7 @@
 				DCB5866D228AB83500639880 /* CurrencyPresenter+Extension.swift in Sources */,
 				DCB58695228AB83500639880 /* ListBankCurrencyWorker+Extension.swift in Sources */,
 				DCA676B52269DEF30060C89E /* ListMoreWorkerAaaExt.swift in Sources */,
+				DC08D18522B79B5700B4BC71 /* LLMainViewController.swift in Sources */,
 				F66B4845203EAE5300A8B7B3 /* ListMoreWorker.swift in Sources */,
 				DCB586B2228AB83500639880 /* ReachabilityWorker+Extension.swift in Sources */,
 				DCA676952269DEF30060C89E /* EditConvertCurrencyWorkerAaaExt.swift in Sources */,
@@ -2286,6 +2404,7 @@
 				DCA6768D2269DEF30060C89E /* CurrencyWorkerAaaExt.swift in Sources */,
 				F699F184206B3B0100C65102 /* HistoryCurrencyInteractor.swift in Sources */,
 				F648C8AA206249ED00FA9368 /* AppKit.swift in Sources */,
+				DC08D18F22B79B5700B4BC71 /* LLMainTableViewCell.swift in Sources */,
 				DCA6769D2269DEF30060C89E /* HistoryMarkerAaaExt.swift in Sources */,
 				DCB58688228AB83500639880 /* HostTabBarPresenter+Extension.swift in Sources */,
 				F6EF4FF51FB6FFA60040E786 /* Divergence.swift in Sources */,
@@ -2302,6 +2421,7 @@
 				F6B1DA54202D7282002F834B /* EditConvertCurrencyViewController.swift in Sources */,
 				DCA676DA2269DEF40060C89E /* TWBankPresenterAaaExt.swift in Sources */,
 				DCA676DD2269DEF40060C89E /* TWBankWorkerAaaExt.swift in Sources */,
+				DC08D18B22B79B5700B4BC71 /* LLCatalogCollectionViewCell.swift in Sources */,
 				F6EF4FEF1FB5AA9F0040E786 /* InvestmentSubject.swift in Sources */,
 				DCA676AE2269DEF30060C89E /* ListBankWorkerAaaExt.swift in Sources */,
 				DCB58673228AB83500639880 /* DashBoard+Extension.swift in Sources */,
@@ -2375,6 +2495,7 @@
 				F61F08D32045106800443EEA /* APPSetting.swift in Sources */,
 				F68A4F2F20634EE2003CA991 /* TWBankInteractor.swift in Sources */,
 				DCA676C72269DEF40060C89E /* RecordCellAaaExt.swift in Sources */,
+				DC08D18822B79B5700B4BC71 /* LLCommercialModel.swift in Sources */,
 				F699F163206B255300C65102 /* ChartViewController.swift in Sources */,
 				F68D99D7206A17B800D0530A /* ListBankCurrencyModels.swift in Sources */,
 				F60B6A9D1FB4351200EEFA74 /* CurrencyModels.swift in Sources */,
@@ -2382,6 +2503,7 @@
 				DCB58672228AB83500639880 /* CurrencyWorker+Extension.swift in Sources */,
 				DCA676882269DEF30060C89E /* CurrencyPresenterAaaExt.swift in Sources */,
 				DCA6768C2269DEF30060C89E /* CurrencyViewControllerAaaExt.swift in Sources */,
+				DC08D18422B79B5700B4BC71 /* LLGetShopClient.swift in Sources */,
 				DCA676862269DEF30060C89E /* CurrencyCellAaaExt.swift in Sources */,
 				DCB58660228AB83500639880 /* ChartRouter+Extension.swift in Sources */,
 				DCA676702269DEF30060C89E /* BankCurrencyInteractorAaaExt.swift in Sources */,
@@ -2401,6 +2523,7 @@
 				F611259E207B6C89000108D1 /* UIScrollViewBridge.swift in Sources */,
 				DCB58686228AB83500639880 /* HostTabBarController+Extension.swift in Sources */,
 				F68A4F3F2063547D003CA991 /* ListBankViewController.swift in Sources */,
+				DC08D18C22B79B5700B4BC71 /* LLPageControlView.swift in Sources */,
 				F6BCB3201FC66D5800937D5E /* Date+MillionSeconds.swift in Sources */,
 				DCA676732269DEF30060C89E /* BankCurrencyViewControllerAaaExt.swift in Sources */,
 				DCB586CD228AB83500639880 /* TWBankViewController+Extension.swift in Sources */,
@@ -2420,6 +2543,7 @@
 				F62C93111FBD5291003D0DD5 /* PriceDash.swift in Sources */,
 				F68D99D5206A17B800D0530A /* ListBankCurrencyRouter.swift in Sources */,
 				DCB586A8228AB83500639880 /* NeonCell+Extension.swift in Sources */,
+				DC08D18922B79B5700B4BC71 /* LLShopModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
