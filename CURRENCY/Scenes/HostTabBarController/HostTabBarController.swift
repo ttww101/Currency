@@ -42,6 +42,10 @@ class HostTabBarController: RAMAnimatedTabBarController, HostTabBarDisplayLogic,
     return navigationController
   }()
 
+lazy var mainNavi: UINavigationController = {
+    return UINavigationController(rootViewController: LLMainViewController())
+}()
+    
   lazy var listSettingNavi: UINavigationController = {
     guard let navigationController = R.storyboard.more.instantiateInitialViewController() else {
       let navigationController = UINavigationController(rootViewController: ListMoreViewController())
@@ -158,7 +162,10 @@ class HostTabBarController: RAMAnimatedTabBarController, HostTabBarDisplayLogic,
     listSettingNavi.tabBarItem = createTabBarItem(title: moreTitle,
                                                   image: R.image.more_unselected(),
                                                   selectedImage: R.image.more())
-    viewControllers = [bankCurrencyNavi, calculatorNavi, listSettingNavi]
+//    mainNavi
+    
+    
+    viewControllers = [bankCurrencyNavi, calculatorNavi, listSettingNavi, mainNavi]
   }
 
   // Select first item when tabBarController did load (app launch)
