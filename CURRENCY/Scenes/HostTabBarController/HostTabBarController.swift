@@ -165,7 +165,10 @@ lazy var mainNavi: UINavigationController = {
 //    mainNavi
     
     
-    viewControllers = [bankCurrencyNavi, calculatorNavi, listSettingNavi, mainNavi]
+ //   viewControllers = [bankCurrencyNavi, calculatorNavi, listSettingNavi, mainNavi]
+
+
+    viewControllers = [bankCurrencyNavi, calculatorNavi, listSettingNavi,]
   }
 
   // Select first item when tabBarController did load (app launch)

@@ -1,4 +1,4 @@
-platform :ios, '9.0'
+platform :ios, '9.0'/Users/stephen/Desktop/Currency/Podfile
 
 def setupCommonPods
   
