@@ -1,4 +1,4 @@
-platform :ios, '9.0'/Users/stephen/Desktop/Currency/Podfile
+platform :ios, '9.0'
 
 def setupCommonPods
   
@@ -8,12 +8,14 @@ def setupCommonPods
   pod 'Alamofire', '4.7.3'
   pod 'SwiftyJSON', '4.2.0'
   pod 'ReachabilitySwift', '4.3.0'
+  pod 'ReactiveKit'
+  pod 'Bond' 
 
   pod 'StatusProvider'
   pod 'ErrorHandler'
   pod 'ErrorHandler/Alamofire'
   pod 'AssistantKit'
-
+  pod 'SnapKit', '~> 4.2.0'
   # View
   pod 'Kingfisher', '4.10.0'
   # RAMAnimatedTabBarController not convert to swift 4.0 yet.
