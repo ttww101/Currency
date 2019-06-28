@@ -1,0 +1,199 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Appirater (2.3.1)
+  - AssistantKit (0.6.1)
+  - Bond (7.5.0):
+    - Differ (~> 1.3)
+    - ReactiveKit (~> 3.10)
+  - Charts (3.2.0):
+    - Charts/Core (= 3.2.0)
+  - Charts/Core (3.2.0)
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - CRRefresh (1.1.3)
+  - CSV.swift (2.3.0)
+  - DGRunkeeperSwitch (1.1.4)
+  - Differ (1.4.1)
+  - Disk (0.6.3)
+  - ErrorHandler (0.8.1):
+    - ErrorHandler/Core (= 0.8.1)
+  - ErrorHandler/Alamofire (0.8.1):
+    - Alamofire (~> 4.1)
+    - ErrorHandler/Core
+  - ErrorHandler/Core (0.8.1)
+  - Fabric (1.9.0)
+  - Hero (1.4.0)
+  - HidingNavigationBar (2.0.1)
+  - Hue (4.0.0)
+  - JVFloatLabeledTextField (1.2.1)
+  - Kanna (4.0.0)
+  - Kingfisher (4.10.0)
+  - KVNProgress (2.3.5)
+  - Masonry (1.1.0)
+  - MGSwipeTableCell (1.6.8)
+  - MMPopupView (1.7.2):
+    - Masonry
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - PagingMenuController (2.2.0)
+  - R.swift (5.0.0):
+    - R.swift.Library (~> 5.0.0)
+  - R.swift.Library (5.0.1)
+  - RAMAnimatedTabBarController (4.0.2)
+  - ReachabilitySwift (4.3.0)
+  - ReactiveKit (3.12.0)
+  - RoundedSwitch (2.0.2)
+  - SJFluidSegmentedControl (1.1.3)
+  - SnapKit (4.2.0)
+  - StatusProvider (1.2.10)
+  - SVProgressHUD (2.2.5)
+  - SwiftLint (0.31.0)
+  - SwiftyJSON (4.2.0)
+  - SwiftyUserDefaults (3.0.1)
+  - Then (2.4.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.7.3)
+  - Appirater
+  - AssistantKit
+  - Bond
+  - Charts (= 3.2.0)
+  - Crashlytics
+  - CRRefresh
+  - CSV.swift (= 2.3.0)
+  - DGRunkeeperSwitch (= 1.1.4)
+  - Disk
+  - ErrorHandler
+  - ErrorHandler/Alamofire
+  - Fabric
+  - Hero (= 1.4.0)
+  - HidingNavigationBar
+  - Hue
+  - JVFloatLabeledTextField
+  - Kanna (from `https://github.com/tid-kijyun/Kanna.git`, branch `feature/v4.0.0`)
+  - Kingfisher (= 4.10.0)
+  - KVNProgress
+  - MGSwipeTableCell
+  - MMPopupView
+  - NVActivityIndicatorView
+  - PagingMenuController (from `https://github.com/KoStudio/PagingMenuController.git`, branch `master`)
+  - R.swift (= 5.0.0)
+  - RAMAnimatedTabBarController (= 4.0.2)
+  - ReachabilitySwift (= 4.3.0)
+  - ReactiveKit
+  - RoundedSwitch (= 2.0.2)
+  - SJFluidSegmentedControl (from `https://github.com/sasojadrovski/SJFluidSegmentedControl.git`, branch `master`)
+  - SnapKit (~> 4.2.0)
+  - StatusProvider
+  - SVProgressHUD
+  - SwiftLint
+  - SwiftyJSON (= 4.2.0)
+  - SwiftyUserDefaults
+  - Then
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Appirater
+    - AssistantKit
+    - Bond
+    - Charts
+    - Crashlytics
+    - CRRefresh
+    - CSV.swift
+    - DGRunkeeperSwitch
+    - Differ
+    - Disk
+    - ErrorHandler
+    - Fabric
+    - Hero
+    - HidingNavigationBar
+    - Hue
+    - JVFloatLabeledTextField
+    - Kingfisher
+    - KVNProgress
+    - Masonry
+    - MGSwipeTableCell
+    - MMPopupView
+    - NVActivityIndicatorView
+    - R.swift
+    - R.swift.Library
+    - RAMAnimatedTabBarController
+    - ReachabilitySwift
+    - ReactiveKit
+    - RoundedSwitch
+    - SnapKit
+    - StatusProvider
+    - SVProgressHUD
+    - SwiftLint
+    - SwiftyJSON
+    - SwiftyUserDefaults
+    - Then
+
+EXTERNAL SOURCES:
+  Kanna:
+    :branch: feature/v4.0.0
+    :git: https://github.com/tid-kijyun/Kanna.git
+  PagingMenuController:
+    :branch: master
+    :git: https://github.com/KoStudio/PagingMenuController.git
+  SJFluidSegmentedControl:
+    :branch: master
+    :git: https://github.com/sasojadrovski/SJFluidSegmentedControl.git
+
+CHECKOUT OPTIONS:
+  Kanna:
+    :commit: 81ce91fd485b637517c340c73590a9b59ac9f7d5
+    :git: https://github.com/tid-kijyun/Kanna.git
+  PagingMenuController:
+    :commit: 22573c12025e4bd4e687fafec231d5d5fa5d2dd9
+    :git: https://github.com/KoStudio/PagingMenuController.git
+  SJFluidSegmentedControl:
+    :commit: 69e0cb351139d50ab193bc29919b72e3c5ce7cc0
+    :git: https://github.com/sasojadrovski/SJFluidSegmentedControl.git
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Appirater: 44a4651f7912a17dc906b655f0c215d5bb768b84
+  AssistantKit: 7dd40c019e9a06e93555ed58498a2d212fcb408d
+  Bond: 6abbc33a4cf88e65a0f8b1ba8276ac34584ad897
+  Charts: 680c8328bd5e90cb14f67e00d2176f3113d19141
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  CRRefresh: 1415d4ae06837fa7bb064c44f2e102f3ef517044
+  CSV.swift: a822cc8acc118b6023c1c93ff3b1afb62b7cfb68
+  DGRunkeeperSwitch: cc237936f42237307f5e212e18136a27bf907bf1
+  Differ: ca4350872e32a1aeedf3d9e2d9e47127833bfa9c
+  Disk: 76cccb6fed1c27cd661bbdea7b117d887c2f72e5
+  ErrorHandler: 04b1be7ec6e57e11f7382021f0760d0dbb84fdb6
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  HidingNavigationBar: 82c06978041080f0e4d97095563414a4367b71c6
+  Hue: afe18b4e819e2848e7d2d5b4b33f4d3f88dd921b
+  JVFloatLabeledTextField: cfc44e3c4d493b2ed92ede8035e8e89c2912ba64
+  Kanna: d5ae2a26472f7e7a474e7f36a9cd8aa2c8c63ad3
+  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  KVNProgress: d7046cce142f1aeb740db39dc3cacfe910fac354
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MGSwipeTableCell: dc4eca3212ed38a563b27d6aa7b3c01ce656c1e2
+  MMPopupView: fe1dd010824029dfb632fdf1a531db5dd5386020
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  PagingMenuController: acdb8e0ff7f977182b0586656d19ba1d992390a6
+  R.swift: f88c7d7d48a2be4dffa132dde1b3d389620310eb
+  R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
+  RAMAnimatedTabBarController: 5c91e16a9c4be56a7e022182b64b192bc6865f20
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  ReactiveKit: 7634cc10d9fb8791f9a87bf60c283fb420db3184
+  RoundedSwitch: 0ef74a23fdcce059d5225ee181c45f7106ae0d4d
+  SJFluidSegmentedControl: 11c0e224e0a8428e9437ced24ee747ee3e278666
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  StatusProvider: 53f64deb452d619091b1a606a0973a724db17d0d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
+  Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
+
+PODFILE CHECKSUM: 2cd32ffd419743bbab4a30131c871d8fb9c46b08
+
+COCOAPODS: 1.5.3
